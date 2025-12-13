@@ -25,7 +25,7 @@ or that there was an alternative that fit better into the curriculum.
 | [Rhetoric: The Art of Persuasive Writing and Public Speaking (edX – Harvard)](https://www.edx.org/learn/rhetoric/harvard-university-rhetoric-the-art-of-persuasive-writing-and-public-speaking) | 8 weeks | 2-4 hours/week |
 | [Communication for Development (C4D) (Agora – UNICEF)](https://agora.unicef.org/course/view.php?id=11146) | Self-paced | 3-5 hours/week |
 
-# Online Learning - Great Courses
+## Online Learning - Great Courses
 
 Courses | Duration | Effort
 :-- | :--: | :--:
