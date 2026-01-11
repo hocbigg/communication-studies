@@ -24,11 +24,6 @@ The Communication Studies curriculum is a **complete education in Communication 
 Note: When there are courses or books that don't fit into the curriculum but are otherwise of high quality,
 they belong in [extras/courses](extras/courses.md), [extras/readings](extras/readings.md) or [extras/other_curricula](extras/other_curricula.md).
 
-**Process**. Students can work through the curriculum alone or in groups, in order or out of order.
-
-- We recommend doing all courses in **Core**, only skipping a course when you are certain that you've already learned the material previously.
-- For simplicity, we recommend working through courses (especially Core) in order from top to bottom. Some students choose to study multiple courses at a time in order to vary the material they are working on in a day/week.
-- The courses in the Advanced section are electives. Choose one track to specialize in and complete all the courses listed under it.
 
 **[How to contribute](/CONTRIBUTING.html)**
 
@@ -44,109 +39,111 @@ they belong in [extras/courses](extras/courses.md), [extras/readings](extras/rea
   - [STC (Society for Technical Communication) Slack](https://stc-org.slack.com/) (membership required)
   - [PR and Communications Pros Slack](https://prnews.slack.com/) (request invite)
 - You can also interact through [GitHub issues](https://github.com/hocbigg/communication-studies/issues). If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation. Read more [here](/CONTRIBUTING.html).
+- Join our Discord server (for discussions around this and other curricula): 
+    
+    [![discord link](/assets/discord.png)](https://discord.gg/KHqAv4Nvm5)
 
 # Curriculum
 
-## Intro
+## How to use this curriculum
+
+### Core
+
+Everyone should complete the following four sections in sequence. They form the essential foundation that every communication student needs:
+
+1. **I. Foundations of Communication**  
+   Start here. This section introduces the most basic ideas and skills you will use in every later part of the field.
+
+2. **II. Human Interaction & Meaning**  
+   Move to this next. It builds directly on the foundations and focuses on how people create meaning and connect with each other face-to-face.
+
+3. **III. Media, Culture & Power**  
+   Study this third. It expands your view from personal interaction to how large-scale media and cultural systems shape communication.
+
+4. **V. Research Methods in Communication**  
+   Finish the core with this section. It gives you the practical tools to read, evaluate, and eventually carry out communication research yourself.
+
+**Recommended pace for the core:** Work through one section at a time. Only move to the next when you feel comfortable with the ideas and skills of the current one (usually 6–12 weeks per section, depending on your weekly study time).
+
+### Advanced
+
+The remaining four sections are **optional specialization tracks**. You do not need to study all of them. Pick one (or at most two) that match your personal interests, career goals, or curiosity after you finish the core.
+
+- **IV. Rhetoric & Persuasion**  Choose this track if you want to learn how to create convincing messages, speeches, advertisements, campaigns, or public arguments.
+
+- **VI. Digital Communication Systems**  Choose this track if you are especially interested in social media platforms, algorithms, online networks, data, and digital life.
+
+- **VII. Applied & Professional Communication** Choose this track if you want practical skills for jobs in public relations, marketing, corporate communication, international work, or professional settings.
+
+- **VIII. Advanced Analysis & Theory**  Choose this track if you are very interested in deep critical thinking, academic-style analysis, or if you plan to continue into graduate-level study later.
+
+## I. Foundations of Communication
 
 | Subject | Why study? | Book | Videos |
 | --- | --- | --- | --- |
-| Foundations of Communication | Establishes key models, scope & history of the field. | *[Communication in the Real World: An Introduction to Communication Studies](https://socialsci.libretexts.org/Bookshelves/Communication/Introduction_to_Communication/Communication_in_the_Real_World_-_An_Introduction_to_Communication_Studies)* (Open Textbook) | [Understanding Human Communication (Oxford)](https://www.youtube.com/playlist?list=PL8dPuuaLjXtMBwf5E8ightyKXu1L4TvvF) (YouTube lectures) |
-| Critical Reading & Academic Writing for Communication | Builds habits of clear, critic-informed writing and interpretation. | *[They Say / I Say](https://www.amazon.com/They-Say-Matter-Academic-Writing/dp/0393631672)* (for academic argument basics) | [Writing in College](https://www.coursera.org/learn/writing-english-university) |
-| Introduction to Social Science Thinking | Grounds empirical inquiry and theory. | *[Social Science Research: Principles, Methods, and Practices](https://scholarcommons.usf.edu/oa_textbooks/3/)* (Open Textbook) | [Methods and Statistics in Social Sciences Specialization (University of Amsterdam)](https://www.coursera.org/specializations/social-science) |
-| Communicative Ethics & Responsibility | Frames questions of values, power, and impact. | *[Ethics for the Information Age](https://www.amazon.com/Ethics-Information-Age-Michael-Quinn/dp/0135216923)* |  |
+| What Communication Is | This gives you a clear map of how messages are created, sent, received, and interpreted in everyday life. | **[Communication in the Real World](https://socialsci.libretexts.org/Bookshelves/Communication/Introduction_to_Communication/Communication_in_the_Real_World_-_An_Introduction_to_Communication_Studies)** (LibreTexts) | **[CrashCourse: Media Literacy](https://www.youtube.com/playlist?list=PL8dPuuaLjXtM6jSpzb5gMNsx9kdmqBfmY)** |
+| Communication Models & Traditions| You will understand the major ways scholars have explained communication processes throughout history. | same | **[MIT OpenCourseWare: Intro to Comm](https://ocw.mit.edu/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/)** |
+| Communication Ethics | You learn to recognize and reason about moral dilemmas that appear when people communicate, especially online and in media. | **[Ethics for the Information Age](https://archive.org/details/ethicsforinforma0000quin_h8e4)** | — |
+| Academic Writing | You gain the skills to write clear, organized, and convincing college-level essays and papers. | **[OpenStax Writing Guide](https://openstax.org/details/books/writing-guide)** | **[Coursera: Writing in College](https://www.coursera.org/learn/advanced-writing)** |
 
-## Core
-
-### Human Interaction & Relational Dynamics
+## II. Human Interaction & Meaning
 
 | Subject | Why study? | Book | Videos |
 | --- | --- | --- | --- |
-| Interpersonal Communication Theory | How people construct meanings with others. | *[Interpersonal Communication: A Mindful Approach to Relationships](https://milnepublishing.geneseo.edu/interpersonalcommunication/)* (Open Textbook) | [Interpersonal Communication (Coursera – Shanghai Jiao Tong)](https://www.coursera.org/learn/interpersonal-communication) |
-| Group & Organizational Communication | Dynamics of teams and organizational information flow. | *[Organizational Communication: Foundations of Theory and Practice](https://www.amazon.com/Organizational-Communication-Foundations-Theory-Practice/dp/0190925795)* | [Organizational Analysis](https://www.coursera.org/learn/organizational-analysis) |
-| Listening & Dialogue Practices | Applied listening and dialogue tools. | *[Listening: Processes, Functions, & Competency](https://www.amazon.com/Listening-Processes-Functions-Competency-Worthington/dp/1138229504)* | [Active Listening](https://www.coursera.org/learn/active-listening-enhancing-communication-skills) |
+| Interpersonal Communication | You develop practical skills for building, maintaining, and repairing close personal relationships through talk. | **[Mindful Relationships](https://milnepublishing.geneseo.edu/interpersonalcommunication/)** (Geneseo) | **[Coursera SJTU](https://www.coursera.org/learn/interpersonal-skills)** |
+| Symbolic Interaction & Identity | You learn how people use symbols and everyday interactions to build and constantly update who they are. | **[Communication in the Real World](https://socialsci.libretexts.org/Bookshelves/Communication/Introduction_to_Communication/Communication_in_the_Real_World_-_An_Introduction_to_Communication_Studies)** | **[Yale OpenCourses (Sociology of Self)](https://oyc.yale.edu/sociology)** |
+| Listening & Dialogue | You build the ability to truly hear others, understand their messages deeply, and respond in ways that keep conversations constructive. | **[Worthington](https://www.routledge.com/Listening-Processes-Functions-and-Competency/Worthington-Bodie-Fitch-Hauser/p/book/9781032491257)** | **[Coursera Active Listening](https://www.coursera.org/learn/active-listening-enhancing-communication-skills)** |
 
-### Media, Culture & Society
-
-| Subject | Why study? | Book | Videos |
-| --- | --- | --- | --- |
-| Media Literacy & Analysis | How to decode mediated messages. | *[Understanding Media and Culture: An Introduction to Mass Communication](https://open.umn.edu/opentextbooks/textbooks/understanding-media-and-culture)* | [Media Literacy (Crash Course)](https://www.youtube.com/playlist?list=PL8dPuuaLjXtM6jSpzb5gMNsx9kdmqBfmY) |
-| Communication & Culture | Cultural frameworks & meaning systems. | *[Culture and Communication](https://www.amazon.com/Communication-Culture-Readings-Cultural-Interpretation/dp/019506819X)* (Hall & Hall) | [Intercultural Communication: Dynamics of cultural identities in global interaction](https://www.futurelearn.com/courses/intercultural-communication) |
-| History of Media & Communication Technologies | Tech history shaping society. | *[The Media of Modernity](https://www.amazon.com/Media-Modernity-Social-Theory/dp/080471858X)* |  |
-
-### Research Methods: Qualitative & Quantitative
+## III. Media, Culture & Power
 
 | Subject | Why study? | Book | Videos |
 | --- | --- | --- | --- |
-| Social Science Research Design | Invests in systematic inquiry. | *[Social Science Research: Principles, Methods, and Practices](https://scholarcommons.usf.edu/oa_textbooks/3/)* (Open Textbook) | [Understanding Research Methods (Coursera – SOAS University of London)](https://www.coursera.org/learn/research-methods) |
-| Qualitative Methods | Interpretive methods for rich meaning. | *[Qualitative Communication Research Methods](https://www.amazon.com/Qualitative-Communication-Research-Methods-Lindlof/dp/1452256829)* (Lindlof & Taylor) | [Qualitative Research Methods (Coursera – Amsterdam)](https://www.coursera.org/learn/qualitative-methods) |
-| Quantitative Methods | Surveys, stats & effects. | *[Discovering Statistics Using SPSS](https://www.amazon.com/Discovering-Statistics-Using-IBM-SPSS/dp/1526419521)* | [Statistics for Social Sciences (Coursera – Amsterdam)](https://www.coursera.org/learn/quantitative-methods) |
+| Media Systems | You understand how media industries are organized, financed, and regulated around the world today. | **[Understanding Media & Culture](https://open.lib.umn.edu/mediaandculture/)** | **[CrashCourse Media](https://www.youtube.com/playlist?list=PL8dPuuaLjXtM6jSpzb5gMNsx9kdmqBfmY)** |
+| Semiotics & Representation | You learn to read signs, images, and texts in media and discover the hidden meanings they carry. | **[Introducing Semiotics (LibreTexts)](https://socialsci.libretexts.org/Bookshelves/Communication/Understanding_Media_and_Culture/03:_Media_and_Culture/3.02:_Semiotics)** | — |
+| Culture & Communication | You gain tools to communicate effectively and respectfully with people from very different cultural backgrounds. | **[Intercultural Communication (LibreTexts)](https://socialsci.libretexts.org/Bookshelves/Communication/Intercultural_Communication)** | **[FutureLearn](https://www.futurelearn.com/courses/intercultural-communication)** |
 
-### Integration — Rhetoric & Persuasion
-
-| Subject | Why study? | Book | Videos |
-| --- | --- | --- | --- |
-| Rhetorical Theory | Systematic study of arguments and symbols. | *[A Rhetoric of Society](https://www.amazon.com/Rhetorical-Society-Contemporary-Communication-Studies/dp/0817317171)* (classics compendium) | [HarvardX: Rhetoric: The Art of Persuasive Writing and Public Speaking](https://www.edx.org/learn/rhetoric/harvard-university-rhetoric-the-art-of-persuasive-writing-and-public-speaking) |
-| Persuasion & Social Influence | How messages influence beliefs & behavior. | *[Influence: Science & Practice](https://www.amazon.com/Influence-Practice-Robert-Ph-D-Cialdini/dp/0205609996)* | [Persuasion (Coursera – Michigan)](https://www.coursera.org/learn/persuasion) |
-| Visual & Multimodal Communication | Study of image/text/sound combos. | *[Visual and Multimodal Communication: Applying the Relevance Principle](https://www.amazon.com/Visual-Multimodal-Communication-Applying-Relevance/dp/0190845236)* | [Multimodal Literacies: Communication and Learning in the Era of Digital Media (Coursera – Illinois)](https://www.coursera.org/learn/multimodal-literacies) |
-
-### Digital Communication & Media Systems
+## IV. Rhetoric & Persuasion
 
 | Subject | Why study? | Book | Videos |
 | --- | --- | --- | --- |
-| Digital Media, Platforms & Algorithms | Understand mediated networks dynamics. | *[Networked: The New Social Operating System](https://www.amazon.com/Networked-New-Social-Operating-System/dp/0262525372)* |  |
-| Data, Privacy & Digital Ethics | Ethics in digital context. | *[The Ethics of Emerging Media](https://www.amazon.com/Ethics-Emerging-Media-Information-Social/dp/1441183353)* |  |
-| Emerging Technologies & Communication Futures | Speculative study of future comm tech. | *[Communication Technology Update and Fundamentals](https://www.amazon.com/Communication-Technology-Update-Fundamentals-Grant/dp/0367420139)* | [Exploring Emerging Technologies for Lifelong Learning and Success (Coursera – SUNY)](https://www.coursera.org/learn/emerging-technologies-lifelong-learning) |
+| Classical Rhetoric | You master ancient techniques for constructing powerful, logical, and emotionally engaging spoken and written arguments. | **[Silva Rhetoricae](https://rhetoric.byu.edu/)** (BYU) | **[HarvardX Rhetoric](https://www.edx.org/learn/rhetoric/harvard-university-rhetoric-the-art-of-persuasive-writing-and-public-speaking)** |
+| Persuasion Science | You learn the research-proven psychological principles that make people say yes and change their behavior. | **[Cialdini](https://archive.org/details/influencescience0000cial_k6u1)** | **[Coursera Michigan](https://www.coursera.org/learn/influencing-people)** |
+| Visual & Multimodal | You develop the ability to create and critically analyze messages that combine words, images, sound, and design. | **[Visual & Multimodal Communication](https://www.coursera.org/learn/multimodal-literacies)** | **[Coursera Illinois](https://www.coursera.org/learn/multimodal-literacies)** |
 
-### Applied Professional Communication
-
-| Subject | Why study? | Book | Videos |
-| --- | --- | --- | --- |
-| Strategic Communication | Crafting organizational messaging. | *[Strategic Communication](https://www.amazon.com/Strategic-Communication-Theory-Practice-Approach/dp/0367895390)* (textbook) | [Strategic Communication Campaigns (Coursera – Colorado)](https://www.coursera.org/specializations/strategic-communication-campaigns) |
-| Writing & Speaking for Professional Contexts | Professional writing/speaking fluency. | *[The Craft of Research](https://www.amazon.com/Craft-Research-Chicago-Writing-Publishing/dp/022623973X)* |  |
-| Intercultural & Global Communication Practice | Practice in diverse contexts. | *[Intercultural Communication: Globalization and Social Justice](https://www.amazon.com/Intercultural-Communication-Globalization-Social-Justice/dp/1452292752)* | [Intercultural Communication (Coursera – Shanghai)](https://www.coursera.org/learn/intercultural) |
-
-## Advanced
-
-### Media & Cultural Analysis
+## V. Research Methods in Communication
 
 | Subject | Why study? | Book | Videos |
 | --- | --- | --- | --- |
-| Critical & Cultural Theory | Power and representation. | *[Communication as Culture](https://www.amazon.com/Communication-Culture-Essays-Media-Society/dp/041590725X)* |  |
-| Advanced Textual & Discourse Analysis | Rigorous content analysis. | *[Doing Discourse Analysis](https://www.amazon.com/Doing-Discourse-Analysis-Methods-Practice/dp/0803973519)* |  |
-| Global Media Systems & Industries | World media ecologies. | *[Global Communication](https://www.amazon.com/Global-Communication-Theories-Stakeholders-Trends/dp/1119522188)* |  |
+| Research Logic | You understand the basic rules of how good social science evidence is created and evaluated. | **[Social Science Research (USF)](https://digitalcommons.usf.edu/oa_textbooks/3/)** | **[SOAS Methods](https://www.youtube.com/user/soasuniversity)** |
+| Qualitative Methods | You learn how to collect, analyze, and interpret rich non-numerical data such as interviews, texts, and observations. | **[Saldaña Coding Manual](https://us.sagepub.com/sites/default/files/upm-binaries/24614_01_Saldana_Ch_01.pdf)** (free chapters) | **[Amsterdam Qual](https://www.coursera.org/learn/qualitative-methods)** |
+| Quantitative Reasoning | You gain the ability to read, understand, and perform basic statistical analysis of communication data. | **[OpenIntro Statistics](https://www.openintro.org/book/os/)** | **[Amsterdam Quant](https://www.coursera.org/learn/quantitative-methods)** |
 
-### Digital Communication & Technology
-
-| Subject | Why study? | Book | Videos |
-| --- | --- | --- | --- |
-| Network Theory & Social Media Dynamics | Structural dynamics of digital networks. | *[Networks, Crowds & Markets](https://www.cs.cornell.edu/home/kleinber/networks-book/networks-book.pdf)* | [Networks (Coursera – Michigan)](https://www.coursera.org/learn/social-network-analysis) |
-| Human–Computer Interaction | Design & interaction. | *[Human-Computer Interaction](https://archive.org/details/humancomputerint0000dixx)* (Dix et al.) | [Human-Computer Interaction (Coursera – Georgia Tech)](https://www.coursera.org/learn/human-computer-interaction) |
-| Digital Policy, Governance & Regulation | Law & governance issues. | *[Platform Regulation](https://www.amazon.com/Platform-Regulation-Platforms-Shape-Freedom/dp/0198838492)* |  |
-
-### Interpersonal & Organizational
+## VI. Digital Communication Systems
 
 | Subject | Why study? | Book | Videos |
 | --- | --- | --- | --- |
-| Advanced Relational Communication | Emotion & conflict transformation. | *[The Dark Side of Close Relationships](https://www.amazon.com/Dark-Side-Close-Relationships-II/dp/0415804582)* |  |
-| Organizational Communication Strategy | Org change & culture. | *[Organizational Communication](https://www.amazon.com/Organizational-Communication-Approaches-Processes-Miller/dp/1285164202)* |  |
-| Facilitation & Conflict Resolution | Practice negotiation/facilitation. | *[The Skilled Facilitator](https://www.amazon.com/Skilled-Facilitator-Comprehensive-Resource-Consultants/dp/1119064392)* | [Negotiation (Yale – Coursera)](https://www.coursera.org/learn/negotiation) |
+| Platforms & Algorithms | You understand how major digital platforms shape what people see, say, and believe every day. | **[Networked](https://archive.org/details/networkedbook)** | — |
+| Networks & Social Media | You learn how connections between people online create patterns, influence behavior, and spread information. | **[Networks, Crowds & Markets](https://www.cs.cornell.edu/home/kleinber/networks-book/networks-book.pdf)** (free PDF) | **[Coursera SNA](https://www.coursera.org/learn/social-network-analysis)** |
+| Data, Privacy & Ethics | You can identify and think critically about the ethical challenges of collecting, using, and protecting personal data online. | **[Ethics of Emerging Media](https://archive.org/details/ethicsofemerging0000unse)** | — |
 
-### Rhetoric & Advocacy
-
-| Subject | Why study? | Book | Videos |
-| --- | --- | --- | --- |
-| Contemporary Rhetorical Criticism | Expert argument analysis. | *[Contemporary Rhetorical Criticism](https://www.amazon.com/Contemporary-Rhetorical-Criticism-Thomas-B-Farrell/dp/0205705456)* |  |
-| Argumentation Theory | Public argument foundations. | *[Argumentation and Debate](https://archive.org/details/argumentationdeb0000free)* |  |
-| Advocacy & Social Movements | Strategic societal change. | *[Communication & Social Movements](https://www.amazon.com/Social-Movements-Communication-Interdisciplinary-Perspectives/dp/1138236357)* |  |
-
-### Research & Academic Prep
+## VII. Applied & Professional Communication
 
 | Subject | Why study? | Book | Videos |
 | --- | --- | --- | --- |
-| Advanced Research Methods | Mixed methods & design. | *[Mixed Methods Research](https://www.amazon.com/Mixed-Methods-Research-John-Creswell/dp/1412999804)* |  |
-| Theory Construction & Conceptual Modeling | Scholarly framing. | *[Theoretical Frameworks in Communication](https://www.amazon.com/Theoretical-Frameworks-Qualitative-Research-Second/dp/1506304656)* |  |
-| Scholarly Writing & Publication Practices | Publish and present. | *[Writing for Scholarly Publication](https://www.amazon.com/Writing-Scholarly-Publication-Anne-Sigismund/dp/0761918051)* |  |
+| Strategic Communication | You learn how organizations plan and execute purposeful communication campaigns to achieve specific goals. | **[Strategic Communication](https://www.coursera.org/specializations/strategic-communication-campaigns)** | **[Coursera Colorado](https://www.coursera.org/learn/integrated-and-strategic-communication-campaigns)** |
+| Professional Writing | You master the formats, tone, and clarity needed for emails, reports, proposals, and other workplace documents. | **[OpenStax Writing Guide](https://openstax.org/details/books/writing-guide)** | — |
+| Intercultural Practice | You practice real-world skills for navigating cultural differences during work, travel, and international teamwork. | **[Intercultural Comm (LibreTexts)](https://socialsci.libretexts.org/Bookshelves/Communication/Intercultural_Communication)** | **[Coursera Shanghai](https://www.futurelearn.com/courses/intercultural-communication)** |
+
+## VIII. Advanced Analysis & Theory
+
+| Subject | Why study? | Book | Videos |
+| --- | --- | --- | --- |
+| Cultural & Critical Theory | You gain powerful frameworks for analyzing how communication maintains or challenges power, inequality, and culture. | **[Carey – Communication as Culture](https://archive.org/details/communicationasc0000care)** | — |
+| Discourse Analysis | You learn systematic ways to examine language use in talk and texts to reveal hidden ideologies and power relations. | **[Doing Discourse Analysis](https://us.sagepub.com/sites/default/files/upm-binaries/24614_01_Saldana_Ch_01.pdf)** | — |
+| Global Media Systems | You understand how media operate, flow, and influence people differently across countries and regions. | **[Global Communication](https://uk.sagepub.com/en-gb/eur/global-communication/book234369)** | — |
+| Advanced Research | You master complete research designs, from question to final report, at a graduate-level standard. | **[Creswell](https://digitalcommons.usf.edu/oa_textbooks/3/)** | — |
+| Scholarly Writing | You learn the advanced conventions, structure, and style needed to publish research articles in academic journals. | **[Writing for Scholarly Publication](https://us.sagepub.com/sites/default/files/upm-binaries/24614_01_Saldana_Ch_01.pdf)** | — |
+
 
 ## Final Project
 
