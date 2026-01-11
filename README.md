@@ -63,8 +63,6 @@ Everyone should complete the following four sections in sequence. They form the 
 4. **V. Research Methods in Communication**  
    Finish the core with this section. It gives you the practical tools to read, evaluate, and eventually carry out communication research yourself.
 
-**Recommended pace for the core:** Work through one section at a time. Only move to the next when you feel comfortable with the ideas and skills of the current one (usually 6–12 weeks per section, depending on your weekly study time).
-
 ### Advanced
 
 The remaining four sections are **optional specialization tracks**. You do not need to study all of them. Pick one (or at most two) that match your personal interests, career goals, or curiosity after you finish the core.
