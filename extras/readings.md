@@ -2,8 +2,6 @@
 
 This curated collection gathers field-defining primary monographs, landmark theoretical essays, and breakthrough empirical papers in Communication Studies. These works represent paradigm shifts in how scholars understand human interaction, symbolic reality, media ecology, cultural power, and public discourse.
 
----
-
 ## Foundational Theory, Models & Rhetorical Thought
 
 | Title | Author(s) | Type | Why It's Worth Reading |
@@ -13,8 +11,6 @@ This curated collection gathers field-defining primary monographs, landmark theo
 | *Communication Theory as a Field* | Robert T. Craig | Landmark Paper (1999) | Reconstructs communication theory as a dialogic field organized around seven distinct traditions: rhetorical, semiotic, phenomenological, cybernetic, sociopsychological, sociocultural, and critical. |
 | *Language as Symbolic Action: Essays on Life, Literature, and Method* | Kenneth Burke | Monograph / Essay Collection | Defines human beings as "symbol-using, symbol-making, and symbol-misusing animals" and outlines the dramatistic method and terministic screens. |
 | *The Philosophy of Rhetoric* | I. A. Richards | Monograph | Redefines rhetoric away from mere ornamentation toward the study of misunderstanding and its remedies, introducing the semantic triangle of symbol, thought, and referent. |
-
----
 
 ## Interpersonal Interaction, Pragmatics & Social Construction
 
@@ -26,8 +22,6 @@ This curated collection gathers field-defining primary monographs, landmark theo
 | *Relating: Dialogues and Dialectics* | Leslie A. Baxter & Barbara M. Montgomery | Monograph | Develops Relational Dialectics Theory, demonstrating that interpersonal relationships are defined by dynamic, ongoing tensions between contradictory communicative needs. |
 | *Frame Analysis: An Essay on the Organization of Experience* | Erving Goffman | Monograph | Investigates the cognitive and communicative structures through which individuals identify, label, and interpret everyday social events. |
 
----
-
 ## Media Ecology, Network Society & Platform Studies
 
 | Title | Author(s) | Type | Why It's Worth Reading |
@@ -38,8 +32,6 @@ This curated collection gathers field-defining primary monographs, landmark theo
 | *Custodians of the Internet: Platforms, Content Moderation, and the Hidden Decisions That Shape Social Media* | Tarleton Gillespie | Monograph | Uncovers the invisible mechanics of content moderation, showing how platform architecture and algorithmic curation fundamentally shape the modern public square. |
 | *The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power* | Shoshana Zuboff | Monograph | Diagnoses the transformation of digital communication platforms into extractive systems that monetize behavioral surplus and commodify future human conduct. |
 
----
-
 ## Critical Cultural Studies, Hegemony & Semiotics
 
 | Title | Author(s) | Type | Why It's Worth Reading |
@@ -49,8 +41,6 @@ This curated collection gathers field-defining primary monographs, landmark theo
 | *The Structural Transformation of the Public Sphere* | Jürgen Habermas | Monograph | Traces the rise of the bourgeois public sphere as a forum for rational-critical debate and its subsequent decline under commercial mass media. |
 | *Manufacturing Consent: The Political Economy of the Mass Media* | Edward S. Herman & Noam Chomsky | Monograph | Introduces the propaganda model and its five structural filters, explaining how economic constraints, ownership concentration, and elite interests shape news production. |
 | *Subculture: The Meaning of Style* | Dick Hebdige | Monograph | Explores how youth subcultures construct subversive communication through stylistic bricolage, challenging dominant cultural hegemony through semiotic resistance. |
-
----
 
 ## Public Opinion, Agenda-Setting & Media Effects
 

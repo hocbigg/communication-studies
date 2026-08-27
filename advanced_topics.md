@@ -20,8 +20,6 @@ After completing the core foundational curriculum, select 1–2 specialization t
 | Persuasion Science & Cognitive Influence | Investigates dual-process cognitive models (e.g., Elaboration Likelihood Model, Heuristic-Systematic Model), attitude change mechanisms, and behavioral compliance strategies. | *Influence: Science and Practice* (Robert B. Cialdini, Pearson)<br>- *The Dynamics of Persuasion: Communication and Attitudes in the 21st Century* (Richard M. Perloff, Routledge) |
 | Visual Rhetoric & Multimodal Discourse | Explores how visual iconography, documentary media, architecture, and multimodal design construct arguments, establish ideological stances, and evoke collective public emotions. | *Visual Rhetoric: A Reader in Communication and American Culture* (Lucaites & Hariman, Guilford Press)<br>- *Reading Images: The Grammar of Visual Design* (Kress & van Leeuwen, Routledge) |
 
----
-
 ## Digital Media, Algorithmic Platforms & Computational Communication
 
 | Topic | Why Study | Resources |
@@ -30,8 +28,6 @@ After completing the core foundational curriculum, select 1–2 specialization t
 | Social Network Analysis & Information Diffusion | Applies graph theory, structural metrics (centrality, clustering, homophily), and modeling of viral cascades to study how messages, misinformation, and norms spread across networked publics. | [Networks, Crowds, and Markets: Reasoning About a Highly Connected World](https://www.cs.cornell.edu/home/kleinber/networks-book/networks-book.pdf) (Easley & Kleinberg, Cambridge University Press)<br>- [Coursera: Social Network Analysis](https://www.coursera.org/learn/social-network-analysis) (University of Michigan) |
 | Computational Communication Science | Introduces digital trace data collection, text-as-data pipelines, automated content analysis, and natural language processing to interrogate large-scale communication phenomena. | [Bit by Bit: Social Research in the Digital Age](https://www.bitbybitbook.com/) (Matthew J. Salganik, Princeton University Press)<br>- *Handbook of Computational Social Science, Volumes 1 & 2* (Engel, Quan-Haase, Liu, & Lyberg, Routledge) |
 | Critical Data Studies & Surveillance Capitalism | Critiques the political economy of user data extraction, algorithmic bias, digital surveillance, and ethical governance in artificial intelligence and automated communication systems. | *The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power* (Shoshana Zuboff, PublicAffairs)<br>- *Algorithms of Oppression: How Search Engines Reinforce Racism* (Safiya Umoja Noble, NYU Press) |
-
----
 
 ## Strategic, Organizational & Crisis Communication
 
@@ -42,8 +38,6 @@ After completing the core foundational curriculum, select 1–2 specialization t
 | Crisis Communication & Risk Resilience | Evaluates Situational Crisis Communication Theory (SCCT), image repair discourses, risk forecasting, and high-reliability organizational coordination during operational crises. | *Ongoing Crisis Communication: Planning, Managing, and Responding* (W. Timothy Coombs, SAGE)<br>- *The Handbook of Crisis Communication* (Coombs & Holladay, Wiley-Blackwell) |
 | Global Workplace & Intercultural Leadership | Prepares communicators for cross-cultural negotiation, distributed and hybrid team dynamics, glocalized messaging, and managing diverse multinational workforces. | *The Culture Map: Breaking Through the Invisible Boundaries of Global Business* (Erin Meyer, PublicAffairs)<br>- *Handbook of International and Intercultural Communication* (Gudykunst & Mody, SAGE) |
 
----
-
 ## Health, Science & Environmental Communication
 
 | Topic | Why Study | Resources |
@@ -53,8 +47,6 @@ After completing the core foundational curriculum, select 1–2 specialization t
 | Science Communication & Public Engagement | Examines how scientific consensus, risk, and empirical uncertainty are framed for lay audiences, moving beyond the information deficit model toward participatory public engagement. | *The Oxford Handbook of the Science of Science Communication* (Jamieson, Kahan, & Scheufele, Oxford University Press)<br>- *Communicating Science: A Global Perspective* (Gascoigne et al., ANU Press) |
 | Environmental Rhetoric & Climate Advocacy | Deconstructs environmental journalism, climate change skepticism, greenwashing, corporate sustainability discourse, and grassroots ecological justice movements. | *Environmental Communication and the Public Sphere* (Pezzullo & Cox, SAGE)<br>- *Routledge Handbook of Environment and Communication* (Hansen & Cox, Routledge) |
 
----
-
 ## Critical Cultural Studies & Global Media Systems
 
 | Topic | Why Study | Resources |
@@ -63,8 +55,6 @@ After completing the core foundational curriculum, select 1–2 specialization t
 | Critical Cultural Theory & Hegemony | Deconstructs how media systems reproduce or challenge power asymmetries, examining Gramscian cultural hegemony, Frankfurt School critical theory, feminist critiques, and intersectionality. | *Media and Cultural Studies: KeyWorks* (Kellner & Durham, Wiley-Blackwell)<br>- *Representation: Cultural Representations and Signifying Practices* (Stuart Hall, SAGE/Open University) |
 | Global Media Flows, Imperialism & Hybridity | Explores transnational media flows, cultural imperialism versus contra-flows, diaspora communication networks, and globalized audience reception. | *Global Communication: Theories, Stakeholders, and Trends* (Thomas L. McPhail, Wiley-Blackwell)<br>- *Media and Globalization* (Terhi Rantanen, SAGE) |
 | Critical Discourse Analysis & Ideology | Equips researchers with qualitative linguistic toolkits (Fairclough, Van Dijk) to analyze how dominant ideologies, power relations, and social inequities are encoded in spoken and written texts. | *An Introduction to Discourse Analysis: Theory and Method* (James Paul Gee, Routledge)<br>- *Critical Discourse Analysis: The Critical Study of Language* (Norman Fairclough, Routledge) |
-
----
 
 ## Synthesis & Capstone Projects
 

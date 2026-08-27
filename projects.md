@@ -4,8 +4,6 @@ A curated collection of step-by-step walkthroughs, methodological guides, open t
 
 > *What I cannot create, I do not understand.* — Richard Feynman
 
----
-
 ## Rhetorical Criticism & Public Address
 
 - [Rhetorical Analysis: A Step-by-Step Guide](https://owl.purdue.edu/owl/general_writing/academic_writing/rhetorical_analysis/index.html) – Purdue Online Writing Lab (Purdue OWL)
