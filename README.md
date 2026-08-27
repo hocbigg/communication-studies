@@ -53,57 +53,52 @@ they belong in [extras/courses](extras/courses.md), [extras/readings](extras/rea
 
 # Curriculum
 
-## How to use this curriculum
-
-### Core
-
 Everyone should complete the following four sections in sequence (before moving to [Advanced Topics](advanced_topics.md)). They form the essential foundation that every communication student needs:
-
-1. **Foundations of Communication**  
-   Start here. This section introduces the most basic ideas and skills you will use in every later part of the field.
-
-2. **Human Interaction & Meaning**  
-   Move to this next. It builds directly on the foundations and focuses on how people create meaning and connect with each other face-to-face.
-
-3. **Media, Culture & Power**  
-   Study this third. It expands your view from personal interaction to how large-scale media and cultural systems shape communication.
-
-4. **Research Methods in Communication**  
-   Finish the core with this section. It gives you the practical tools to read, evaluate, and eventually carry out communication research yourself.
 
 ## Foundations of Communication
 
+This section introduces the foundational concepts, historical models, ethical principles, and core rhetorical and written competencies of the discipline.
+
 | Subject | Why study? | Book | Videos |
 | --- | --- | --- | --- |
-| What Communication Is | This gives you a clear map of how messages are created, sent, received, and interpreted in everyday life. | [Communication in the Real World](https://socialsci.libretexts.org/Bookshelves/Communication/Introduction_to_Communication/Communication_in_the_Real_World_-_An_Introduction_to_Communication_Studies) (LibreTexts) | [CrashCourse: Media Literacy](https://www.youtube.com/playlist?list=PL8dPuuaLjXtM6jSpzb5gMNsx9kdmqBfmY) |
-| Communication Models & Traditions| You will understand the major ways scholars have explained communication processes throughout history. | same | [Crash Course: Introduction to Communication Concepts](https://www.youtube.com/results?search_query=communication+models+crash+course) (search relevant) |
-| Communication Ethics | You learn to recognize and reason about moral dilemmas that appear when people communicate, especially online and in media. | same as main book chapters + [Ethics in Communication](https://socialsci.libretexts.org/Bookshelves/Communication/Ethics_in_Communication) (LibreTexts) | — |
-| Public Speaking & Rhetoric | You gain essential skills in oral presentation, argumentation, and persuasive communication — a universal foundational competency. | [Stand up, Speak out: The Practice and Ethics of Public Speaking](https://open.umn.edu/opentextbooks/textbooks/159) | [TED-Ed Public Speaking](https://www.youtube.com/playlist?list=PLiN-2sVQRk8) |
-| Academic Writing | You gain the skills to write clear, organized, and convincing college-level essays and papers. | [OpenStax Writing Guide](https://openstax.org/details/books/writing-guide) | [Coursera: English Composition I](https://www.coursera.org/learn/english-composition) |
+| What Communication Is | This gives you a clear conceptual map of how messages are created, transmitted, received, and interpreted across diverse human contexts. | [Communication in the Real World](https://socialsci.libretexts.org/Bookshelves/Communication/Introduction_to_Communication/Communication_in_the_Real_World_-_An_Introduction_to_Communication_Studies) (LibreTexts) | [Coursera: Introduction to Communication Science](https://www.coursera.org/learn/communication-science) (University of Amsterdam) |
+| Communication Models & Traditions | You understand the linear, interactive, and transactional models, as well as the seven major theoretical traditions (Craig) shaping communication inquiry. | [Survey of Communication Study](https://socialsci.libretexts.org/Bookshelves/Communication/Introduction_to_Communication/Survey_of_Communication_Study) (Paynton & Hahn, LibreTexts) | [Coursera: Introduction to Communication Science](https://www.coursera.org/learn/communication-science) (Theoretical Models Module) |
+| Communication Ethics | You learn to recognize and evaluate moral dilemmas in human communication using ethical frameworks such as the NCA Credo for Ethical Communication. | [Ethics in Communication](https://socialsci.libretexts.org/Bookshelves/Communication/Ethics_in_Communication) (LibreTexts) | National Communication Association (NCA): Credo and Ethics Case Studies |
+| Public Speaking & Rhetoric | You gain essential skills in oral presentation, classical rhetorical appeals (ethos, pathos, logos), audience analysis, and persuasive argumentation. | [Stand up, Speak out: The Practice and Ethics of Public Speaking](https://open.umn.edu/opentextbooks/textbooks/159) | [Coursera: Introduction to Public Speaking](https://www.coursera.org/learn/public-speaking) (University of Washington) |
+| Academic Writing & Disciplinary Inquiry | You master the conventions of scholarly communication, evidence synthesis, thesis development, and clear analytical writing for the discipline. | [OpenStax Writing Guide with Handbook](https://openstax.org/details/books/writing-guide) | [Coursera: English Composition I](https://www.coursera.org/learn/english-composition) (Duke University) |
 
 ## Human Interaction & Meaning
 
+This section focuses on face-to-face and relational communication, covering interpersonal dynamics, nonverbal communication, symbolic identity, and group interaction.
+
 | Subject | Why study? | Book | Videos |
 | --- | --- | --- | --- |
-| Interpersonal Communication | You develop practical skills for building, maintaining, and repairing close personal relationships through talk. | [Interpersonal Communication: A Mindful Approach to Relationships](https://milneopentextbooks.org/interpersonal-communication-a-mindful-approach-to-relationships/) (2nd ed., open) | [Coursera SJTU](https://www.coursera.org/learn/interpersonal-skills) |
-| Symbolic Interaction & Identity | You learn how people use symbols and everyday interactions to build and constantly update who they are. | [Communication in the Real World](https://socialsci.libretexts.org/Bookshelves/Communication/Introduction_to_Communication/Communication_in_the_Real_World_-_An_Introduction_to_Communication_Studies) | [Yale OpenCourses (Sociology of Self)](https://oyc.yale.edu/sociology) |
-| Listening & Dialogue | You build the ability to truly hear others, understand their messages deeply, and respond in ways that keep conversations constructive. | [Worthington](https://www.routledge.com/Listening-Processes-Functions-and-Competency/Worthington-Bodie-Fitch-Hauser/p/book/9781032491257) | [Coursera Active Listening](https://www.coursera.org/learn/active-listening-enhancing-communication-skills) |
+| Interpersonal Communication | You explore relational dynamics, disclosure, conflict management, and foundational theories like Social Penetration and Relational Dialectics. | [Interpersonal Communication: A Mindful Approach to Relationships](https://milneopentextbooks.org/interpersonal-communication-a-mindful-approach-to-relationships/) (2nd ed., Milne Open Textbooks) | [Coursera: Interpersonal Skills](https://www.coursera.org/learn/interpersonal-skills) (Shanghai Jiao Tong University) |
+| Nonverbal Communication | You learn how nonverbal channels (kinesics, proxemics, haptics, paralanguage, and chronemics) convey emotion, establish power, and regulate talk. | [Communication in the Real World](https://socialsci.libretexts.org/Bookshelves/Communication/Introduction_to_Communication/Communication_in_the_Real_World_-_An_Introduction_to_Communication_Studies) (Chapter 4: Nonverbal Communication) | CrashCourse Sociology: Social Interaction and Nonverbal Cues |
+| Symbolic Interaction & Identity | You examine how humans use language and symbols to construct social reality, personal identity, and the looking-glass self through interaction. | [Communication in the Real World](https://socialsci.libretexts.org/Bookshelves/Communication/Introduction_to_Communication/Communication_in_the_Real_World_-_An_Introduction_to_Communication_Studies) (Chapter 2: Perception and Self) | CrashCourse Sociology: Social Development & Symbolic Interactionism |
+| Small Group & Team Communication | You master small group communication dynamics, including group roles, norms, decision-making procedures, leadership styles, and groupthink prevention. | [Communication in the Real World](https://socialsci.libretexts.org/Bookshelves/Communication/Introduction_to_Communication/Communication_in_the_Real_World_-_An_Introduction_to_Communication_Studies) (Chapters 13–14: Small Group Communication) | Open Educational Lectures: Small Group Dynamics and Leadership |
+| Listening & Relational Dialogue | You develop active and critical listening competencies, examine listening barriers, and learn principles of constructive dialogic communication. | [Communication in the Real World](https://socialsci.libretexts.org/Bookshelves/Communication/Introduction_to_Communication/Communication_in_the_Real_World_-_An_Introduction_to_Communication_Studies) (Chapter 5: Listening) | [Coursera: Active Listening](https://www.coursera.org/learn/active-listening-enhancing-communication-skills) |
 
 ## Media, Culture & Power
 
+Expanding your perspective to macro-level systems, exploring mass media effects, semiotic representation, digital networked society, and intercultural communication.
+
 | Subject | Why study? | Book | Videos |
 | --- | --- | --- | --- |
-| Media Systems | You understand how media industries are organized, financed, and regulated around the world today. | [Media, Society, Culture, and You](https://open.umn.edu/opentextbooks/textbooks/media-society-culture-and-you) (open) | [CrashCourse Media](https://www.youtube.com/playlist?list=PL8dPuuaLjXtM6jSpzb5gMNsx9kdmqBfmY) |
-| Semiotics & Representation | You learn to read signs, images, and texts in media and discover the hidden meanings they carry. | [Communication in the Real World](https://socialsci.libretexts.org/Bookshelves/Communication/Introduction_to_Communication/Communication_in_the_Real_World_-_An_Introduction_to_Communication_Studies) (relevant chapters) | — |
-| Culture & Communication | You gain tools to communicate effectively and respectfully with people from very different cultural backgrounds. | [Intercultural Communication (LibreTexts)](https://socialsci.libretexts.org/Bookshelves/Communication/Intercultural_Communication) | [FutureLearn](https://www.futurelearn.com/courses/intercultural-communication) |
+| Mass Communication & Media Effects | You examine the structure of media industries and study major theoretical effects, including Agenda-Setting, Framing, Cultivation, and Uses & Gratifications. | [Media, Society, Culture, and You](https://open.umn.edu/opentextbooks/textbooks/media-society-culture-and-you) & [Mass Communication, Media, and Culture](https://socialsci.libretexts.org/Bookshelves/Communication/Introduction_to_Communication/Mass_Communication_Media_and_Culture_-_An_Introduction_to_Mass_Communication) (LibreTexts) | CrashCourse: Media Literacy (Series on Media History & Effects) |
+| Semiotics & Representation | You learn to deconstruct cultural texts and visual media through semiotic analysis (signifier/signified) and Stuart Hall's encoding/decoding model. | [Communication in the Real World](https://socialsci.libretexts.org/Bookshelves/Communication/Introduction_to_Communication/Communication_in_the_Real_World_-_An_Introduction_to_Communication_Studies) (relevant chapters) | CrashCourse: Media Literacy (Representation & Media Ownership) |
+| Digital Media & Networked Society | You analyze how computer-mediated communication, digital platforms, networked publics, algorithms, and online privacy reshape human connection. | [Media, Society, Culture, and You](https://open.umn.edu/opentextbooks/textbooks/media-society-culture-and-you) (Chapters on Digital Culture & Social Media) | CrashCourse: Media Literacy (Digital Literacy & Online Information) |
+| Culture & Communication | You investigate intercultural communication competence, high- and low-context cultures, cultural dimensions, and power dynamics across diverse communities. | [Intercultural Communication](https://socialsci.libretexts.org/Bookshelves/Communication/Intercultural_Communication) (LibreTexts) | [FutureLearn: Intercultural Communication](https://www.futurelearn.com/courses/intercultural-communication) (Shanghai International Studies University) |
 
 ## Research Methods in Communication
 
+This section equips you with the qualitative, quantitative, and textual methodologies needed to evaluate and conduct empirical and critical communication research.
+
 | Subject | Why study? | Book | Videos |
 | --- | --- | --- | --- |
-| Research Logic | You understand the basic rules of how good social science evidence is created and evaluated. | [Social Science Research (USF)](https://digitalcommons.usf.edu/oa_textbooks/3/) | [SOAS Methods](https://www.youtube.com/user/soasuniversity) |
-| Qualitative Methods | You learn how to collect, analyze, and interpret rich non-numerical data such as interviews, texts, and observations. | [Saldaña Coding Manual](https://us.sagepub.com/sites/default/files/upm-binaries/24614_01_Saldana_Ch_01.pdf) (free chapters) | [Amsterdam Qual](https://www.coursera.org/learn/qualitative-methods) |
-| Quantitative Reasoning | You gain the ability to read, understand, and perform basic statistical analysis of communication data. | [OpenIntro Statistics](https://www.openintro.org/book/os/) | [Amsterdam Quant](https://www.coursera.org/learn/quantitative-methods) |
+| Foundations of Communication Inquiry | You understand the epistemology, ontology, and ethics of communication inquiry, learning how to formulate research questions and review literature. | [Social Science Research: Principles, Methods, and Practices](https://digitalcommons.usf.edu/oa_textbooks/3/) (Bhattacherjee, USF Digital Commons) | [Coursera: Understanding Research Methods](https://www.coursera.org/learn/research-methods) (SOAS University of London) |
+| Qualitative & Textual Methods | You learn to design and conduct qualitative studies using in-depth interviews, focus groups, participant observation, thematic coding, and textual analysis. | [Social Science Research](https://digitalcommons.usf.edu/oa_textbooks/3/) (Qualitative chapters) & Saldaña, *The Coding Manual for Qualitative Researchers* | [Coursera: Qualitative Research Methods](https://www.coursera.org/learn/qualitative-methods) (University of Amsterdam) |
+| Quantitative Methods & Data Analysis | You master empirical research design (surveys, experiments, quantitative content analysis) and learn to compute, interpret, and report descriptive and inferential statistics. | [OpenIntro Statistics](https://www.openintro.org/book/os/) & [Social Science Research](https://digitalcommons.usf.edu/oa_textbooks/3/) (Quantitative chapters) | [Coursera: Quantitative Methods](https://www.coursera.org/learn/quantitative-methods) (University of Amsterdam) |
 
 # Code of conduct
 

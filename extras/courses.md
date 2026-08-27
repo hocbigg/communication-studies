@@ -1,34 +1,49 @@
-# Extra Courses
+# Great Courses in Communication Studies
 
-This is a list of high-quality courses that, for one reason or another, didn't make it into the curriculum.
-The most common reasons are that the course isn't available often enough,
-or that there was an alternative that fit better into the curriculum.
+A curated directory of standout university OpenCourseWare lectures, high-production MOOCs, and specialized audiovisual courses in Communication Studies that build deep intuition and advanced theoretical models.
 
-## Interpersonal and Organizational Communication
+---
 
-| Courses | Duration | Effort |
-| :-- | :--: | :--: |
-| [Improving Communication Skills (Coursera – University of Pennsylvania)](https://www.coursera.org/learn/wharton-communication-skills) | 4 weeks | 1-4 hours/week |
-| [Communication in the 21st Century Workplace (Coursera – University of California, Irvine)](https://www.coursera.org/learn/communication-workplace) | 5 weeks | 3-5 hours/week |
+## Theories of Media, Culture & Digital Society
 
-## Media and Cultural Studies
+- [Introduction to Communication Science (Coursera / University of Amsterdam / Dr. Rutger de Graaf)](https://www.coursera.org/learn/communication-science)
+- [Introduction to Media Studies (MIT OpenCourseWare / Comparative Media Studies)](https://ocw.mit.edu/courses/21l-015-introduction-to-media-studies-fall-2005/)
+- [Social Network Analysis (Coursera / University of Michigan / Dr. Lada Adamic)](https://www.coursera.org/learn/social-network-analysis)
+- [Understanding Media and Culture (LibreTexts Social Sciences / Open Educational Video Series)](https://socialsci.libretexts.org/Bookshelves/Communication/Introduction_to_Communication/Mass_Communication_Media_and_Culture_-_An_Introduction_to_Mass_Communication)
 
-| Courses | Duration | Effort |
-| :-- | :--: | :--: |
-| [Science Communication: Engaging Audiences (Coursera – University of Colorado Boulder)](https://www.coursera.org/learn/science-communication) | 4 weeks | 1-4 hours/week |
-| [Corporate Communication (Coursera – IE Business School)](https://www.coursera.org/learn/corporate-communication) | 5 weeks | 2-4 hours/week |
+---
 
-## Rhetoric and Persuasion
+## Rhetoric, Argumentation & Public Deliberation
 
-| Courses | Duration | Effort |
-| :-- | :--: | :--: |
-| [Rhetoric: The Art of Persuasive Writing and Public Speaking (edX – Harvard)](https://www.edx.org/learn/rhetoric/harvard-university-rhetoric-the-art-of-persuasive-writing-and-public-speaking) | 8 weeks | 2-4 hours/week |
-| [Communication for Development (C4D) (Agora – UNICEF)](https://agora.unicef.org/course/view.php?id=11146) | Self-paced | 3-5 hours/week |
+- [Rhetoric: The Art of Persuasive Writing and Public Speaking (edX / Harvard University / Prof. James Engell)](https://www.edx.org/learn/rhetoric/harvard-university-rhetoric-the-art-of-persuasive-writing-and-public-speaking)
+- [Introduction to Public Speaking (Coursera / University of Washington / Dr. Matt McGarrity)](https://www.coursera.org/learn/public-speaking)
+- [Think Again: How to Understand Arguments (Coursera / Duke University / Dr. Walter Sinnott-Armstrong & Dr. Ram Neta)](https://www.coursera.org/learn/understanding-arguments)
+- [Elements of Rhetoric (Harvard Open Learning / Faculty of Arts & Sciences)](https://www.edx.org/school/harvardx)
 
-## Online Learning - Great Courses
+---
 
-Courses | Duration | Effort
-:-- | :--: | :--:
-[Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn) | 4 weeks | 2 hours/week
-[Mindshift](https://www.coursera.org/learn/mindshift) | 4 weeks | 2 hours/week
-[Powersearching with Google](https://www.edx.org/learn/google-power-searching/google-power-searching-with-google) | 3 weeks | 4-6 hours/week
+## Strategic, Organizational & Crisis Communication
+
+- [Integrated and Strategic Communication Campaigns (Coursera / University of Colorado Boulder)](https://www.coursera.org/learn/integrated-and-strategic-communication-campaigns)
+- [Improving Communication Skills (Coursera / Wharton, University of Pennsylvania / Prof. Maurice Schweitzer)](https://www.coursera.org/learn/wharton-communication-skills)
+- [Corporate Communication (Coursera / IE Business School)](https://www.coursera.org/learn/corporate-communication)
+- [Communication in the 21st Century Workplace (Coursera / University of California, Irvine)](https://www.coursera.org/learn/communication-workplace)
+- [Communication Strategies for a Virtual Age (Coursera / University of Toronto)](https://www.coursera.org/learn/virtual-age-communication)
+
+---
+
+## Health, Science & Environmental Communication
+
+- [Writing in the Sciences (Coursera / Stanford Online / Dr. Kristin Sainani)](https://www.coursera.org/learn/sciwrite)
+- [Science Communication: Engaging Audiences (Coursera / University of Colorado Boulder)](https://www.coursera.org/learn/science-communication)
+- [Science Writing and New Media: Communicating Science to the Public (MIT OpenCourseWare / Comparative Media Studies & Writing)](https://ocw.mit.edu/courses/21w-035-science-writing-and-new-media-communicating-science-to-the-public-fall-2016/)
+- [Communication for Development (C4D) (Agora / UNICEF)](https://agora.unicef.org/course/view.php?id=11146)
+
+---
+
+## Interpersonal, Intercultural & Relational Dynamics
+
+- [Intercultural Communication (FutureLearn / Shanghai International Studies University)](https://www.futurelearn.com/courses/intercultural-communication)
+- [Interpersonal Skills (Coursera / Shanghai Jiao Tong University)](https://www.coursera.org/learn/interpersonal-skills)
+- [Active Listening: Enhancing Communication Skills (Coursera / Specialization)](https://www.coursera.org/learn/active-listening-enhancing-communication-skills)
+- [Communication Skills for Dialoguing Across Difference (edX / CatalystX)](https://www.edx.org/learn/business-communications/catalystx-communication-skills-for-dialoguing-across-difference)
