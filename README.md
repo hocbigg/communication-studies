@@ -3,39 +3,20 @@ title: Hocbigg - Communication Studies
 description: Path to a free self-taught education in Communication Studies!
 ---
 
-# Contents
+## Contents
 
 - [Summary](#summary)
 - [Communities](#communities)
 - [Curriculum](#curriculum)
 - [Code of conduct](#code-of-conduct)
 
-# Summary
+## Summary
 
-The Communication Studies curriculum is a complete education in Communication Studies using online materials.
-
-## Organization
-
-This repository is organized into three main components:
-
-- **Core Curriculum** (this page): the foundational knowledge of the field;
-- **[Advanced Topics](advanced_topics.md)**: focused study in specific areas;
-- **[Projects](projects.md)**: support learning through practical application throughout the curriculum.
-
-**Process:** Learners may work through the curriculum independently or collaboratively, and either sequentially or selectively.
-
-- For simplicity, courses in the Core Curriculum are ordered according to their prerequisites.
-- The Core Curriculum provides a shared foundation and is intended to be completed in full.
-- Advanced Topics are optional; learners are encouraged to select one area of focus and complete all courses within that topic.
-
-Practical work is integrated through the [Projects section](projects.md) and may be undertaken alongside coursework.
-
-Note: When there are courses or books that don't fit into the curriculum but are otherwise of high quality,
-they belong in [extras/courses](extras/courses.md), [extras/readings](extras/readings.md).
+The Communication Studies curriculum is a complete education in Communication Studies using online materials. This curriculum aims to provides foundational knowledge in human communication theory, contexts, and practical ethical applications.
 
 **[How to contribute](/CONTRIBUTING.html)**
 
-# Communities
+## Communities
 
 - Subreddits:
     - [r/communication](https://www.reddit.com/r/communication/)
@@ -47,62 +28,123 @@ they belong in [extras/courses](extras/courses.md), [extras/readings](extras/rea
     - [STC (Society for Technical Communication) Slack](https://stc-org.slack.com/) (membership required)
     - [PR and Communications Pros Slack](https://prnews.slack.com/) (request invite)
 - You can also interact through [GitHub issues](https://github.com/hocbigg/communication-studies/issues). If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation. Read more [here](/CONTRIBUTING.html).
-- Join our Discord server (for discussions around this and other curricula): 
-    
-    [![discord link](/assets/discord.png)](https://discord.gg/KHqAv4Nvm5)
 
-# Curriculum
+## Curriculum
 
-Everyone should complete the following four sections in sequence (before moving to [Advanced Topics](advanced_topics.md)). They form the essential foundation that every communication student needs:
+### Communication Theory & Foundational Models
 
-## Foundations of Communication
+Surveys the major models, historical paradigms, and theoretical frameworks that define communication as a human and social science.
 
-This section introduces the foundational concepts, historical models, ethical principles, and core rhetorical and written competencies of the discipline.
+[Introduction to Communication Science (Coursera / University of Amsterdam)](https://www.coursera.org/learn/communication) - Foundational MOOC exploring linear, interactional, and transactional models along with the major paradigms shaping communication as an academic science.
 
-| Subject | Why study? | Book | Videos |
-| --- | --- | --- | --- |
-| What Communication Is | This gives you a clear conceptual map of how messages are created, transmitted, received, and interpreted across diverse human contexts. | [Communication in the Real World](https://socialsci.libretexts.org/Bookshelves/Communication/Introduction_to_Communication/Communication_in_the_Real_World_-_An_Introduction_to_Communication_Studies) (LibreTexts) | [Coursera: Introduction to Communication Science](https://www.coursera.org/learn/communication-science) (University of Amsterdam) |
-| Communication Models & Traditions | You understand the linear, interactive, and transactional models, as well as the seven major theoretical traditions (Craig) shaping communication inquiry. | [Survey of Communication Study](https://socialsci.libretexts.org/Bookshelves/Communication/Introduction_to_Communication/Survey_of_Communication_Study) (Paynton & Hahn, LibreTexts) | [Coursera: Introduction to Communication Science](https://www.coursera.org/learn/communication-science) (Theoretical Models Module) |
-| Communication Ethics | You learn to recognize and evaluate moral dilemmas in human communication using ethical frameworks such as the NCA Credo for Ethical Communication. | [Ethics in Communication](https://socialsci.libretexts.org/Bookshelves/Communication/Ethics_in_Communication) (LibreTexts) | National Communication Association (NCA): Credo and Ethics Case Studies |
-| Public Speaking & Rhetoric | You gain essential skills in oral presentation, classical rhetorical appeals (ethos, pathos, logos), audience analysis, and persuasive argumentation. | [Stand up, Speak out: The Practice and Ethics of Public Speaking](https://open.umn.edu/opentextbooks/textbooks/159) | [Coursera: Introduction to Public Speaking](https://www.coursera.org/learn/public-speaking) (University of Washington) |
-| Academic Writing & Disciplinary Inquiry | You master the conventions of scholarly communication, evidence synthesis, thesis development, and clear analytical writing for the discipline. | [OpenStax Writing Guide with Handbook](https://openstax.org/details/books/writing-guide) | [Coursera: English Composition I](https://www.coursera.org/learn/english-composition) (Duke University) |
+[Communication in the Real World: An Introduction to Communication Studies (Open Textbook Library / University of Minnesota Libraries Publishing)](https://open.umn.edu/opentextbooks/textbooks/communication-in-the-real-world-an-introduction-to-communication-studies) - Comprehensive open textbook providing a survey of communication foundations across interpersonal, group, public, and media contexts.
 
-## Human Interaction & Meaning
+[Introduction to Communication (LibreTexts / Scott T. Paynton & Laura K. Hahn)](https://socialsci.libretexts.org/Bookshelves/Communication/Introduction_to_Communication/Introduction_to_Communication_(Paynton_and_Hahn)) - Open textbook covering the history of communication inquiry, constitutive models, and Robert Craig's seven theoretical traditions.
 
-This section focuses on face-to-face and relational communication, covering interpersonal dynamics, nonverbal communication, symbolic identity, and group interaction.
+[A First Look at Communication Theory (McGraw-Hill / Em Griffin, Andrew Ledbetter, & Glenn Sparks)](https://books.google.com/books?isbn=9781264296101) - The field's standard undergraduate text detailing over thirty core theories across interpersonal, group, cultural, and mass media contexts.
 
-| Subject | Why study? | Book | Videos |
-| --- | --- | --- | --- |
-| Interpersonal Communication | You explore relational dynamics, disclosure, conflict management, and foundational theories like Social Penetration and Relational Dialectics. | [Interpersonal Communication: A Mindful Approach to Relationships](https://milneopentextbooks.org/interpersonal-communication-a-mindful-approach-to-relationships/) (2nd ed., Milne Open Textbooks) | [Coursera: Interpersonal Skills](https://www.coursera.org/learn/interpersonal-skills) (Shanghai Jiao Tong University) |
-| Nonverbal Communication | You learn how nonverbal channels (kinesics, proxemics, haptics, paralanguage, and chronemics) convey emotion, establish power, and regulate talk. | [Communication in the Real World](https://socialsci.libretexts.org/Bookshelves/Communication/Introduction_to_Communication/Communication_in_the_Real_World_-_An_Introduction_to_Communication_Studies) (Chapter 4: Nonverbal Communication) | CrashCourse Sociology: Social Interaction and Nonverbal Cues |
-| Symbolic Interaction & Identity | You examine how humans use language and symbols to construct social reality, personal identity, and the looking-glass self through interaction. | [Communication in the Real World](https://socialsci.libretexts.org/Bookshelves/Communication/Introduction_to_Communication/Communication_in_the_Real_World_-_An_Introduction_to_Communication_Studies) (Chapter 2: Perception and Self) | CrashCourse Sociology: Social Development & Symbolic Interactionism |
-| Small Group & Team Communication | You master small group communication dynamics, including group roles, norms, decision-making procedures, leadership styles, and groupthink prevention. | [Communication in the Real World](https://socialsci.libretexts.org/Bookshelves/Communication/Introduction_to_Communication/Communication_in_the_Real_World_-_An_Introduction_to_Communication_Studies) (Chapters 13–14: Small Group Communication) | Open Educational Lectures: Small Group Dynamics and Leadership |
-| Listening & Relational Dialogue | You develop active and critical listening competencies, examine listening barriers, and learn principles of constructive dialogic communication. | [Communication in the Real World](https://socialsci.libretexts.org/Bookshelves/Communication/Introduction_to_Communication/Communication_in_the_Real_World_-_An_Introduction_to_Communication_Studies) (Chapter 5: Listening) | [Coursera: Active Listening](https://www.coursera.org/learn/active-listening-enhancing-communication-skills) |
+[A First Look at Communication Theory: Conversations with Theorists (afirstlook.com)](https://www.afirstlook.com) - Video interviews with prominent scholars explaining their theoretical models and empirical discoveries.
 
-## Media, Culture & Power
+### Public Speaking & Classical Rhetoric
 
-Expanding your perspective to macro-level systems, exploring mass media effects, semiotic representation, digital networked society, and intercultural communication.
+Covers the principles of speech invention, structural organization, audience analysis, and classical rhetorical appeals for effective civic advocacy.
 
-| Subject | Why study? | Book | Videos |
-| --- | --- | --- | --- |
-| Mass Communication & Media Effects | You examine the structure of media industries and study major theoretical effects, including Agenda-Setting, Framing, Cultivation, and Uses & Gratifications. | [Media, Society, Culture, and You](https://open.umn.edu/opentextbooks/textbooks/media-society-culture-and-you) & [Mass Communication, Media, and Culture](https://socialsci.libretexts.org/Bookshelves/Communication/Introduction_to_Communication/Mass_Communication_Media_and_Culture_-_An_Introduction_to_Mass_Communication) (LibreTexts) | CrashCourse: Media Literacy (Series on Media History & Effects) |
-| Semiotics & Representation | You learn to deconstruct cultural texts and visual media through semiotic analysis (signifier/signified) and Stuart Hall's encoding/decoding model. | [Communication in the Real World](https://socialsci.libretexts.org/Bookshelves/Communication/Introduction_to_Communication/Communication_in_the_Real_World_-_An_Introduction_to_Communication_Studies) (relevant chapters) | CrashCourse: Media Literacy (Representation & Media Ownership) |
-| Digital Media & Networked Society | You analyze how computer-mediated communication, digital platforms, networked publics, algorithms, and online privacy reshape human connection. | [Media, Society, Culture, and You](https://open.umn.edu/opentextbooks/textbooks/media-society-culture-and-you) (Chapters on Digital Culture & Social Media) | CrashCourse: Media Literacy (Digital Literacy & Online Information) |
-| Culture & Communication | You investigate intercultural communication competence, high- and low-context cultures, cultural dimensions, and power dynamics across diverse communities. | [Intercultural Communication](https://socialsci.libretexts.org/Bookshelves/Communication/Intercultural_Communication) (LibreTexts) | [FutureLearn: Intercultural Communication](https://www.futurelearn.com/courses/intercultural-communication) (Shanghai International Studies University) |
+[Stand up, Speak out: The Practice and Ethics of Public Speaking (Open Textbook Library / University of Minnesota Libraries)](https://open.umn.edu/opentextbooks/textbooks/159) - Comprehensive open textbook teaching speech organization, audience analysis, argument construction, and delivery.
 
-## Research Methods in Communication
+[Introduction to Public Speaking (Coursera / University of Washington)](https://www.coursera.org/learn/public-speaking) - Practical course focused on conquering speech anxiety, organizing points logically, and delivering persuasive oral arguments.
 
-This section equips you with the qualitative, quantitative, and textual methodologies needed to evaluate and conduct empirical and critical communication research.
+[Rhetoric: The Art of Persuasive Writing and Public Speaking (Harvard University / edX)](https://pll.harvard.edu/course/rhetoric-art-persuasive-writing-and-public-speaking) - Systematic introduction to classical rhetorical appeals (ethos, pathos, logos), argument structure, and civic oratory.
 
-| Subject | Why study? | Book | Videos |
-| --- | --- | --- | --- |
-| Foundations of Communication Inquiry | You understand the epistemology, ontology, and ethics of communication inquiry, learning how to formulate research questions and review literature. | [Social Science Research: Principles, Methods, and Practices](https://digitalcommons.usf.edu/oa_textbooks/3/) (Bhattacherjee, USF Digital Commons) | [Coursera: Understanding Research Methods](https://www.coursera.org/learn/research-methods) (SOAS University of London) |
-| Qualitative & Textual Methods | You learn to design and conduct qualitative studies using in-depth interviews, focus groups, participant observation, thematic coding, and textual analysis. | [Social Science Research](https://digitalcommons.usf.edu/oa_textbooks/3/) (Qualitative chapters) & Saldaña, *The Coding Manual for Qualitative Researchers* | [Coursera: Qualitative Research Methods](https://www.coursera.org/learn/qualitative-methods) (University of Amsterdam) |
-| Quantitative Methods & Data Analysis | You master empirical research design (surveys, experiments, quantitative content analysis) and learn to compute, interpret, and report descriptive and inferential statistics. | [OpenIntro Statistics](https://www.openintro.org/book/os/) & [Social Science Research](https://digitalcommons.usf.edu/oa_textbooks/3/) (Quantitative chapters) | [Coursera: Quantitative Methods](https://www.coursera.org/learn/quantitative-methods) (University of Amsterdam) |
+### Rhetorical Criticism
 
-# Code of conduct
+Teaches systematic methods for analyzing, deconstructing, and evaluating persuasive symbols, public speeches, and cultural artifacts.
 
-[Hocbigg's code of conduct](https://github.com/hocbigg/code-of-conduct).
+[Rhetorical Criticism: Exploration and Practice (Waveland Press / Sonja K. Foss)](https://books.google.com/books?isbn=9781478634898) - Definitive undergraduate textbook introducing ten established methods for analyzing persuasive artifacts, including Neo-Aristotelian, narrative, metaphor, and ideological criticism.
 
+[Rhetorical Criticism (LibreTexts / Scott T. Paynton & Laura K. Hahn)](https://socialsci.libretexts.org/Bookshelves/Communication/Introduction_to_Communication/Introduction_to_Communication_(Paynton_and_Hahn)/07%3A_Rhetorical_Criticism) - Structured open chapter introducing the purpose of rhetorical critique, symbolic manipulation, and key critical traditions.
 
+### Interpersonal Communication
 
+Examines dyadic communication processes, identity negotiation, relational stages, dialectical tensions, and conflict resolution in personal and professional relationships.
+
+[Interpersonal Communication: A Mindful Approach to Relationships (Milne Open Textbooks / Jason S. Wrench, Narissra M. Punyanunt-Carter, & Katherine S. Thweatt)](https://milneopentextbooks.org/interpersonal-communication-a-mindful-approach-to-relationships/) - Open textbook covering social perception, self-concept, relational dialectics, active listening, and interpersonal conflict.
+
+[Interpersonal Communication: Everyday Encounters (Cengage / Julia T. Wood)](https://books.google.com/books?isbn=9780357032947) - Canonical textbook examining interpersonal theories, listening competencies, relationship lifecycles, and diverse social contexts.
+
+### Nonverbal Communication
+
+Explores the codes, channels, and social functions of nonverbal messaging, including kinesics, proxemics, haptics, and vocalic expression.
+
+[Nonverbal Communication in Human Interaction (Cengage / Mark L. Knapp, Judith A. Hall, & Terrence G. Horgan)](https://books.google.com/books?isbn=9781133311591) - Definitive, research-backed textbook covering kinesics, proxemics, haptics, vocalics, and facial expression in human encounters.
+
+[Nonverbal Communication (LibreTexts / Scott T. Paynton & Laura K. Hahn)](https://socialsci.libretexts.org/Bookshelves/Communication/Introduction_to_Communication/Introduction_to_Communication_(Paynton_and_Hahn)/03%3A_Nonverbal_Communication) - Concise open chapter surveying the primary functions, environmental contexts, and code categories of nonverbal behavior.
+
+### Group & Organizational Communication
+
+Investigates small group dynamics, team decision-making processes, leadership styles, and communication networks within complex organizations.
+
+[Organizational Communication: Theory, Research, and Practice (LibreTexts)](https://socialsci.libretexts.org/Bookshelves/Communication/Organizational_Communication/Organizational_Communication_-_Theory_Research_and_Practice) - Complete open textbook analyzing classical and modern organizational theories, communication networks, workplace culture, and leadership.
+
+[COMS 120: Small Group Communication (LibreTexts / Victoria Osborne)](https://socialsci.libretexts.org/Bookshelves/Communication/Small_Group_Communication/COMS_120%3A_Small_Group_Communication_(Osborne)) - Open textbook focusing on group development stages, member roles, team decision-making, and groupthink mitigation.
+
+[Organizational Communication Channel (YouTube / Dr. Alex Lyon)](https://www.youtube.com/@AlexLyonCommunicationCoach) - Dedicated lecture series by a communication professor covering systems theory, leadership communication, and team dynamics.
+
+### Mass Communication & Media Effects
+
+Studies the historical development of mass media industries and the social scientific theories explaining their psychological and societal effects.
+
+[Mass Communication, Media, and Culture (LibreTexts)](https://socialsci.libretexts.org/Bookshelves/Communication/Introduction_to_Communication/Mass_Communication_Media_and_Culture_-_An_Introduction_to_Mass_Communication) - Comprehensive open textbook on the structure of mass media industries, history, and empirical effect models.
+
+[Media Effects (SAGE / W. James Potter)](https://books.google.com/books?isbn=9781412964692) - Canonical textbook providing systematic frameworks for analyzing how media influence individuals' cognitions, beliefs, and behaviors across society.
+
+[Media, Society, Culture, and You (Open Textbook Library / Mark Poepsel)](https://open.umn.edu/opentextbooks/textbooks/media-society-culture-and-you) - Accessible open textbook exploring media convergence, cultural dissemination, and information gatekeeping.
+
+[Media Literacy (YouTube / CrashCourse)](https://www.youtube.com/playlist?list=PL8dPuuaLjXtM6jSpzb5gMNsx9kdmqBfmY) - Complete 12-part video series outlining agenda-setting, cultivation theory, framing, and critical media consumption.
+
+### Critical Media Studies, Semiotics & Representation
+
+Applies semiotic, ideological, and cultural studies frameworks to analyze how media texts construct social reality, identity, and power structures.
+
+[Representation: Cultural Representations and Signifying Practices (SAGE / Stuart Hall, Jessica Evans, & Sean Nixon)](https://books.google.com/books?isbn=9781849205634) - Seminal cultural studies text dissecting how language, semiotic signs, and discursive power produce meaning.
+
+[Critical Media Studies: An Introduction (Wiley-Blackwell / Brian L. Ott & Robert L. Mack)](https://books.google.com/books?isbn=9781119406129) - Leading undergraduate textbook providing critical perspectives on media technologies, industries, messages, and audiences.
+
+[Media Studies 101 (Open Textbook Library / Media Texthack Group)](https://open.umn.edu/opentextbooks/textbooks/media-studies-101) - Open introductory text detailing semiotic theory, ideology, cultural institutions, and media reception.
+
+### Digital Media & Networked Society
+
+Analyzes computer-mediated communication, networked publics, online identity, platform mechanics, and the societal implications of algorithmic systems.
+
+[Digital Media and Society (Polity / Simon Lindgren)](https://books.google.com/books?isbn=9781509541782) - Sociological and communicative examination of computer-mediated interaction, networked publics, platforms, and algorithmic culture.
+
+[Introduction to Communication and Media Studies (Open Textbook Library / J.J. Sylvia IV)](https://open.umn.edu/opentextbooks/textbooks/introduction-to-communication-and-media-studies) - Open textbook exploring digital convergence, data culture, social platforms, and the transformation of modern communication technologies.
+
+### Intercultural Communication
+
+Investigates how culture shapes communicative practices, values, and worldviews, fostering competence across diverse intercultural contexts.
+
+[Intercultural Communication in Contexts (McGraw-Hill / Judith N. Martin & Thomas K. Nakayama)](https://books.google.com/books?isbn=9781260837452) - Canonical textbook integrating social-scientific, interpretive, and critical approaches to intercultural interaction.
+
+[Exploring Intercultural Communication (LibreTexts / Tom Grothe)](https://socialsci.libretexts.org/Bookshelves/Communication/Intercultural_Communication/Exploring_Intercultural_Communication_(Grothe)) - Open textbook exploring cultural value dimensions, avowed and ascribed identity, culture shock, and intercultural communication competence.
+
+[Intercultural Communication (FutureLearn / Shanghai International Studies University)](https://www.futurelearn.com/courses/intercultural-communication) - Structured MOOC examining how culture shapes verbal styles, nonverbal codes, and cross-cultural conflict resolution.
+
+### Communication Ethics
+
+Explores the philosophical principles, moral frameworks, and civic responsibilities governing human communication across personal, public, and mediated interactions.
+
+[Ethics in Human Communication (Waveland Press / Richard L. Johannesen, Kathleen S. Valde, & Karen E. Whedbee)](https://books.google.com/books?isbn=9781577665557) - Canonical textbook detailing philosophical frameworks, dialogic ethics, democratic standards, and moral responsibilities in human messaging.
+
+[Media Ethics and Governance (Coursera / University of Amsterdam)](https://www.coursera.org/learn/media-ethics-governance) - Structured course covering ethical perspectives, institutional accountability, and moral decision-making models.
+
+[Ethics of Communication (Coursera / University of Notre Dame)](https://www.coursera.org/learn/ethics-of-communication) - Applied course examining the moral dimensions of relational communication, active listening, and conflict management.
+
+### Communication Inquiry & Research Literacy
+
+Introduces the foundational ways communication scholars conceptualize inquiry, ask questions, and interpret quantitative, qualitative, and rhetorical evidence.
+
+[Introduction to Communication Research: Becoming a Scholar (GALILEO Open Learning Materials / Lindsey Jo Hand, Erin Ryan, & Karen Sichler)](https://oer.galileo.usg.edu/communication-textbooks/3/) - Open textbook specifically designed to help undergraduate communication students understand, analyze, and evaluate scholarly research.
+
+[Understanding Communication Research Methods: A Theoretical and Practical Approach (Routledge / Stephen M. Croucher & Daniel Cronn-Mills)](https://books.google.com/books?isbn=9780367623661) - Comprehensive undergraduate text demystifying quantitative, qualitative, and critical research paradigms within communication studies.
+
+[Social Science Research: Principles, Methods, and Practices (USF Digital Commons / Anol Bhattacherjee)](https://digitalcommons.usf.edu/oa_textbooks/3/) - Accessible open textbook detailing the scientific method, research design principles, and empirical measurement in social research.

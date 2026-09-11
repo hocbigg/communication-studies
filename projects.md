@@ -4,50 +4,64 @@ A curated collection of step-by-step walkthroughs, methodological guides, open t
 
 > *What I cannot create, I do not understand.* — Richard Feynman
 
-## Rhetorical Criticism & Public Address
+## Write a Rhetorical or Textual Analysis
 
-- [Rhetorical Analysis: A Step-by-Step Guide](https://owl.purdue.edu/owl/general_writing/academic_writing/rhetorical_analysis/index.html) – Purdue Online Writing Lab (Purdue OWL)
-- [Visual Rhetorical Analysis Walkthrough](https://owl.purdue.edu/owl/general_writing/academic_writing/rhetorical_situation/example1.html) – Purdue Online Writing Lab (Purdue OWL)
-- [Silva Rhetoricae: The Forest of Rhetoric Guidebook](https://rhetoric.byu.edu/) – Gideon Burton, Brigham Young University
-- [Rhetorical Criticism: Exploration and Practice (Methodological Chapters)](https://www.waveland.com/browse.php?t=619) – Sonja K. Foss (Waveland Press)
+- [Rhetorical Situations: Elements and Analysis (Purdue OWL)](https://owl.purdue.edu/owl/general_writing/academic_writing/rhetorical_situation/index.html)
+- [Organizing a Rhetorical Analysis: Structure and Strategy (Purdue OWL)](https://owl.purdue.edu/owl/general_writing/visual_rhetoric/analyzing_visual_documents/organizing_your_analysis.html)
+- [Visual Rhetoric: Analyzing Visual Documents (Purdue OWL)](https://owl.purdue.edu/owl/general_writing/visual_rhetoric/analyzing_visual_documents/index.html)
+- [Rhetorical Analysis: Evaluating Persuasive Strategies (Texas A&M University Writing Center)](https://writingcenter.tamu.edu/writing-speaking-guides/rhetorical-analysis)
+- [Rhetorical Analysis Process and Student Sample (OpenStax)](https://openstax.org/books/writing-guide/pages/9-4-annotated-student-sample-rhetorical-analysis-evicted-by-matthew-desmond-by-eliana-evans)
+- [Rhetorical Criticism: Exploration and Practice (Sonja K. Foss / Waveland Press)](https://books.google.com/books?isbn=9781478634898) [Paid Resource]
 
-## Qualitative Fieldwork & Relational Inquiry
+## Conduct a Field Interview or Focus Group Study
 
-- [Conducting Primary Qualitative Research: Interviewing & Observation](https://owl.purdue.edu/owl/research_and_citation/conducting_research/conducting_primary_research/index.html) – Purdue Online Writing Lab (Purdue OWL)
-- [Conducting Focus Groups: Step-by-Step Community Research Guide](https://ctb.ku.edu/en/table-of-contents/assessment/assessing-community-needs-and-resources/conducting-focus-groups/main) – Community Tool Box, Center for Community Health and Development, University of Kansas
-- [Reflexive Thematic Analysis: The 6-Phase Methodological Walkthrough](https://www.tandfonline.com/doi/abs/10.1191/1478088706qp063oa) – Virginia Braun & Victoria Clarke (Qualitative Research in Psychology)
-- [The Coding Manual for Qualitative Researchers: Coding Methods Guide](https://us.sagepub.com/en-us/nam/the-coding-manual-for-qualitative-researchers/book243616) – Johnny Saldaña (SAGE Publishing)
+- [Conducting Interviews: Step-by-Step Field Guide (Community Tool Box / University of Kansas)](https://ctb.ku.edu/en/table-of-contents/assessment/assessing-community-needs-and-resources/conducting-interviews/main)
+- [Conducting Focus Groups: Step-by-Step Community Research Guide (Community Tool Box / University of Kansas)](https://ctb.ku.edu/en/table-of-contents/assessment/assessing-community-needs-and-resources/conducting-focus-groups/main)
+- [Conducting Primary Qualitative Research: Interviewing (Purdue OWL)](https://owl.purdue.edu/owl/research_and_citation/conducting_research/conducting_primary_research/interviewing.html)
+- [Creating Good Interview and Survey Questions (Purdue OWL)](https://owl.purdue.edu/owl/research_and_citation/conducting_research/conducting_primary_research/interview_and_survey_questions.html)
+- [Reflexive Thematic Analysis: Six-Phase Practical Walkthrough (Virginia Braun & Victoria Clarke)](https://www.thematicanalysis.net/doing-reflexive-ta/)
+- [The Coding Manual for Qualitative Researchers (Johnny Saldaña / SAGE Publishing)](https://books.google.com/books?isbn=9781529731743) [Paid Resource]
 
-## Quantitative Content Analysis & Survey Design
+## Build a Quantitative Content Analysis and Codebook
 
-- [How to Conduct a Content Analysis: 7-Step Methodological Guide](https://paperpile.com/g/content-analysis) – Paperpile Academic Guides
-- [A Hands-on Guide to Doing Content Analysis](https://pmc.ncbi.nlm.nih.gov/articles/PMC6234169) – Erlingsson & Brysiewicz (African Journal of Emergency Medicine, Open Access via PMC)
-- [Creating Good Interview and Survey Questions](https://owl.purdue.edu/owl/research_and_citation/conducting_research/conducting_primary_research/interview_and_survey_questions.html) – Purdue Online Writing Lab (Purdue OWL)
-- [The Content Analysis Guidebook: Codebook Construction and Reliability Testing](https://academic.csuohio.edu/kneuendorf/content5/) – Kimberly A. Neuendorf (Cleveland State University / SAGE)
+- [The Content Analysis Guidebook Online: Codebook Construction, Reliability Calculators, and Message Archives (Kimberly A. Neuendorf / Cleveland State University)](http://academic.csuohio.edu/kneuendorf/content/)
+- [ReCal: Intercoder Reliability Calculation for Nominal, Ordinal, Interval, and Ratio Data (Deen Freelon)](https://dfreelon.org/utils/recalfront/)
+- [A Hands-on Guide to Doing Content Analysis (Christen Erlingsson & Petra Brysiewicz / African Journal of Emergency Medicine)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6234169/)
+- [How to Conduct a Content Analysis: 7-Step Methodological Guide (Paperpile Academic Guides)](https://paperpile.com/g/content-analysis)
+- [Conducting Surveys: Design, Sampling, and Administration Guide (Community Tool Box / University of Kansas)](https://ctb.ku.edu/en/table-of-contents/assessment/assessing-community-needs-and-resources/conducting-surveys/main)
 
-## Computational Communication & Network Analysis
+## Build a Computational Discourse or Social Network Model
 
-- [Exploring and Analyzing Network Data with Python](https://programminghistorian.org/en/lessons/exploring-and-analyzing-network-data-with-python) – John R. Ladd, Jessica Otis, Christopher N. Warren, & Scott Weingart (The Programming Historian)
-- [From Hermeneutics to Data to Networks: Data Extraction and Network Visualization](https://programminghistorian.org/en/lessons/creating-network-diagrams-from-historical-sources) – Marten Düring (The Programming Historian)
-- [Sentiment Analysis for Exploratory Data Analysis](https://programminghistorian.org/en/lessons/sentiment-analysis) – Zoe LeBlanc (The Programming Historian)
-- [Analyzing Documents with TF-IDF for Text Mining](https://programminghistorian.org/en/lessons/analyzing-documents-with-tfidf) – Matthew J. Lavin (The Programming Historian)
-- [Bit by Bit: Social Research in the Digital Age](https://www.bitbybitbook.com/) – Matthew J. Salganik (Princeton University Press Open Edition)
+- [Exploring and Analyzing Network Data with Python (The Programming Historian)](https://programminghistorian.org/en/lessons/exploring-and-analyzing-network-data-with-python)
+- [From Hermeneutics to Data to Networks: Data Extraction and Network Visualization of Historical Sources (The Programming Historian)](https://programminghistorian.org/en/lessons/creating-network-diagrams-from-historical-sources)
+- [Sentiment Analysis for Exploratory Data Analysis (The Programming Historian)](https://programminghistorian.org/en/lessons/sentiment-analysis)
+- [Analyzing Documents with TF-IDF for Text Mining (The Programming Historian)](https://programminghistorian.org/en/lessons/analyzing-documents-with-tfidf)
+- [Computational Analysis of Communication: Python Text and Network Pipelines (Wouter van Atteveldt, Damian Trilling, & Carlos Arcila Calderón)](https://cssbook.net/)
+- [Bit by Bit: Social Research in the Digital Age (Matthew J. Salganik / Princeton University Press)](https://www.bitbybitbook.com/)
 
-## Critical Discourse & Media Framing
+## Conduct a Critical Discourse Analysis of Media Messages
 
-- [How to Do Critical Discourse Analysis: A Multimodal Introduction](https://us.sagepub.com/en-us/nam/how-to-do-critical-discourse-analysis/book235805) – David Machin & Andrea Mayr (SAGE Publishing)
-- [How to Do Discourse Analysis: A Toolkit](https://www.routledge.com/How-to-do-Discourse-Analysis-A-Toolkit/Gee/p/book/9780367468187) – James Paul Gee (Routledge)
-- [Critical Discourse Analysis: The Critical Study of Language](https://www.routledge.com/Critical-Discourse-Analysis-The-Critical-Study-of-Language/Fairclough/p/book/9781408225760) – Norman Fairclough (Routledge)
+- [Multimodal Discourse Analysis Research Guide (Indiana University Pressbooks)](https://iu.pressbooks.pub/educ500/chapter/multimodal-discourse-analysis/)
+- [Critical Discourse Analysis: The Critical Study of Language (Norman Fairclough / Routledge)](https://books.google.com/books?isbn=9781405858229) [Paid Resource]
+- [How to Do Discourse Analysis: A Toolkit (James Paul Gee / Routledge)](https://books.google.com/books?isbn=9781003537991) [Paid Resource]
+- [How to Do Critical Discourse Analysis: A Multimodal Introduction (David Machin & Andrea Mayr / SAGE Publishing)](https://books.google.com/books?isbn=9780857028921) [Paid Resource]
 
-## Strategic Campaigns, PR & Public Health Interventions
+## Design a Strategic Communication or Public Health Campaign
 
-- [Developing a Plan for Communication: Step-by-Step Strategic Framework](https://ctb.ku.edu/en/table-of-contents/participation/promoting-involvement/communications-plan/main) – Community Tool Box, University of Kansas
-- [Strategic Communication Campaigns: Formative Research & Evaluation](https://www.coursera.org/specializations/strategic-communication-campaigns) – University of Colorado Boulder (Coursera)
-- [CDC Gateway to Health Communication & Social Marketing Practice](https://www.cdc.gov/healthcommunication/) – Centers for Disease Control and Prevention (CDC)
-- [Strategic Planning for Public Relations: 12-Step Campaign Model](https://www.routledge.com/Strategic-Planning-for-Public-Relations/Smith/p/book/9780367903848) – Ronald D. Smith (Routledge)
+- [Developing a Plan for Communication: Step-by-Step Strategic Framework (Community Tool Box / University of Kansas)](https://ctb.ku.edu/en/table-of-contents/participation/promoting-involvement/communications-plan/main)
+- [CDC Gateway to Health Communication & Social Marketing Practice (Centers for Disease Control and Prevention)](https://www.cdc.gov/healthcommunication/index.html)
+- [Making Health Communication Programs Work: The Pink Book (National Cancer Institute / NIH)](https://www.cancer.gov/publications/health-communication/pink-book.pdf)
+- [Strategic Planning for Public Relations: 12-Step Campaign Model (Ronald D. Smith / Routledge)](https://books.google.com/books?isbn=9781032391168) [Paid Resource]
 
-## Theoretical Frameworks & Systematic Literature Reviews
+## Draft an Organizational Crisis Communication Plan
 
-- [Organizing Your Social Sciences Research Paper: Theoretical Framework](https://libguides.usc.edu/writingguide/theoreticalframework) – University of Southern California (USC Libraries Research Guides)
-- [Organizing Your Social Sciences Research Paper: The Literature Review](https://libguides.usc.edu/writingguide/literaturereview) – University of Southern California (USC Libraries Research Guides)
-- [How to Write a Literature Review Guide](https://www.sjsu.edu/writingcenter/docs/handouts/Literature%20Reviews.pdf) – San José State University Writing Center
+- [Crisis and Emergency Risk Communication (CERC) Manual & Templates (Centers for Disease Control and Prevention)](https://www.cdc.gov/cerc/)
+- [Crisis Communications Plan Development Guide (Ready.gov / Federal Emergency Management Agency)](https://www.ready.gov/crisis-communications-plan)
+- [Ongoing Crisis Communication: Planning, Managing, and Responding (W. Timothy Coombs / SAGE Publishing)](https://books.google.com/books?isbn=9781071816622) [Paid Resource]
+
+## Author a Literature Review and Theoretical Synthesis
+
+- [Organizing Your Social Sciences Research Paper: 5. The Literature Review (USC Libraries Research Guides)](https://libguides.usc.edu/writingguide/literaturereview)
+- [Organizing Your Social Sciences Research Paper: Theoretical Framework (USC Libraries Research Guides)](https://libguides.usc.edu/writingguide/theoreticalframework)
+- [Synthesizing Research Evidence: A Step-by-Step Guide to Academic Literature Reviews (San José State University Writing Center)](https://www.sjsu.edu/writingcenter/docs/handouts/Literature%20Reviews.pdf)
+- [The Craft of Research: Planning, Drafting, and Revising Empirical Projects (Wayne C. Booth et al. / University of Chicago Press)](https://books.google.com/books?isbn=9780226239736) [Paid Resource]
