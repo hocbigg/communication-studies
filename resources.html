@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+
+  <title>Resources</title>
+  <meta name="description" content="A lightweight static page by hocbigg.">
+  <meta name="author" content="hocbigg">
+
+  <link rel="canonical" href="https://hocbigg.github.io/communication-studies/resources.html">
+  <meta property="og:title" content="Resources">
+  <meta property="og:description" content="A lightweight static page by hocbigg.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hocbigg.github.io/communication-studies/resources.html">
+  <link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
+
+  <style>
+:root {
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #595959;
+  --border: #e0e0e0;
+  --th-bg: #f6f8fa;
+  --code-bg: #f4f4f4;
+  --link: #0969da;
+  --focus-ring: #0969da;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117;
+    --fg: #e6edf3;
+    --muted: #8b949e;
+    --border: #30363d;
+    --th-bg: #161b22;
+    --code-bg: #161b22;
+    --link: #58a6ff;
+    --focus-ring: #58a6ff;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1.5rem auto;
+  max-width: min(60rem, 92vw);
+  padding: 0 0.75rem 3.5rem;
+  background-color: var(--bg);
+  color: var(--fg);
+  font: 1.15rem/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  word-wrap: break-word;
+}
+
+.site-header {
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1rem;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.5rem 1.25rem;
+  font-size: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+nav a:hover, 
+nav a:focus-visible {
+  color: var(--fg);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+nav .nav-brand {
+  color: var(--fg);
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.skip-link {
+  position: absolute;
+  top: -9999px;
+  left: 1rem;
+  background: var(--fg);
+  color: var(--bg);
+  padding: 0.5rem 1rem;
+  z-index: 100;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+}
+.skip-link:focus {
+  top: 1rem;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;
+  margin-top: 1.75em;
+  margin-bottom: 0.5em;
+  color: var(--fg);
+}
+h1 { font-size: 1.85rem; margin-top: 0.5em; }
+h2 { font-size: 1.45rem; }
+h3 { font-size: 1.2rem; }
+
+p, ul, ol, blockquote, table {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+li > ul,
+li > ol {
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.page-header img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.875em;
+  background-color: var(--code-bg);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+pre {
+  background-color: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+  tab-size: 2;
+}
+pre code {
+  background: transparent;
+  padding: 0;
+  border: none;
+  font-size: 0.9rem;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.6rem 0.75rem;
+  vertical-align: top;
+}
+th {
+  background-color: var(--th-bg);
+  font-weight: 600;
+}
+
+blockquote {
+  border-left: 4px solid var(--border);
+  padding-left: 1rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+@media print {
+  body {
+    max-width: none;
+    color: #000;
+    background: #fff;
+  }
+  .skip-link, nav {
+    display: none;
+  }
+}
+  </style>
+</head>
+<body>
+
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header class="site-header">
+    <nav aria-label="Main Navigation">
+    <ul>
+      <li><a href="https://hocbigg.github.io/" class="nav-brand">Hocbigg</a></li>
+      <li><a href="/communication-studies/">Communication Studies</a></li>
+      <li><a href="/communication-studies/advanced_topics.html">Advanced Topics</a></li>
+      <li><a href="/communication-studies/projects.html">Projects</a></li>
+      <li><a href="/communication-studies/extras/readings.html">Extra Readings</a></li>
+      <li><a href="/communication-studies/extras/courses.html">Extra Courses</a></li>
+      <li><a href="/communication-studies/resources.html">Resources</a></li>
+      <li><a href="/communication-studies/extras/other_curricula.html">Other Curricula</a></li>
+      <li><a href="https://github.com/hocbigg/" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in new tab)</span></a></li>
+    </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <article>
+
+<h1 id="resources">Resources</h1>
+<p>A curated collection of practical reference websites, primary-source archives, empirical datasets, and professional portals for self-directed study in Communication Studies.</p>
+<h2 id="public-address-speeches-rhetorical-archives">Public Address, Speeches &amp; Rhetorical Archives</h2>
+<p>Collections of historical speeches, transcripts, rhetorical figures, and political campaign media for rhetorical analysis and textual criticism.</p>
+<ul>
+<li><a href="https://www.americanrhetoric.com/" target="_blank" rel="noopener noreferrer">American Rhetoric (Michael E. Eidenmuller)</a> - Comprehensive index of over 5,000 full-text, audio, and video speeches, featuring the Top 100 American Speeches and an audio database of classical rhetorical figures.</li>
+<li><a href="https://www.livingroomcandidate.org/" target="_blank" rel="noopener noreferrer">The Living Room Candidate (Museum of the Moving Image)</a> - Searchable historical archive of American presidential campaign television commercials from 1952 to the present, complete with transcripts and historical context.</li>
+<li><a href="http://rhetoric.byu.edu/" target="_blank" rel="noopener noreferrer">Silva Rhetoricae: The Forest of Rhetoric (Dr. Gideon O. Burton / Brigham Young University)</a> - Authoritative online lexicon defining classical Greek and Latin rhetorical terms, persuasive appeals, and argumentation structures with examples.</li>
+<li><a href="https://voicesofdemocracy.umd.edu/" target="_blank" rel="noopener noreferrer">Voices of Democracy: The U.S. Oratory Project (University of Maryland)</a> - Scholarly database of authenticated historical speech texts, comprehensive interpretive essays, and research bibliographies on civic discourse.</li>
+<li><a href="https://awpc.cattcenter.iastate.edu/" target="_blank" rel="noopener noreferrer">Archives of Women's Political Communication (Carrie Chapman Catt Center / Iowa State University)</a> - Extensive digital repository of campaign advertisements, political speeches, and public statements by influential women political leaders and activists.</li>
+<li><a href="https://www.c-span.org/quickguide/" target="_blank" rel="noopener noreferrer">C-SPAN Video Library (National Cable Satellite Corporation)</a> - Searchable video archive containing over 250,000 hours of congressional sessions, White House press briefings, hearings, and civic programming since 1987.</li>
+</ul>
+<h2 id="media-research-audience-trends-public-opinion-data">Media Research, Audience Trends &amp; Public Opinion Data</h2>
+<p>Longitudinal survey research, demographic data, and empirical reports tracking digital platform behavior, journalism trends, and public opinion.</p>
+<ul>
+<li><a href="https://www.pewresearch.org/journalism/" target="_blank" rel="noopener noreferrer">Pew Research Center: Journalism &amp; Media (Pew Research Center)</a> - Nonpartisan open data and longitudinal reports evaluating newsroom trends, audience news habits, local journalism, and public trust in media.</li>
+<li><a href="https://www.pewresearch.org/internet/" target="_blank" rel="noopener noreferrer">Pew Research Center: Internet &amp; Technology (Pew Research Center)</a> - Empirical research and survey datasets measuring social media adoption, mobile device habits, algorithmic perception, and digital communications.</li>
+<li><a href="https://reutersinstitute.politics.ox.ac.uk/digital-news-report" target="_blank" rel="noopener noreferrer">Reuters Institute Digital News Report (Reuters Institute for the Study of Journalism / University of Oxford)</a> - The world's largest comparative study on global news consumption, digital media economics, news avoidance, and audience attitudes toward generative media.</li>
+<li><a href="https://news.gallup.com/topic/category_media.aspx" target="_blank" rel="noopener noreferrer">Gallup News: Media &amp; Communications (Gallup)</a> - Longitudinal polling tracking American confidence in mass media, public views of news bias, and long-term trends in communication channels.</li>
+</ul>
+<h2 id="broadcast-archives-fact-checking-misinformation-tracking">Broadcast Archives, Fact-Checking &amp; Misinformation Tracking</h2>
+<p>Broadcast monitoring vaults and systematic claim-verification platforms for analyzing media accuracy, message framing, and political discourse.</p>
+<ul>
+<li><a href="https://archive.org/details/tv" target="_blank" rel="noopener noreferrer">TV News Archive (Internet Archive)</a> - Searchable library of more than 3 million broadcast television news programs since 2009, enabling users to explore closed-caption text, trace soundbites, and compare framing across networks.</li>
+<li><a href="https://www.factcheck.org/" target="_blank" rel="noopener noreferrer">FactCheck.org (Annenberg Public Policy Center / University of Pennsylvania)</a> - Nonpartisan, nonprofit monitoring resource evaluating the factual accuracy of political ads, presidential speeches, and widely circulated media narratives.</li>
+<li><a href="https://www.politifact.com/" target="_blank" rel="noopener noreferrer">PolitiFact (Poynter Institute)</a> - Fact-checking database that rates the veracity of public claims by politicians and news figures using documented primary sourcing and the Truth-O-Meter.</li>
+</ul>
+<h2 id="media-law-telecommunications-policy-freedom-of-information">Media Law, Telecommunications Policy &amp; Freedom of Information</h2>
+<p>Official regulatory dockets, statutory compendiums, and digital advocacy documentation for examining communication law and information rights.</p>
+<ul>
+<li><a href="https://www.fcc.gov/ecfs/" target="_blank" rel="noopener noreferrer">Electronic Comment Filing System - ECFS (Federal Communications Commission)</a> - Public regulatory clearinghouse containing official filings, public comments, and administrative decisions on telecommunications, net neutrality, and broadcast licensing.</li>
+<li><a href="https://www.fcc.gov/edocs" target="_blank" rel="noopener noreferrer">Commission Documents - EDOCS (Federal Communications Commission)</a> - Searchable repository of FCC orders, notices of proposed rulemaking, public notices, and official actions dating back to 1996.</li>
+<li><a href="https://www.rcfp.org/open-government-guide/" target="_blank" rel="noopener noreferrer">Open Government Guide (The Reporters Committee for Freedom of the Press)</a> - Comprehensive legal compendium outlining open-records laws and open-meetings statutes across all 50 U.S. states and the District of Columbia.</li>
+<li><a href="https://www.eff.org/" target="_blank" rel="noopener noreferrer">Electronic Frontier Foundation (EFF)</a> - Civil liberties organization providing legal analysis, white papers, and policy updates regarding digital speech, privacy rights, and platform governance.</li>
+</ul>
+<h2 id="professional-communication-ethics-practice-standards">Professional Communication Ethics &amp; Practice Standards</h2>
+<p>Ethical frameworks, practice standards, and methodological guidelines for interpersonal, public relations, journalistic, and digital research contexts.</p>
+<ul>
+<li><a href="https://www.natcom.org/resolutions-and-statements" target="_blank" rel="noopener noreferrer">NCA Resolutions and Statements (National Communication Association)</a> - Official declarations of the primary discipline body, including the NCA Credo for Ethical Communication and credos on free expression in a democratic society.</li>
+<li><a href="https://www.spj.org/ethicscode.asp" target="_blank" rel="noopener noreferrer">SPJ Code of Ethics (Society of Professional Journalists)</a> - Benchmark code outlining four pillars of media responsibility: seek truth and report it, minimize harm, act independently, and be accountable and transparent.</li>
+<li><a href="https://www.prsa.org/about/ethics/prsa-code-of-ethics" target="_blank" rel="noopener noreferrer">PRSA Code of Ethics (Public Relations Society of America)</a> - Standard ethical framework for strategic communicators, covering core principles of advocacy, honesty, expertise, independence, loyalty, and fairness.</li>
+<li><a href="https://aoir.org/ethics/" target="_blank" rel="noopener noreferrer">AoIR Ethics Guidelines (Association of Internet Researchers)</a> - Definitive international guidance document covering ethical decision-making, participant privacy, data scraping, and consent in computational internet research.</li>
+<li><a href="https://www.poynter.org/ethics-standards/" target="_blank" rel="noopener noreferrer">Poynter Ethics &amp; Standards (The Poynter Institute)</a> - Practical collection of ethical decision-making models, newsroom guidelines, and practical starter kits for artificial intelligence governance in journalism.</li>
+</ul>
+<h2 id="open-science-academic-communication-repositories">Open Science &amp; Academic Communication Repositories</h2>
+<p>Diamond open-access journals and preprint archives facilitating direct discovery of contemporary peer-reviewed research across all communication subdisciplines.</p>
+<ul>
+<li><a href="https://socarxiv.org/" target="_blank" rel="noopener noreferrer">SocArXiv: Open Archive for the Social Sciences (Center for Open Science / University of Maryland)</a> - Open-access preprint repository hosting thousands of working papers and pre-publication manuscripts in communication science, sociology, and media studies.</li>
+<li><a href="https://ijoc.org/" target="_blank" rel="noopener noreferrer">International Journal of Communication (USC Annenberg Press)</a> - Leading diamond open-access, continuous-publication academic journal covering global communication theory, media policy, cultural studies, and political economy.</li>
+</ul>
+    </article>
+  </main>
+
+</body>
+</html>

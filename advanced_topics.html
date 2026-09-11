@@ -1,237 +1,314 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
 
-<title>Advanced Topics</title>
-<link rel="stylesheet" href="/communication-studies/style.css">
-<meta name="description" content="">
+  <title>Advanced Topics in Communication Studies</title>
+  <meta name="description" content="A lightweight static page by hocbigg.">
+  <meta name="author" content="hocbigg">
 
-<link rel="canonical" href="https://hocbigg.github.io/communication-studies/">
+  <link rel="canonical" href="https://hocbigg.github.io/communication-studies/advanced_topics.html">
+  <meta property="og:title" content="Advanced Topics in Communication Studies">
+  <meta property="og:description" content="A lightweight static page by hocbigg.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hocbigg.github.io/communication-studies/advanced_topics.html">
+  <link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
 
-<meta property="og:title" content="Advanced Topics">
-<meta property="og:description" content="">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://hocbigg.github.io/communication-studies/">
-<meta name="author" content="hocbigg">
-<link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
+  <style>
+:root {
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #595959;
+  --border: #e0e0e0;
+  --th-bg: #f6f8fa;
+  --code-bg: #f4f4f4;
+  --link: #0969da;
+  --focus-ring: #0969da;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117;
+    --fg: #e6edf3;
+    --muted: #8b949e;
+    --border: #30363d;
+    --th-bg: #161b22;
+    --code-bg: #161b22;
+    --link: #58a6ff;
+    --focus-ring: #58a6ff;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1.5rem auto;
+  max-width: min(60rem, 92vw);
+  padding: 0 0.75rem 3.5rem;
+  background-color: var(--bg);
+  color: var(--fg);
+  font: 1.15rem/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  word-wrap: break-word;
+}
+
+.site-header {
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1rem;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.5rem 1.25rem;
+  font-size: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+nav a:hover, 
+nav a:focus-visible {
+  color: var(--fg);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+nav .nav-brand {
+  color: var(--fg);
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.skip-link {
+  position: absolute;
+  top: -9999px;
+  left: 1rem;
+  background: var(--fg);
+  color: var(--bg);
+  padding: 0.5rem 1rem;
+  z-index: 100;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+}
+.skip-link:focus {
+  top: 1rem;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;
+  margin-top: 1.75em;
+  margin-bottom: 0.5em;
+  color: var(--fg);
+}
+h1 { font-size: 1.85rem; margin-top: 0.5em; }
+h2 { font-size: 1.45rem; }
+h3 { font-size: 1.2rem; }
+
+p, ul, ol, blockquote, table {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+li > ul,
+li > ol {
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.page-header img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.875em;
+  background-color: var(--code-bg);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+pre {
+  background-color: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+  tab-size: 2;
+}
+pre code {
+  background: transparent;
+  padding: 0;
+  border: none;
+  font-size: 0.9rem;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.6rem 0.75rem;
+  vertical-align: top;
+}
+th {
+  background-color: var(--th-bg);
+  font-weight: 600;
+}
+
+blockquote {
+  border-left: 4px solid var(--border);
+  padding-left: 1rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+@media print {
+  body {
+    max-width: none;
+    color: #000;
+    background: #fff;
+  }
+  .skip-link, nav {
+    display: none;
+  }
+}
+  </style>
 </head>
-
 <body>
 
-<nav>
-<a href="/">Hocbigg</a>
-<a href="/communication-studies/">Communication-Studies</a>
-<a href="/communication-studies/advanced_topics.html">Advanced Topics</a>
-<a href="/communication-studies/projects.html">Projects</a>
-<a href="/communication-studies/extras/courses.html">Extra Courses</a>
-<a href="/communication-studies/extras/readings.html">Extra Reading</a>
-<a href="https://github.com/hocbigg/communication-studies/" target="_blank">View on Github</a>
-</nav>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
 
-<main>
-<article>
+  <header class="site-header">
+    <nav aria-label="Main Navigation">
+    <ul>
+      <li><a href="https://hocbigg.github.io/" class="nav-brand">Hocbigg</a></li>
+      <li><a href="/communication-studies/">Communication Studies</a></li>
+      <li><a href="/communication-studies/advanced_topics.html">Advanced Topics</a></li>
+      <li><a href="/communication-studies/projects.html">Projects</a></li>
+      <li><a href="/communication-studies/extras/readings.html">Extra Readings</a></li>
+      <li><a href="/communication-studies/extras/courses.html">Extra Courses</a></li>
+      <li><a href="/communication-studies/resources.html">Resources</a></li>
+      <li><a href="/communication-studies/extras/other_curricula.html">Other Curricula</a></li>
+      <li><a href="https://github.com/hocbigg/" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in new tab)</span></a></li>
+    </ul>
+    </nav>
+  </header>
 
-<h1 id="advanced-topics">Advanced Topics</h1>
+  <main id="main-content">
+    <article>
+
+<h1 id="advanced-topics-in-communication-studies">Advanced Topics in Communication Studies</h1>
+<p>After completing the core foundational curriculum, select 1–2 specialization tracks that align with your research interests or professional goals. Each track provides advanced theoretical frameworks, empirical methodologies, and specialized literature.</p>
 <ul>
-<li><a href="#rhetoric--persuasion">Rhetoric &amp; Persuasion</a></li>
-<li><a href="#digital-communication-systems">Digital Communication Systems</a></li>
-<li><a href="#applied--professional-communication">Applied &amp; Professional Communication</a></li>
-<li><a href="#advanced-analysis--theory">Advanced Analysis &amp; Theory</a></li>
-<li><a href="#final-project">Final Project</a></li>
+<li><a href="#rhetorical-theory-politics--public-deliberation">Rhetorical Theory, Politics &amp; Public Deliberation</a>: Investigates how language, symbols, and arguments construct public knowledge, mobilize political action, and sustain democratic deliberation.</li>
+<li><a href="#digital-platforms-networks--computational-communication">Digital Platforms, Networks &amp; Computational Communication</a>: Explores platform architecture, algorithmic governance, digital surveillance, and computational methods for modeling online networks and discourse.</li>
+<li><a href="#strategic-organizational--crisis-communication">Strategic, Organizational &amp; Crisis Communication</a>: Focuses on how discourse, identity, power, and structured messaging coordinate human organizing, stakeholder engagement, and crisis resilience.</li>
+<li><a href="#health-science--environmental-communication">Health, Science &amp; Environmental Communication</a>: Examines how scientific knowledge, public health interventions, risk perception, and environmental advocacy are framed and disseminated to diverse publics.</li>
+<li><a href="#critical-cultural-studies--global-media-systems">Critical Cultural Studies &amp; Global Media Systems</a>: Deconstructs media hegemony, transnational information flows, cultural political economy, and ideological representation across global societies.</li>
 </ul>
-<p>The remaining four sections are optional specialization tracks. You do not need to study all of them. Pick one (or at most two) that match your personal interests, career goals, or curiosity after you finish the core.</p>
-<ul>
-<li>
-<p>IV. Rhetoric &amp; Persuasion  Choose this track if you want to learn how to create convincing messages, speeches, advertisements, campaigns, or public arguments.</p>
-</li>
-<li>
-<p>VI. Digital Communication Systems  Choose this track if you are especially interested in social media platforms, algorithms, online networks, data, and digital life.</p>
-</li>
-<li>
-<p>VII. Applied &amp; Professional Communication Choose this track if you want practical skills for jobs in public relations, marketing, corporate communication, international work, or professional settings.</p>
-</li>
-<li>
-<p>VIII. Advanced Analysis &amp; Theory  Choose this track if you are very interested in deep critical thinking, academic-style analysis, or if you plan to continue into graduate-level study later.</p>
-</li>
-</ul>
-<h2 id="rhetoric-persuasion">Rhetoric &amp; Persuasion</h2>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Why study?</th>
-<th>Book</th>
-<th>Videos</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Classical Rhetoric</td>
-<td>You master ancient techniques for constructing powerful, logical, and emotionally engaging spoken and written arguments.</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://rhetoric.byu.edu/">Silva Rhetoricae</a> (BYU)</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.edx.org/learn/rhetoric/harvard-university-rhetoric-the-art-of-persuasive-writing-and-public-speaking">HarvardX Rhetoric</a></td>
-</tr>
-<tr>
-<td>Persuasion Science</td>
-<td>You learn the research-proven psychological principles that make people say yes and change their behavior.</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/influencescience0000cial_k6u1">Cialdini</a></td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/learn/influencing-people">Coursera Michigan</a></td>
-</tr>
-<tr>
-<td>Visual &amp; Multimodal</td>
-<td>You develop the ability to create and critically analyze messages that combine words, images, sound, and design.</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/learn/multimodal-literacies">Visual &amp; Multimodal Communication</a></td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/learn/multimodal-literacies">Coursera Illinois</a></td>
-</tr>
-</tbody>
-</table>
-<h2 id="digital-communication-systems">Digital Communication Systems</h2>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Why study?</th>
-<th>Book</th>
-<th>Videos</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Platforms &amp; Algorithms</td>
-<td>You understand how major digital platforms shape what people see, say, and believe every day.</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Networked-Social-Operating-System-Press/dp/0262526166">Networked</a></td>
-<td>—</td>
-</tr>
-<tr>
-<td>Networks &amp; Social Media</td>
-<td>You learn how connections between people online create patterns, influence behavior, and spread information.</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.cs.cornell.edu/home/kleinber/networks-book/networks-book.pdf">Networks, Crowds &amp; Markets</a></td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/learn/social-network-analysis">Coursera SNA</a></td>
-</tr>
-<tr>
-<td>Data, Privacy &amp; Ethics</td>
-<td>You can identify and think critically about the ethical challenges of collecting, using, and protecting personal data online.</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/isbn_9781441183354">Ethics of Emerging Media</a></td>
-<td>—</td>
-</tr>
-</tbody>
-</table>
-<h2 id="applied-professional-communication">Applied &amp; Professional Communication</h2>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Why study?</th>
-<th>Book</th>
-<th>Videos</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Strategic Communication</td>
-<td>You learn how organizations plan and execute purposeful communication campaigns to achieve specific goals.</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/specializations/strategic-communication-campaigns">Strategic Communication</a></td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/learn/integrated-and-strategic-communication-campaigns">Coursera Colorado</a></td>
-</tr>
-<tr>
-<td>Professional Writing</td>
-<td>You master the formats, tone, and clarity needed for emails, reports, proposals, and other workplace documents.</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://openstax.org/details/books/writing-guide">OpenStax Writing Guide</a></td>
-<td>—</td>
-</tr>
-<tr>
-<td>Intercultural Practice</td>
-<td>You practice real-world skills for navigating cultural differences during work, travel, and international teamwork.</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://socialsci.libretexts.org/Bookshelves/Communication/Intercultural_Communication">Intercultural Comm (LibreTexts)</a></td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.futurelearn.com/courses/intercultural-communication">Coursera Shanghai</a></td>
-</tr>
-</tbody>
-</table>
-<h2 id="advanced-analysis-theory">Advanced Analysis &amp; Theory</h2>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Why study?</th>
-<th>Book</th>
-<th>Videos</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Cultural &amp; Critical Theory</td>
-<td>You gain powerful frameworks for analyzing how communication maintains or challenges power, inequality, and culture.</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/communicationasc0000care">Carey – Communication as Culture</a></td>
-<td>—</td>
-</tr>
-<tr>
-<td>Discourse Analysis</td>
-<td>You learn systematic ways to examine language use in talk and texts to reveal hidden ideologies and power relations.</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://us.sagepub.com/sites/default/files/upm-binaries/24614_01_Saldana_Ch_01.pdf">Doing Discourse Analysis</a></td>
-<td>—</td>
-</tr>
-<tr>
-<td>Global Media Systems</td>
-<td>You understand how media operate, flow, and influence people differently across countries and regions.</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://uk.sagepub.com/en-gb/eur/global-communication/book234369">Global Communication</a></td>
-<td>—</td>
-</tr>
-<tr>
-<td>Advanced Research</td>
-<td>You master complete research designs, from question to final report, at a graduate-level standard.</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://digitalcommons.usf.edu/oa_textbooks/3/">Creswell</a></td>
-<td>—</td>
-</tr>
-<tr>
-<td>Scholarly Writing</td>
-<td>You learn the advanced conventions, structure, and style needed to publish research articles in academic journals.</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://us.sagepub.com/sites/default/files/upm-binaries/24614_01_Saldana_Ch_01.pdf">Writing for Scholarly Publication</a></td>
-<td>—</td>
-</tr>
-</tbody>
-</table>
-<h2 id="final-project">Final Project</h2>
-<table>
-<thead>
-<tr>
-<th>Project Type</th>
-<th>Why study?</th>
-<th>Book</th>
-<th>Videos</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Empirical Research Project</td>
-<td>Apply method to real study.</td>
-<td><em><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Communication-Research-Methods-Gerianne-Merrigan/dp/0199338353">Communication Research Methods</a></em> (Merrigan &amp; Huston)</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/learn/research-methods">Understanding Research Methods (Coursera – SOAS)</a></td>
-</tr>
-<tr>
-<td>Strategic Communication Campaign</td>
-<td>Real campaign buildout.</td>
-<td><em><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Strategic-Planning-Public-Relations-Smith/dp/0367903849">Strategic Planning for Public Relations</a></em></td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/specializations/strategic-communication-campaigns">Strategic Communication Campaigns (Coursera – Colorado)</a></td>
-</tr>
-<tr>
-<td>Media/Cultural Analysis Portfolio</td>
-<td>Theory + analysis synthesis.</td>
-<td><em><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Media-Cultural-Studies-KeyWorks-Revised/dp/0470658088">Media and Cultural Studies: Keyworks</a></em></td>
-<td></td>
-</tr>
-<tr>
-<td>Digital Communication Prototype</td>
-<td>Prototype a digital artifact.</td>
-<td><em><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Design-Thinking-Strategic-Innovation-Game-Changing/dp/1118620127">Design Thinking for Strategic Innovation</a></em></td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/learn/prototyping-design">Prototyping and Design (Coursera – Minnesota)</a></td>
-</tr>
-</tbody>
-</table>
-</article>
-</main>
+<h2 id="rhetorical-theory-politics-public-deliberation">Rhetorical Theory, Politics &amp; Public Deliberation</h2>
+<p>Investigates how language, symbols, and arguments construct public knowledge, mobilize political action, and sustain democratic deliberation.</p>
+<p>Classical &amp; Contemporary Rhetorical Theory: <a href="https://books.google.com/books?isbn=9781319279271" target="_blank" rel="noopener noreferrer">The Rhetorical Tradition: Readings from Classical Times to the Present (Patricia Bizzell, Bruce Herzberg, &amp; Robin Reames / Bedford/St. Martin's)</a> - Comprehensive primary-source anthology spanning the Sophists and Aristotle to Kenneth Burke, Michel Foucault, and contemporary feminist rhetoric.</p>
+<p>Argumentation Theory &amp; Practical Reasoning: <a href="https://books.google.com/books?isbn=9780268004460" target="_blank" rel="noopener noreferrer">The New Rhetoric: A Treatise on Argumentation (Chaïm Perelman &amp; Lucie Olbrechts-Tyteca / University of Notre Dame Press)</a> - Landmark philosophical treatise that resurrected rhetoric as a theory of practical reasoning, audience adherence, and non-formal logic.</p>
+<p>Political Communication &amp; Deliberative Democracy: <a href="https://books.google.com/books?isbn=9780262581080" target="_blank" rel="noopener noreferrer">The Structural Transformation of the Public Sphere: An Inquiry into a Category of Bourgeois Society (Jürgen Habermas / MIT Press)</a> - Seminal theoretical treatise on the emergence, structural degradation, and democratic potential of rational-critical public discourse.</p>
+<p>Persuasion Science &amp; Cognitive Influence: <a href="https://books.google.com/books?isbn=9781412983136" target="_blank" rel="noopener noreferrer">The SAGE Handbook of Persuasion: Developments in Theory and Practice (James Price Dillard &amp; Lijiang Shen / SAGE)</a> - Advanced research volume surveying cognitive dual-process models, message framing, compliance gaining, and psychological reactance.</p>
+<p>Visual Rhetoric &amp; Multimodal Discourse: <a href="https://books.google.com/books?isbn=9780415672573" target="_blank" rel="noopener noreferrer">Reading Images: The Grammar of Visual Design (Gunther Kress &amp; Theo van Leeuwen / Routledge)</a> - Authoritative foundation of multimodal social semiotics, detailing compositional structures, representational meaning, and visual modality.</p>
+<h2 id="digital-platforms-networks-computational-communication">Digital Platforms, Networks &amp; Computational Communication</h2>
+<p>Explores platform architecture, algorithmic governance, digital surveillance, and computational methods for modeling online networks and discourse.</p>
+<p>Platform Studies &amp; Algorithmic Governance: <a href="https://books.google.com/books?isbn=9780190889760" target="_blank" rel="noopener noreferrer">The Platform Society: Public Values in a Connective World (José van Dijck, Thomas Poell, &amp; Martijn de Waal / Oxford University Press)</a> - Examines how platform mechanisms reshape institutional sectors, public values, and international regulatory sovereignty.</p>
+<p>Social Network Analysis &amp; Information Diffusion: <a href="https://www.cs.cornell.edu/home/kleinber/networks-book/" target="_blank" rel="noopener noreferrer">Networks, Crowds, and Markets: Reasoning About a Highly Connected World (David Easley &amp; Jon Kleinberg / Cambridge University Press)</a> - Open-access interdisciplinary text exploring graph theory, network centrality, structural holes, and information cascades.</p>
+<p>Social Network Analysis &amp; Information Diffusion: <a href="https://www.coursera.org/learn/python-social-network-analysis" target="_blank" rel="noopener noreferrer">Applied Social Network Analysis in Python (Coursera / University of Michigan)</a> - Applied online course teaching network connectivity, centrality metrics, and dynamic graph modeling using NetworkX.</p>
+<p>Computational Communication Science: <a href="https://cssbook.net/" target="_blank" rel="noopener noreferrer">Computational Analysis of Communication: A Practical Approach to the Analysis of Texts and Networks with Python (Wouter van Atteveldt, Damian Trilling, &amp; Carlos Arcila Calderón / Wiley-Blackwell)</a> - Open-access, code-integrated textbook designed for communication researchers covering web scraping, natural language processing, and automated content analysis.</p>
+<p>Critical Data Studies &amp; Algorithmic Justice: <a href="https://books.google.com/books?isbn=9781479837243" target="_blank" rel="noopener noreferrer">Algorithms of Oppression: How Search Engines Reinforce Racism (Safiya Umoja Noble / NYU Press)</a> - Groundbreaking inquiry into how commercial search engines and data curation algorithms perpetuate structural racial and gender marginalization.</p>
+<p>Critical Data Studies &amp; Algorithmic Justice: <a href="https://books.google.com/books?isbn=9781610395694" target="_blank" rel="noopener noreferrer">The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power (Shoshana Zuboff / PublicAffairs)</a> - Monograph analyzing behavioral data extraction, instrumentarian power, and the marketization of human digital behavior.</p>
+<h2 id="strategic-organizational-crisis-communication">Strategic, Organizational &amp; Crisis Communication</h2>
+<p>Focuses on how discourse, identity, power, and structured messaging coordinate human organizing, stakeholder engagement, and crisis resilience.</p>
+<p>Organizational Discourse &amp; Sensemaking: <a href="https://books.google.com/books?isbn=9780803971776" target="_blank" rel="noopener noreferrer">Sensemaking in Organizations (Karl E. Weick / SAGE)</a> - Landmark text examining how organizations enact environments, construct shared meaning under ambiguity, and structure workflow retrospectively.</p>
+<p>Organizational Discourse &amp; Sensemaking: <a href="https://books.google.com/books?isbn=9781412987721" target="_blank" rel="noopener noreferrer">The SAGE Handbook of Organizational Communication: Advances in Theory, Research, and Methods (Linda L. Putnam &amp; Dennis K. Mumby / SAGE)</a> - Advanced theoretical volume on the Communicative Constitution of Organizations (CCO), workplace power relations, and critical organizational discourse.</p>
+<p>Strategic Communication Planning &amp; Campaign Design: <a href="https://books.google.com/books?isbn=9781032391168" target="_blank" rel="noopener noreferrer">Strategic Planning for Public Relations (Ronald D. Smith &amp; Deborah A. Silverman / Routledge)</a> - Systematic professional manual detailing formative research, strategy formulation, tactical execution, and campaign evaluation metrics.</p>
+<p>Strategic Communication Planning &amp; Campaign Design: <a href="https://www.coursera.org/learn/integrated-and-strategic-communication-campaigns" target="_blank" rel="noopener noreferrer">Integrated and Strategic Communication Campaigns (Coursera / University of Colorado Boulder)</a> - Practical course on translating market insights, brand positioning, and channel strategy into integrated campaigns.</p>
+<p>Crisis Communication &amp; Situational Reputation Management: <a href="https://books.google.com/books?isbn=9781071816622" target="_blank" rel="noopener noreferrer">Ongoing Crisis Communication: Planning, Managing, and Responding (W. Timothy Coombs / SAGE)</a> - Authoritative text detailing Situational Crisis Communication Theory (SCCT), crisis response postures, and post-crisis image restoration.</p>
+<p>Cross-Cultural Workplace Dynamics &amp; Global Leadership: <a href="https://books.google.com/books?isbn=9781610392501" target="_blank" rel="noopener noreferrer">The Culture Map: Breaking Through the Invisible Boundaries of Global Business (Erin Meyer / PublicAffairs)</a> - Practical behavioral framework for decoding communication styles, feedback mechanisms, persuasion norms, and hierarchical authority across multinational teams.</p>
+<h2 id="health-science-environmental-communication">Health, Science &amp; Environmental Communication</h2>
+<p>Examines how scientific knowledge, public health interventions, risk perception, and environmental advocacy are framed and disseminated to diverse publics.</p>
+<p>Health Behavior Campaigns &amp; Message Design: <a href="https://books.google.com/books?isbn=9780367487447" target="_blank" rel="noopener noreferrer">The Routledge Handbook of Health Communication (Teresa L. Thompson &amp; Nancy Grant Harrington / Routledge)</a> - Definitive survey of health message framing, behavioral change theories, digital health interventions, and provider-patient dynamics.</p>
+<p>Culture-Centered Health Communication: <a href="https://books.google.com/books?isbn=9780745634920" target="_blank" rel="noopener noreferrer">Communicating Health: A Culture-Centered Approach (Mohan J. Dutta / Polity)</a> - Theoretical and applied framework centering subaltern community voices, cultural narratives, and structural inequalities in health promotion.</p>
+<p>Science Communication &amp; Public Engagement: <a href="https://press.anu.edu.au/publications/communicating-science" target="_blank" rel="noopener noreferrer">Communicating Science: A Global Perspective (Toss Gascoigne et al. / ANU Press)</a> - Open-access volume documenting institutional policies, professionalization, and public engagement initiatives across thirty-nine countries.</p>
+<p>Science Communication &amp; Public Engagement: <a href="https://books.google.com/books?isbn=9780190497620" target="_blank" rel="noopener noreferrer">The Oxford Handbook of the Science of Science Communication (Kathleen Hall Jamieson, Dan M. Kahan, &amp; Dietram A. Scheufele / Oxford University Press)</a> - Research handbook examining cognitive heuristics, cultural cognition, media framing of empirical uncertainty, and science misinformation.</p>
+<p>Environmental Rhetoric &amp; Climate Advocacy: <a href="https://books.google.com/books?isbn=9781071922392" target="_blank" rel="noopener noreferrer">Environmental Communication and the Public Sphere (Phaedra C. Pezzullo &amp; Robert Cox / SAGE)</a> - Comprehensive analysis of environmental journalism, climate justice discourses, corporate greenwashing, and public participation in ecological governance.</p>
+<h2 id="critical-cultural-studies-global-media-systems">Critical Cultural Studies &amp; Global Media Systems</h2>
+<p>Deconstructs media hegemony, transnational information flows, cultural political economy, and ideological representation across global societies.</p>
+<p>Political Economy of Media &amp; Cultural Industries: <a href="https://books.google.com/books?isbn=9781526424099" target="_blank" rel="noopener noreferrer">The Cultural Industries (David Hesmondhalgh / SAGE)</a> - Critical analysis of ownership concentration, commercialization, creative labor dynamics, and digital streaming infrastructures.</p>
+<p>Political Economy of Media &amp; Cultural Industries: <a href="https://books.google.com/books?isbn=9780375714498" target="_blank" rel="noopener noreferrer">Manufacturing Consent: The Political Economy of the Mass Media (Edward S. Herman &amp; Noam Chomsky / Pantheon Books)</a> - Canonical text detailing the Propaganda Model and structural institutional filters operating in mainstream mass media.</p>
+<p>Critical Cultural Theory &amp; Hegemony: <a href="https://books.google.com/books?isbn=9780470658086" target="_blank" rel="noopener noreferrer">Media and Cultural Studies: KeyWorks (Meenakshi Gigi Durham &amp; Douglas M. Kellner / Wiley-Blackwell)</a> - Essential reader compiling foundational texts across the Frankfurt School, British Cultural Studies, feminist media critique, and postcolonial theory.</p>
+<p>Global Media Systems &amp; Transnational Flows: <a href="https://books.google.com/books?isbn=9781119522256" target="_blank" rel="noopener noreferrer">Global Communication: Theories, Stakeholders, and Trends (Thomas L. McPhail &amp; Steven Phipps / Wiley-Blackwell)</a> - Comprehensive examination of world-systems theory, electronic colonialism, global news agencies, and transnational digital flows.</p>
+<p>Critical Discourse Analysis &amp; Ideological Deconstruction: <a href="https://books.google.com/books?isbn=9781405858229" target="_blank" rel="noopener noreferrer">Critical Discourse Analysis: The Critical Study of Language (Norman Fairclough / Routledge)</a> - Establishes three-dimensional text-and-society analysis to uncover how institutional dominance and ideological hegemony are maintained through language.</p>
+    </article>
+  </main>
 
 </body>
 </html>

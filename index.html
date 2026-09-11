@@ -1,253 +1,358 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
 
-<title>Hocbigg - Communication Studies</title>
-<link rel="stylesheet" href="/communication-studies/style.css">
-<meta name="description" content="Path to a free self-taught education in Communication Studies!">
+  <title>Hocbigg - Communication Studies</title>
+  <meta name="description" content="Path to a free self-taught education in Communication Studies!">
+  <meta name="author" content="hocbigg">
 
-<link rel="canonical" href="https://hocbigg.github.io/communication-studies/">
+  <link rel="canonical" href="https://hocbigg.github.io/communication-studies/">
+  <meta property="og:title" content="Hocbigg - Communication Studies">
+  <meta property="og:description" content="Path to a free self-taught education in Communication Studies!">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hocbigg.github.io/communication-studies/">
+  <link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
 
-<meta property="og:title" content="Hocbigg - Communication Studies">
-<meta property="og:description" content="Path to a free self-taught education in Communication Studies!">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://hocbigg.github.io/communication-studies/">
-<meta name="author" content="hocbigg">
-<link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
+  <style>
+:root {
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #595959;
+  --border: #e0e0e0;
+  --th-bg: #f6f8fa;
+  --code-bg: #f4f4f4;
+  --link: #0969da;
+  --focus-ring: #0969da;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117;
+    --fg: #e6edf3;
+    --muted: #8b949e;
+    --border: #30363d;
+    --th-bg: #161b22;
+    --code-bg: #161b22;
+    --link: #58a6ff;
+    --focus-ring: #58a6ff;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1.5rem auto;
+  max-width: min(60rem, 92vw);
+  padding: 0 0.75rem 3.5rem;
+  background-color: var(--bg);
+  color: var(--fg);
+  font: 1.15rem/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  word-wrap: break-word;
+}
+
+.site-header {
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1rem;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.5rem 1.25rem;
+  font-size: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+nav a:hover, 
+nav a:focus-visible {
+  color: var(--fg);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+nav .nav-brand {
+  color: var(--fg);
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.skip-link {
+  position: absolute;
+  top: -9999px;
+  left: 1rem;
+  background: var(--fg);
+  color: var(--bg);
+  padding: 0.5rem 1rem;
+  z-index: 100;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+}
+.skip-link:focus {
+  top: 1rem;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;
+  margin-top: 1.75em;
+  margin-bottom: 0.5em;
+  color: var(--fg);
+}
+h1 { font-size: 1.85rem; margin-top: 0.5em; }
+h2 { font-size: 1.45rem; }
+h3 { font-size: 1.2rem; }
+
+p, ul, ol, blockquote, table {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+li > ul,
+li > ol {
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.page-header img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.875em;
+  background-color: var(--code-bg);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+pre {
+  background-color: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+  tab-size: 2;
+}
+pre code {
+  background: transparent;
+  padding: 0;
+  border: none;
+  font-size: 0.9rem;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.6rem 0.75rem;
+  vertical-align: top;
+}
+th {
+  background-color: var(--th-bg);
+  font-weight: 600;
+}
+
+blockquote {
+  border-left: 4px solid var(--border);
+  padding-left: 1rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+@media print {
+  body {
+    max-width: none;
+    color: #000;
+    background: #fff;
+  }
+  .skip-link, nav {
+    display: none;
+  }
+}
+  </style>
 </head>
-
 <body>
 
-<nav>
-<a href="/">Hocbigg</a>
-<a href="/communication-studies/">Communication-Studies</a>
-<a href="/communication-studies/advanced_topics.html">Advanced Topics</a>
-<a href="/communication-studies/projects.html">Projects</a>
-<a href="/communication-studies/extras/courses.html">Extra Courses</a>
-<a href="/communication-studies/extras/readings.html">Extra Reading</a>
-<a href="https://github.com/hocbigg/communication-studies/" target="_blank">View on Github</a>
-</nav>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
 
-<main>
-<article>
+  <header class="site-header">
+    <nav aria-label="Main Navigation">
+    <ul>
+      <li><a href="https://hocbigg.github.io/" class="nav-brand">Hocbigg</a></li>
+      <li><a href="/communication-studies/">Communication Studies</a></li>
+      <li><a href="/communication-studies/advanced_topics.html">Advanced Topics</a></li>
+      <li><a href="/communication-studies/projects.html">Projects</a></li>
+      <li><a href="/communication-studies/extras/readings.html">Extra Readings</a></li>
+      <li><a href="/communication-studies/extras/courses.html">Extra Courses</a></li>
+      <li><a href="/communication-studies/resources.html">Resources</a></li>
+      <li><a href="/communication-studies/extras/other_curricula.html">Other Curricula</a></li>
+      <li><a href="https://github.com/hocbigg/" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in new tab)</span></a></li>
+    </ul>
+    </nav>
+  </header>
 
+  <main id="main-content">
+    <article>
 <header class="page-header">
-  <img src="/images/logo.png" alt="">
+  <img src="/images/logo.png" alt="Hocbigg logo">
   <h1>Hocbigg - Communication Studies</h1>
 </header>
-
-<h1 id="contents">Contents</h1>
+<h2 id="contents">Contents</h2>
 <ul>
 <li><a href="#summary">Summary</a></li>
 <li><a href="#communities">Communities</a></li>
 <li><a href="#curriculum">Curriculum</a></li>
 <li><a href="#code-of-conduct">Code of conduct</a></li>
 </ul>
-<h1 id="summary">Summary</h1>
-<p>The Communication Studies curriculum is a complete education in Communication Studies using online materials.</p>
-<h2 id="organization">Organization</h2>
-<p>This repository is organized into three main components:</p>
-<ul>
-<li><strong>Core Curriculum</strong> (this page): the foundational knowledge of the field;</li>
-<li><strong><a href="advanced_topics.html">Advanced Topics</a></strong>: focused study in specific areas;</li>
-<li><strong><a href="projects.html">Projects</a></strong>: support learning through practical application throughout the curriculum.</li>
-</ul>
-<p><strong>Process:</strong> Learners may work through the curriculum independently or collaboratively, and either sequentially or selectively.</p>
-<ul>
-<li>For simplicity, courses in the Core Curriculum are ordered according to their prerequisites.</li>
-<li>The Core Curriculum provides a shared foundation and is intended to be completed in full.</li>
-<li>Advanced Topics are optional; learners are encouraged to select one area of focus and complete all courses within that topic.</li>
-</ul>
-<p>Practical work is integrated through the <a href="projects.html">Projects section</a> and may be undertaken alongside coursework.</p>
-<p>Note: When there are courses or books that don't fit into the curriculum but are otherwise of high quality,
-they belong in <a href="extras/courses.html">extras/courses</a>, <a href="extras/readings.html">extras/readings</a>.</p>
+<h2 id="summary">Summary</h2>
+<p>The Communication Studies curriculum is a complete education in Communication Studies using online materials. This curriculum aims to provides foundational knowledge in human communication theory, contexts, and practical ethical applications.</p>
 <p><strong><a href="/CONTRIBUTING.html">How to contribute</a></strong></p>
-<h1 id="communities">Communities</h1>
+<h2 id="communities">Communities</h2>
 <ul>
 <li>Subreddits:<ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.reddit.com/r/communication/">r/communication</a></li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.reddit.com/r/Communications/">r/Communications</a></li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.reddit.com/r/communicationskills/">r/communicationskills</a></li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.reddit.com/r/PublicRelations/">r/PublicRelations</a></li>
+<li><a href="https://www.reddit.com/r/communication/" target="_blank" rel="noopener noreferrer">r/communication</a></li>
+<li><a href="https://www.reddit.com/r/Communications/" target="_blank" rel="noopener noreferrer">r/Communications</a></li>
+<li><a href="https://www.reddit.com/r/communicationskills/" target="_blank" rel="noopener noreferrer">r/communicationskills</a></li>
+<li><a href="https://www.reddit.com/r/PublicRelations/" target="_blank" rel="noopener noreferrer">r/PublicRelations</a></li>
 </ul>
 </li>
 <li>Other:<ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://aoir.social/">AoIR (Association of Internet Researchers) Mastodon</a></li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://stc-org.slack.com/">STC (Society for Technical Communication) Slack</a> (membership required)</li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://prnews.slack.com/">PR and Communications Pros Slack</a> (request invite)</li>
+<li><a href="https://aoir.social/" target="_blank" rel="noopener noreferrer">AoIR (Association of Internet Researchers) Mastodon</a></li>
+<li><a href="https://stc-org.slack.com/" target="_blank" rel="noopener noreferrer">STC (Society for Technical Communication) Slack</a> (membership required)</li>
+<li><a href="https://prnews.slack.com/" target="_blank" rel="noopener noreferrer">PR and Communications Pros Slack</a> (request invite)</li>
 </ul>
 </li>
-<li>You can also interact through <a target="_blank" rel="noopener noreferrer" href="https://github.com/hocbigg/communication-studies/issues">GitHub issues</a>. If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation. Read more <a href="/CONTRIBUTING.html">here</a>.</li>
-<li>
-<p>Join our Discord server (for discussions around this and other curricula): </p>
-<p><a target="_blank" rel="noopener noreferrer" href="https://discord.gg/KHqAv4Nvm5"><img alt="discord link" src="/assets/discord.png" /></a></p>
-</li>
+<li>You can also interact through <a href="https://github.com/hocbigg/communication-studies/issues" target="_blank" rel="noopener noreferrer">GitHub issues</a>. If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation. Read more <a href="/CONTRIBUTING.html">here</a>.</li>
 </ul>
-<h1 id="curriculum">Curriculum</h1>
-<h2 id="how-to-use-this-curriculum">How to use this curriculum</h2>
-<h3 id="core">Core</h3>
-<p>Everyone should complete the following four sections in sequence (before moving to <a href="advanced_topics.html">Advanced Topics</a>). They form the essential foundation that every communication student needs:</p>
-<ol>
-<li>
-<p><strong>Foundations of Communication</strong><br />
-   Start here. This section introduces the most basic ideas and skills you will use in every later part of the field.</p>
-</li>
-<li>
-<p><strong>Human Interaction &amp; Meaning</strong><br />
-   Move to this next. It builds directly on the foundations and focuses on how people create meaning and connect with each other face-to-face.</p>
-</li>
-<li>
-<p><strong>Media, Culture &amp; Power</strong><br />
-   Study this third. It expands your view from personal interaction to how large-scale media and cultural systems shape communication.</p>
-</li>
-<li>
-<p><strong>Research Methods in Communication</strong><br />
-   Finish the core with this section. It gives you the practical tools to read, evaluate, and eventually carry out communication research yourself.</p>
-</li>
-</ol>
-<h2 id="foundations-of-communication">Foundations of Communication</h2>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Why study?</th>
-<th>Book</th>
-<th>Videos</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>What Communication Is</td>
-<td>This gives you a clear map of how messages are created, sent, received, and interpreted in everyday life.</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://socialsci.libretexts.org/Bookshelves/Communication/Introduction_to_Communication/Communication_in_the_Real_World_-_An_Introduction_to_Communication_Studies">Communication in the Real World</a> (LibreTexts)</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/playlist?list=PL8dPuuaLjXtM6jSpzb5gMNsx9kdmqBfmY">CrashCourse: Media Literacy</a></td>
-</tr>
-<tr>
-<td>Communication Models &amp; Traditions</td>
-<td>You will understand the major ways scholars have explained communication processes throughout history.</td>
-<td>same</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/results?search_query=communication+models+crash+course">Crash Course: Introduction to Communication Concepts</a> (search relevant)</td>
-</tr>
-<tr>
-<td>Communication Ethics</td>
-<td>You learn to recognize and reason about moral dilemmas that appear when people communicate, especially online and in media.</td>
-<td>same as main book chapters + <a target="_blank" rel="noopener noreferrer" href="https://socialsci.libretexts.org/Bookshelves/Communication/Ethics_in_Communication">Ethics in Communication</a> (LibreTexts)</td>
-<td>—</td>
-</tr>
-<tr>
-<td>Public Speaking &amp; Rhetoric</td>
-<td>You gain essential skills in oral presentation, argumentation, and persuasive communication — a universal foundational competency.</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://open.umn.edu/opentextbooks/textbooks/159">Stand up, Speak out: The Practice and Ethics of Public Speaking</a></td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/playlist?list=PLiN-2sVQRk8">TED-Ed Public Speaking</a></td>
-</tr>
-<tr>
-<td>Academic Writing</td>
-<td>You gain the skills to write clear, organized, and convincing college-level essays and papers.</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://openstax.org/details/books/writing-guide">OpenStax Writing Guide</a></td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/learn/english-composition">Coursera: English Composition I</a></td>
-</tr>
-</tbody>
-</table>
-<h2 id="human-interaction-meaning">Human Interaction &amp; Meaning</h2>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Why study?</th>
-<th>Book</th>
-<th>Videos</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Interpersonal Communication</td>
-<td>You develop practical skills for building, maintaining, and repairing close personal relationships through talk.</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://milneopentextbooks.org/interpersonal-communication-a-mindful-approach-to-relationships/">Interpersonal Communication: A Mindful Approach to Relationships</a> (2nd ed., open)</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/learn/interpersonal-skills">Coursera SJTU</a></td>
-</tr>
-<tr>
-<td>Symbolic Interaction &amp; Identity</td>
-<td>You learn how people use symbols and everyday interactions to build and constantly update who they are.</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://socialsci.libretexts.org/Bookshelves/Communication/Introduction_to_Communication/Communication_in_the_Real_World_-_An_Introduction_to_Communication_Studies">Communication in the Real World</a></td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://oyc.yale.edu/sociology">Yale OpenCourses (Sociology of Self)</a></td>
-</tr>
-<tr>
-<td>Listening &amp; Dialogue</td>
-<td>You build the ability to truly hear others, understand their messages deeply, and respond in ways that keep conversations constructive.</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.routledge.com/Listening-Processes-Functions-and-Competency/Worthington-Bodie-Fitch-Hauser/p/book/9781032491257">Worthington</a></td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/learn/active-listening-enhancing-communication-skills">Coursera Active Listening</a></td>
-</tr>
-</tbody>
-</table>
-<h2 id="media-culture-power">Media, Culture &amp; Power</h2>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Why study?</th>
-<th>Book</th>
-<th>Videos</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Media Systems</td>
-<td>You understand how media industries are organized, financed, and regulated around the world today.</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://open.umn.edu/opentextbooks/textbooks/media-society-culture-and-you">Media, Society, Culture, and You</a> (open)</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/playlist?list=PL8dPuuaLjXtM6jSpzb5gMNsx9kdmqBfmY">CrashCourse Media</a></td>
-</tr>
-<tr>
-<td>Semiotics &amp; Representation</td>
-<td>You learn to read signs, images, and texts in media and discover the hidden meanings they carry.</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://socialsci.libretexts.org/Bookshelves/Communication/Introduction_to_Communication/Communication_in_the_Real_World_-_An_Introduction_to_Communication_Studies">Communication in the Real World</a> (relevant chapters)</td>
-<td>—</td>
-</tr>
-<tr>
-<td>Culture &amp; Communication</td>
-<td>You gain tools to communicate effectively and respectfully with people from very different cultural backgrounds.</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://socialsci.libretexts.org/Bookshelves/Communication/Intercultural_Communication">Intercultural Communication (LibreTexts)</a></td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.futurelearn.com/courses/intercultural-communication">FutureLearn</a></td>
-</tr>
-</tbody>
-</table>
-<h2 id="research-methods-in-communication">Research Methods in Communication</h2>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Why study?</th>
-<th>Book</th>
-<th>Videos</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Research Logic</td>
-<td>You understand the basic rules of how good social science evidence is created and evaluated.</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://digitalcommons.usf.edu/oa_textbooks/3/">Social Science Research (USF)</a></td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/user/soasuniversity">SOAS Methods</a></td>
-</tr>
-<tr>
-<td>Qualitative Methods</td>
-<td>You learn how to collect, analyze, and interpret rich non-numerical data such as interviews, texts, and observations.</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://us.sagepub.com/sites/default/files/upm-binaries/24614_01_Saldana_Ch_01.pdf">Saldaña Coding Manual</a> (free chapters)</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/learn/qualitative-methods">Amsterdam Qual</a></td>
-</tr>
-<tr>
-<td>Quantitative Reasoning</td>
-<td>You gain the ability to read, understand, and perform basic statistical analysis of communication data.</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.openintro.org/book/os/">OpenIntro Statistics</a></td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/learn/quantitative-methods">Amsterdam Quant</a></td>
-</tr>
-</tbody>
-</table>
-<h1 id="code-of-conduct">Code of conduct</h1>
-<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/hocbigg/code-of-conduct">Hocbigg's code of conduct</a>.</p>
-</article>
-</main>
+<h2 id="curriculum">Curriculum</h2>
+<h3 id="communication-theory-foundational-models">Communication Theory &amp; Foundational Models</h3>
+<p>Surveys the major models, historical paradigms, and theoretical frameworks that define communication as a human and social science.</p>
+<p><a href="https://www.coursera.org/learn/communication" target="_blank" rel="noopener noreferrer">Introduction to Communication Science (Coursera / University of Amsterdam)</a> - Foundational MOOC exploring linear, interactional, and transactional models along with the major paradigms shaping communication as an academic science.</p>
+<p><a href="https://open.umn.edu/opentextbooks/textbooks/communication-in-the-real-world-an-introduction-to-communication-studies" target="_blank" rel="noopener noreferrer">Communication in the Real World: An Introduction to Communication Studies (Open Textbook Library / University of Minnesota Libraries Publishing)</a> - Comprehensive open textbook providing a survey of communication foundations across interpersonal, group, public, and media contexts.</p>
+<p><a href="https://socialsci.libretexts.org/Bookshelves/Communication/Introduction_to_Communication/Introduction_to_Communication_(Paynton_and_Hahn)" target="_blank" rel="noopener noreferrer">Introduction to Communication (LibreTexts / Scott T. Paynton &amp; Laura K. Hahn)</a> - Open textbook covering the history of communication inquiry, constitutive models, and Robert Craig's seven theoretical traditions.</p>
+<p><a href="https://books.google.com/books?isbn=9781264296101" target="_blank" rel="noopener noreferrer">A First Look at Communication Theory (McGraw-Hill / Em Griffin, Andrew Ledbetter, &amp; Glenn Sparks)</a> - The field's standard undergraduate text detailing over thirty core theories across interpersonal, group, cultural, and mass media contexts.</p>
+<p><a href="https://www.afirstlook.com" target="_blank" rel="noopener noreferrer">A First Look at Communication Theory: Conversations with Theorists (afirstlook.com)</a> - Video interviews with prominent scholars explaining their theoretical models and empirical discoveries.</p>
+<h3 id="public-speaking-classical-rhetoric">Public Speaking &amp; Classical Rhetoric</h3>
+<p>Covers the principles of speech invention, structural organization, audience analysis, and classical rhetorical appeals for effective civic advocacy.</p>
+<p><a href="https://open.umn.edu/opentextbooks/textbooks/159" target="_blank" rel="noopener noreferrer">Stand up, Speak out: The Practice and Ethics of Public Speaking (Open Textbook Library / University of Minnesota Libraries)</a> - Comprehensive open textbook teaching speech organization, audience analysis, argument construction, and delivery.</p>
+<p><a href="https://www.coursera.org/learn/public-speaking" target="_blank" rel="noopener noreferrer">Introduction to Public Speaking (Coursera / University of Washington)</a> - Practical course focused on conquering speech anxiety, organizing points logically, and delivering persuasive oral arguments.</p>
+<p><a href="https://pll.harvard.edu/course/rhetoric-art-persuasive-writing-and-public-speaking" target="_blank" rel="noopener noreferrer">Rhetoric: The Art of Persuasive Writing and Public Speaking (Harvard University / edX)</a> - Systematic introduction to classical rhetorical appeals (ethos, pathos, logos), argument structure, and civic oratory.</p>
+<h3 id="rhetorical-criticism">Rhetorical Criticism</h3>
+<p>Teaches systematic methods for analyzing, deconstructing, and evaluating persuasive symbols, public speeches, and cultural artifacts.</p>
+<p><a href="https://books.google.com/books?isbn=9781478634898" target="_blank" rel="noopener noreferrer">Rhetorical Criticism: Exploration and Practice (Waveland Press / Sonja K. Foss)</a> - Definitive undergraduate textbook introducing ten established methods for analyzing persuasive artifacts, including Neo-Aristotelian, narrative, metaphor, and ideological criticism.</p>
+<p><a href="https://socialsci.libretexts.org/Bookshelves/Communication/Introduction_to_Communication/Introduction_to_Communication_(Paynton_and_Hahn)/07%3A_Rhetorical_Criticism" target="_blank" rel="noopener noreferrer">Rhetorical Criticism (LibreTexts / Scott T. Paynton &amp; Laura K. Hahn)</a> - Structured open chapter introducing the purpose of rhetorical critique, symbolic manipulation, and key critical traditions.</p>
+<h3 id="interpersonal-communication">Interpersonal Communication</h3>
+<p>Examines dyadic communication processes, identity negotiation, relational stages, dialectical tensions, and conflict resolution in personal and professional relationships.</p>
+<p><a href="https://milneopentextbooks.org/interpersonal-communication-a-mindful-approach-to-relationships/" target="_blank" rel="noopener noreferrer">Interpersonal Communication: A Mindful Approach to Relationships (Milne Open Textbooks / Jason S. Wrench, Narissra M. Punyanunt-Carter, &amp; Katherine S. Thweatt)</a> - Open textbook covering social perception, self-concept, relational dialectics, active listening, and interpersonal conflict.</p>
+<p><a href="https://books.google.com/books?isbn=9780357032947" target="_blank" rel="noopener noreferrer">Interpersonal Communication: Everyday Encounters (Cengage / Julia T. Wood)</a> - Canonical textbook examining interpersonal theories, listening competencies, relationship lifecycles, and diverse social contexts.</p>
+<h3 id="nonverbal-communication">Nonverbal Communication</h3>
+<p>Explores the codes, channels, and social functions of nonverbal messaging, including kinesics, proxemics, haptics, and vocalic expression.</p>
+<p><a href="https://books.google.com/books?isbn=9781133311591" target="_blank" rel="noopener noreferrer">Nonverbal Communication in Human Interaction (Cengage / Mark L. Knapp, Judith A. Hall, &amp; Terrence G. Horgan)</a> - Definitive, research-backed textbook covering kinesics, proxemics, haptics, vocalics, and facial expression in human encounters.</p>
+<p><a href="https://socialsci.libretexts.org/Bookshelves/Communication/Introduction_to_Communication/Introduction_to_Communication_(Paynton_and_Hahn)/03%3A_Nonverbal_Communication" target="_blank" rel="noopener noreferrer">Nonverbal Communication (LibreTexts / Scott T. Paynton &amp; Laura K. Hahn)</a> - Concise open chapter surveying the primary functions, environmental contexts, and code categories of nonverbal behavior.</p>
+<h3 id="group-organizational-communication">Group &amp; Organizational Communication</h3>
+<p>Investigates small group dynamics, team decision-making processes, leadership styles, and communication networks within complex organizations.</p>
+<p><a href="https://socialsci.libretexts.org/Bookshelves/Communication/Organizational_Communication/Organizational_Communication_-_Theory_Research_and_Practice" target="_blank" rel="noopener noreferrer">Organizational Communication: Theory, Research, and Practice (LibreTexts)</a> - Complete open textbook analyzing classical and modern organizational theories, communication networks, workplace culture, and leadership.</p>
+<p><a href="https://socialsci.libretexts.org/Bookshelves/Communication/Small_Group_Communication/COMS_120%3A_Small_Group_Communication_(Osborne)" target="_blank" rel="noopener noreferrer">COMS 120: Small Group Communication (LibreTexts / Victoria Osborne)</a> - Open textbook focusing on group development stages, member roles, team decision-making, and groupthink mitigation.</p>
+<p><a href="https://www.youtube.com/@AlexLyonCommunicationCoach" target="_blank" rel="noopener noreferrer">Organizational Communication Channel (YouTube / Dr. Alex Lyon)</a> - Dedicated lecture series by a communication professor covering systems theory, leadership communication, and team dynamics.</p>
+<h3 id="mass-communication-media-effects">Mass Communication &amp; Media Effects</h3>
+<p>Studies the historical development of mass media industries and the social scientific theories explaining their psychological and societal effects.</p>
+<p><a href="https://socialsci.libretexts.org/Bookshelves/Communication/Introduction_to_Communication/Mass_Communication_Media_and_Culture_-_An_Introduction_to_Mass_Communication" target="_blank" rel="noopener noreferrer">Mass Communication, Media, and Culture (LibreTexts)</a> - Comprehensive open textbook on the structure of mass media industries, history, and empirical effect models.</p>
+<p><a href="https://books.google.com/books?isbn=9781412964692" target="_blank" rel="noopener noreferrer">Media Effects (SAGE / W. James Potter)</a> - Canonical textbook providing systematic frameworks for analyzing how media influence individuals' cognitions, beliefs, and behaviors across society.</p>
+<p><a href="https://open.umn.edu/opentextbooks/textbooks/media-society-culture-and-you" target="_blank" rel="noopener noreferrer">Media, Society, Culture, and You (Open Textbook Library / Mark Poepsel)</a> - Accessible open textbook exploring media convergence, cultural dissemination, and information gatekeeping.</p>
+<p><a href="https://www.youtube.com/playlist?list=PL8dPuuaLjXtM6jSpzb5gMNsx9kdmqBfmY" target="_blank" rel="noopener noreferrer">Media Literacy (YouTube / CrashCourse)</a> - Complete 12-part video series outlining agenda-setting, cultivation theory, framing, and critical media consumption.</p>
+<h3 id="critical-media-studies-semiotics-representation">Critical Media Studies, Semiotics &amp; Representation</h3>
+<p>Applies semiotic, ideological, and cultural studies frameworks to analyze how media texts construct social reality, identity, and power structures.</p>
+<p><a href="https://books.google.com/books?isbn=9781849205634" target="_blank" rel="noopener noreferrer">Representation: Cultural Representations and Signifying Practices (SAGE / Stuart Hall, Jessica Evans, &amp; Sean Nixon)</a> - Seminal cultural studies text dissecting how language, semiotic signs, and discursive power produce meaning.</p>
+<p><a href="https://books.google.com/books?isbn=9781119406129" target="_blank" rel="noopener noreferrer">Critical Media Studies: An Introduction (Wiley-Blackwell / Brian L. Ott &amp; Robert L. Mack)</a> - Leading undergraduate textbook providing critical perspectives on media technologies, industries, messages, and audiences.</p>
+<p><a href="https://open.umn.edu/opentextbooks/textbooks/media-studies-101" target="_blank" rel="noopener noreferrer">Media Studies 101 (Open Textbook Library / Media Texthack Group)</a> - Open introductory text detailing semiotic theory, ideology, cultural institutions, and media reception.</p>
+<h3 id="digital-media-networked-society">Digital Media &amp; Networked Society</h3>
+<p>Analyzes computer-mediated communication, networked publics, online identity, platform mechanics, and the societal implications of algorithmic systems.</p>
+<p><a href="https://books.google.com/books?isbn=9781509541782" target="_blank" rel="noopener noreferrer">Digital Media and Society (Polity / Simon Lindgren)</a> - Sociological and communicative examination of computer-mediated interaction, networked publics, platforms, and algorithmic culture.</p>
+<p><a href="https://open.umn.edu/opentextbooks/textbooks/introduction-to-communication-and-media-studies" target="_blank" rel="noopener noreferrer">Introduction to Communication and Media Studies (Open Textbook Library / J.J. Sylvia IV)</a> - Open textbook exploring digital convergence, data culture, social platforms, and the transformation of modern communication technologies.</p>
+<h3 id="intercultural-communication">Intercultural Communication</h3>
+<p>Investigates how culture shapes communicative practices, values, and worldviews, fostering competence across diverse intercultural contexts.</p>
+<p><a href="https://books.google.com/books?isbn=9781260837452" target="_blank" rel="noopener noreferrer">Intercultural Communication in Contexts (McGraw-Hill / Judith N. Martin &amp; Thomas K. Nakayama)</a> - Canonical textbook integrating social-scientific, interpretive, and critical approaches to intercultural interaction.</p>
+<p><a href="https://socialsci.libretexts.org/Bookshelves/Communication/Intercultural_Communication/Exploring_Intercultural_Communication_(Grothe)" target="_blank" rel="noopener noreferrer">Exploring Intercultural Communication (LibreTexts / Tom Grothe)</a> - Open textbook exploring cultural value dimensions, avowed and ascribed identity, culture shock, and intercultural communication competence.</p>
+<p><a href="https://www.futurelearn.com/courses/intercultural-communication" target="_blank" rel="noopener noreferrer">Intercultural Communication (FutureLearn / Shanghai International Studies University)</a> - Structured MOOC examining how culture shapes verbal styles, nonverbal codes, and cross-cultural conflict resolution.</p>
+<h3 id="communication-ethics">Communication Ethics</h3>
+<p>Explores the philosophical principles, moral frameworks, and civic responsibilities governing human communication across personal, public, and mediated interactions.</p>
+<p><a href="https://books.google.com/books?isbn=9781577665557" target="_blank" rel="noopener noreferrer">Ethics in Human Communication (Waveland Press / Richard L. Johannesen, Kathleen S. Valde, &amp; Karen E. Whedbee)</a> - Canonical textbook detailing philosophical frameworks, dialogic ethics, democratic standards, and moral responsibilities in human messaging.</p>
+<p><a href="https://www.coursera.org/learn/media-ethics-governance" target="_blank" rel="noopener noreferrer">Media Ethics and Governance (Coursera / University of Amsterdam)</a> - Structured course covering ethical perspectives, institutional accountability, and moral decision-making models.</p>
+<p><a href="https://www.coursera.org/learn/ethics-of-communication" target="_blank" rel="noopener noreferrer">Ethics of Communication (Coursera / University of Notre Dame)</a> - Applied course examining the moral dimensions of relational communication, active listening, and conflict management.</p>
+<h3 id="communication-inquiry-research-literacy">Communication Inquiry &amp; Research Literacy</h3>
+<p>Introduces the foundational ways communication scholars conceptualize inquiry, ask questions, and interpret quantitative, qualitative, and rhetorical evidence.</p>
+<p><a href="https://oer.galileo.usg.edu/communication-textbooks/3/" target="_blank" rel="noopener noreferrer">Introduction to Communication Research: Becoming a Scholar (GALILEO Open Learning Materials / Lindsey Jo Hand, Erin Ryan, &amp; Karen Sichler)</a> - Open textbook specifically designed to help undergraduate communication students understand, analyze, and evaluate scholarly research.</p>
+<p><a href="https://books.google.com/books?isbn=9780367623661" target="_blank" rel="noopener noreferrer">Understanding Communication Research Methods: A Theoretical and Practical Approach (Routledge / Stephen M. Croucher &amp; Daniel Cronn-Mills)</a> - Comprehensive undergraduate text demystifying quantitative, qualitative, and critical research paradigms within communication studies.</p>
+<p><a href="https://digitalcommons.usf.edu/oa_textbooks/3/" target="_blank" rel="noopener noreferrer">Social Science Research: Principles, Methods, and Practices (USF Digital Commons / Anol Bhattacherjee)</a> - Accessible open textbook detailing the scientific method, research design principles, and empirical measurement in social research.</p>
+    </article>
+  </main>
 
 </body>
 </html>

@@ -1,138 +1,312 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
 
-<title>Extra Courses</title>
-<link rel="stylesheet" href="/communication-studies/style.css">
-<meta name="description" content="">
+  <title>Great Courses in Communication Studies</title>
+  <meta name="description" content="A lightweight static page by hocbigg.">
+  <meta name="author" content="hocbigg">
 
-<link rel="canonical" href="https://hocbigg.github.io/communication-studies/">
+  <link rel="canonical" href="https://hocbigg.github.io/communication-studies/extras/courses.html">
+  <meta property="og:title" content="Great Courses in Communication Studies">
+  <meta property="og:description" content="A lightweight static page by hocbigg.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hocbigg.github.io/communication-studies/extras/courses.html">
+  <link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
 
-<meta property="og:title" content="Extra Courses">
-<meta property="og:description" content="">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://hocbigg.github.io/communication-studies/">
-<meta name="author" content="hocbigg">
-<link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
+  <style>
+:root {
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #595959;
+  --border: #e0e0e0;
+  --th-bg: #f6f8fa;
+  --code-bg: #f4f4f4;
+  --link: #0969da;
+  --focus-ring: #0969da;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117;
+    --fg: #e6edf3;
+    --muted: #8b949e;
+    --border: #30363d;
+    --th-bg: #161b22;
+    --code-bg: #161b22;
+    --link: #58a6ff;
+    --focus-ring: #58a6ff;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1.5rem auto;
+  max-width: min(60rem, 92vw);
+  padding: 0 0.75rem 3.5rem;
+  background-color: var(--bg);
+  color: var(--fg);
+  font: 1.15rem/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  word-wrap: break-word;
+}
+
+.site-header {
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1rem;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.5rem 1.25rem;
+  font-size: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+nav a:hover, 
+nav a:focus-visible {
+  color: var(--fg);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+nav .nav-brand {
+  color: var(--fg);
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.skip-link {
+  position: absolute;
+  top: -9999px;
+  left: 1rem;
+  background: var(--fg);
+  color: var(--bg);
+  padding: 0.5rem 1rem;
+  z-index: 100;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+}
+.skip-link:focus {
+  top: 1rem;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;
+  margin-top: 1.75em;
+  margin-bottom: 0.5em;
+  color: var(--fg);
+}
+h1 { font-size: 1.85rem; margin-top: 0.5em; }
+h2 { font-size: 1.45rem; }
+h3 { font-size: 1.2rem; }
+
+p, ul, ol, blockquote, table {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+li > ul,
+li > ol {
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.page-header img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.875em;
+  background-color: var(--code-bg);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+pre {
+  background-color: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+  tab-size: 2;
+}
+pre code {
+  background: transparent;
+  padding: 0;
+  border: none;
+  font-size: 0.9rem;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.6rem 0.75rem;
+  vertical-align: top;
+}
+th {
+  background-color: var(--th-bg);
+  font-weight: 600;
+}
+
+blockquote {
+  border-left: 4px solid var(--border);
+  padding-left: 1rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+@media print {
+  body {
+    max-width: none;
+    color: #000;
+    background: #fff;
+  }
+  .skip-link, nav {
+    display: none;
+  }
+}
+  </style>
 </head>
-
 <body>
 
-<nav>
-<a href="/">Hocbigg</a>
-<a href="/communication-studies/">Communication-Studies</a>
-<a href="/communication-studies/advanced_topics.html">Advanced Topics</a>
-<a href="/communication-studies/projects.html">Projects</a>
-<a href="/communication-studies/extras/courses.html">Extra Courses</a>
-<a href="/communication-studies/extras/readings.html">Extra Reading</a>
-<a href="https://github.com/hocbigg/communication-studies/" target="_blank">View on Github</a>
-</nav>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
 
-<main>
-<article>
+  <header class="site-header">
+    <nav aria-label="Main Navigation">
+    <ul>
+      <li><a href="https://hocbigg.github.io/" class="nav-brand">Hocbigg</a></li>
+      <li><a href="/communication-studies/">Communication Studies</a></li>
+      <li><a href="/communication-studies/advanced_topics.html">Advanced Topics</a></li>
+      <li><a href="/communication-studies/projects.html">Projects</a></li>
+      <li><a href="/communication-studies/extras/readings.html">Extra Readings</a></li>
+      <li><a href="/communication-studies/extras/courses.html">Extra Courses</a></li>
+      <li><a href="/communication-studies/resources.html">Resources</a></li>
+      <li><a href="/communication-studies/extras/other_curricula.html">Other Curricula</a></li>
+      <li><a href="https://github.com/hocbigg/" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in new tab)</span></a></li>
+    </ul>
+    </nav>
+  </header>
 
-<h1 id="extra-courses">Extra Courses</h1>
-<p>This is a list of high-quality courses that, for one reason or another, didn't make it into the curriculum.
-The most common reasons are that the course isn't available often enough,
-or that there was an alternative that fit better into the curriculum.</p>
-<h2 id="interpersonal-and-organizational-communication">Interpersonal and Organizational Communication</h2>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Courses</th>
-<th style="text-align: center;">Duration</th>
-<th style="text-align: center;">Effort</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/learn/wharton-communication-skills">Improving Communication Skills (Coursera – University of Pennsylvania)</a></td>
-<td style="text-align: center;">4 weeks</td>
-<td style="text-align: center;">1-4 hours/week</td>
-</tr>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/learn/communication-workplace">Communication in the 21st Century Workplace (Coursera – University of California, Irvine)</a></td>
-<td style="text-align: center;">5 weeks</td>
-<td style="text-align: center;">3-5 hours/week</td>
-</tr>
-</tbody>
-</table>
-<h2 id="media-and-cultural-studies">Media and Cultural Studies</h2>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Courses</th>
-<th style="text-align: center;">Duration</th>
-<th style="text-align: center;">Effort</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/learn/science-communication">Science Communication: Engaging Audiences (Coursera – University of Colorado Boulder)</a></td>
-<td style="text-align: center;">4 weeks</td>
-<td style="text-align: center;">1-4 hours/week</td>
-</tr>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/learn/corporate-communication">Corporate Communication (Coursera – IE Business School)</a></td>
-<td style="text-align: center;">5 weeks</td>
-<td style="text-align: center;">2-4 hours/week</td>
-</tr>
-</tbody>
-</table>
-<h2 id="rhetoric-and-persuasion">Rhetoric and Persuasion</h2>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Courses</th>
-<th style="text-align: center;">Duration</th>
-<th style="text-align: center;">Effort</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.edx.org/learn/rhetoric/harvard-university-rhetoric-the-art-of-persuasive-writing-and-public-speaking">Rhetoric: The Art of Persuasive Writing and Public Speaking (edX – Harvard)</a></td>
-<td style="text-align: center;">8 weeks</td>
-<td style="text-align: center;">2-4 hours/week</td>
-</tr>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://agora.unicef.org/course/view.php?id=11146">Communication for Development (C4D) (Agora – UNICEF)</a></td>
-<td style="text-align: center;">Self-paced</td>
-<td style="text-align: center;">3-5 hours/week</td>
-</tr>
-</tbody>
-</table>
-<h2 id="online-learning-great-courses">Online Learning - Great Courses</h2>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Courses</th>
-<th style="text-align: center;">Duration</th>
-<th style="text-align: center;">Effort</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/learn/learning-how-to-learn">Learning How to Learn</a></td>
-<td style="text-align: center;">4 weeks</td>
-<td style="text-align: center;">2 hours/week</td>
-</tr>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/learn/mindshift">Mindshift</a></td>
-<td style="text-align: center;">4 weeks</td>
-<td style="text-align: center;">2 hours/week</td>
-</tr>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.edx.org/learn/google-power-searching/google-power-searching-with-google">Powersearching with Google</a></td>
-<td style="text-align: center;">3 weeks</td>
-<td style="text-align: center;">4-6 hours/week</td>
-</tr>
-</tbody>
-</table>
-</article>
-</main>
+  <main id="main-content">
+    <article>
+
+<h1 id="great-courses-in-communication-studies">Great Courses in Communication Studies</h1>
+<p>A curated directory of standout university OpenCourseWare lectures, high-production MOOCs, and specialized audiovisual courses in Communication Studies that build deep intuition and advanced theoretical models.</p>
+<h2 id="theories-of-media-culture-digital-society">Theories of Media, Culture &amp; Digital Society</h2>
+<ul>
+<li><a href="https://www.coursera.org/learn/communication-science" target="_blank" rel="noopener noreferrer">Introduction to Communication Science (Coursera / University of Amsterdam / Dr. Rutger de Graaf)</a></li>
+<li><a href="https://www.coursera.org/learn/media-ethics-governance" target="_blank" rel="noopener noreferrer">Media Ethics and Governance (Coursera / University of Amsterdam / Dr. Damian Trilling)</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PL8dPuuaLjXtM6jSpzb5gMNsx9kdmqBfmY" target="_blank" rel="noopener noreferrer">Media Literacy (YouTube / CrashCourse / Jay Smooth)</a></li>
+<li><a href="https://www.coursera.org/learn/python-social-network-analysis" target="_blank" rel="noopener noreferrer">Applied Social Network Analysis in Python (Coursera / University of Michigan)</a></li>
+</ul>
+<h2 id="rhetoric-argumentation-public-deliberation">Rhetoric, Argumentation &amp; Public Deliberation</h2>
+<ul>
+<li><a href="https://www.edx.org/learn/rhetoric/harvard-university-rhetoric-the-art-of-persuasive-writing-and-public-speaking" target="_blank" rel="noopener noreferrer">Rhetoric: The Art of Persuasive Writing and Public Speaking (edX / Harvard University / Prof. James Engell)</a></li>
+<li><a href="https://www.coursera.org/learn/public-speaking" target="_blank" rel="noopener noreferrer">Introduction to Public Speaking (Coursera / University of Washington / Dr. Matt McGarrity)</a></li>
+<li><a href="https://www.coursera.org/learn/understanding-arguments" target="_blank" rel="noopener noreferrer">Think Again: How to Understand Arguments (Coursera / Duke University / Dr. Walter Sinnott-Armstrong &amp; Dr. Ram Neta)</a></li>
+<li><a href="https://www.coursera.org/learn/finding-your-professional-voice" target="_blank" rel="noopener noreferrer">Finding Your Professional Voice: Confidence &amp; Impact (Coursera / University of London)</a></li>
+</ul>
+<h2 id="strategic-organizational-crisis-communication">Strategic, Organizational &amp; Crisis Communication</h2>
+<ul>
+<li><a href="https://www.coursera.org/learn/integrated-and-strategic-communication-campaigns" target="_blank" rel="noopener noreferrer">Integrated and Strategic Communication Campaigns (Coursera / University of Colorado Boulder)</a></li>
+<li><a href="https://www.coursera.org/learn/introduction-to-crisis-management-and-crisis-communication" target="_blank" rel="noopener noreferrer">Introduction to Crisis Management and Crisis Communication (Coursera / University of Colorado Boulder / Dr. Burton St. John)</a></li>
+<li><a href="https://www.coursera.org/learn/wharton-communication-skills" target="_blank" rel="noopener noreferrer">Improving Communication Skills (Coursera / Wharton, University of Pennsylvania / Prof. Maurice Schweitzer)</a></li>
+<li><a href="https://www.coursera.org/learn/virtual-age-communication" target="_blank" rel="noopener noreferrer">Communication Strategies for a Virtual Age (Coursera / University of Toronto)</a></li>
+<li><a href="https://www.youtube.com/@AlexLyonCommunicationCoach" target="_blank" rel="noopener noreferrer">Organizational Communication Channel (YouTube / Dr. Alex Lyon)</a></li>
+</ul>
+<h2 id="health-science-environmental-communication">Health, Science &amp; Environmental Communication</h2>
+<ul>
+<li><a href="https://www.coursera.org/learn/sciwrite" target="_blank" rel="noopener noreferrer">Writing in the Sciences (Coursera / Stanford University / Dr. Kristin Sainani)</a></li>
+<li><a href="https://www.coursera.org/learn/communicating-trustworthy-information-in-the-digital-world" target="_blank" rel="noopener noreferrer">Science Communication: Communicating Trustworthy Information in the Digital World (Coursera / Erasmus University Rotterdam)</a></li>
+<li><a href="https://www.coursera.org/learn/digital-media-health-outcomes" target="_blank" rel="noopener noreferrer">Digital Media for Health Outcomes (Coursera / Yale University / Dr. Saad Omer)</a></li>
+<li><a href="https://www.coursera.org/learn/climatecommunication" target="_blank" rel="noopener noreferrer">Communicating Climate Change and Health (Coursera / Yale University / Dr. Connie Roser-Renouf)</a></li>
+</ul>
+<h2 id="interpersonal-intercultural-relational-dynamics">Interpersonal, Intercultural &amp; Relational Dynamics</h2>
+<ul>
+<li><a href="https://www.coursera.org/learn/interpersonal-skills" target="_blank" rel="noopener noreferrer">Interpersonal Skills (Coursera / Shanghai Jiao Tong University)</a></li>
+<li><a href="https://www.futurelearn.com/courses/intercultural-communication" target="_blank" rel="noopener noreferrer">Intercultural Communication (FutureLearn / Shanghai International Studies University)</a></li>
+<li><a href="https://www.edx.org/learn/business-communications/catalystx-communication-skills-for-dialoguing-across-difference" target="_blank" rel="noopener noreferrer">Communication Skills for Dialoguing Across Difference (edX / CatalystX)</a></li>
+<li><a href="https://www.coursera.org/learn/active-listening-enhancing-communication-skills" target="_blank" rel="noopener noreferrer">Active Listening: Enhancing Communication Skills (Coursera / Specialization)</a></li>
+</ul>
+<h2 id="communication-research-methods-analytics">Communication Research Methods &amp; Analytics</h2>
+<ul>
+<li><a href="https://www.coursera.org/learn/qualitative-methods" target="_blank" rel="noopener noreferrer">Qualitative Research Methods (Coursera / University of Amsterdam / Dr. Gerben Moerman)</a></li>
+<li><a href="https://www.coursera.org/learn/quantitative-methods" target="_blank" rel="noopener noreferrer">Quantitative Methods (Coursera / University of Amsterdam / Dr. Annemarie Zand Scholten)</a></li>
+<li><a href="https://www.coursera.org/learn/research-methods" target="_blank" rel="noopener noreferrer">Understanding Research Methods (Coursera / SOAS University of London / Dr. J. Simon Rofe)</a></li>
+</ul>
+    </article>
+  </main>
 
 </body>
 </html>

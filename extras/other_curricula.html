@@ -1,49 +1,278 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
 
-<title>Other curricula</title>
-<link rel="stylesheet" href="/communication-studies/style.css">
-<meta name="description" content="">
+  <title>Other Curricula</title>
+  <meta name="description" content="A lightweight static page by hocbigg.">
+  <meta name="author" content="hocbigg">
 
-<link rel="canonical" href="https://hocbigg.github.io/communication-studies/">
+  <link rel="canonical" href="https://hocbigg.github.io/communication-studies/extras/other_curricula.html">
+  <meta property="og:title" content="Other Curricula">
+  <meta property="og:description" content="A lightweight static page by hocbigg.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hocbigg.github.io/communication-studies/extras/other_curricula.html">
+  <link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
 
-<meta property="og:title" content="Other curricula">
-<meta property="og:description" content="">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://hocbigg.github.io/communication-studies/">
-<meta name="author" content="hocbigg">
-<link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
+  <style>
+:root {
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #595959;
+  --border: #e0e0e0;
+  --th-bg: #f6f8fa;
+  --code-bg: #f4f4f4;
+  --link: #0969da;
+  --focus-ring: #0969da;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117;
+    --fg: #e6edf3;
+    --muted: #8b949e;
+    --border: #30363d;
+    --th-bg: #161b22;
+    --code-bg: #161b22;
+    --link: #58a6ff;
+    --focus-ring: #58a6ff;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1.5rem auto;
+  max-width: min(60rem, 92vw);
+  padding: 0 0.75rem 3.5rem;
+  background-color: var(--bg);
+  color: var(--fg);
+  font: 1.15rem/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  word-wrap: break-word;
+}
+
+.site-header {
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1rem;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.5rem 1.25rem;
+  font-size: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+nav a:hover, 
+nav a:focus-visible {
+  color: var(--fg);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+nav .nav-brand {
+  color: var(--fg);
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.skip-link {
+  position: absolute;
+  top: -9999px;
+  left: 1rem;
+  background: var(--fg);
+  color: var(--bg);
+  padding: 0.5rem 1rem;
+  z-index: 100;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+}
+.skip-link:focus {
+  top: 1rem;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;
+  margin-top: 1.75em;
+  margin-bottom: 0.5em;
+  color: var(--fg);
+}
+h1 { font-size: 1.85rem; margin-top: 0.5em; }
+h2 { font-size: 1.45rem; }
+h3 { font-size: 1.2rem; }
+
+p, ul, ol, blockquote, table {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+li > ul,
+li > ol {
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.page-header img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.875em;
+  background-color: var(--code-bg);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+pre {
+  background-color: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+  tab-size: 2;
+}
+pre code {
+  background: transparent;
+  padding: 0;
+  border: none;
+  font-size: 0.9rem;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.6rem 0.75rem;
+  vertical-align: top;
+}
+th {
+  background-color: var(--th-bg);
+  font-weight: 600;
+}
+
+blockquote {
+  border-left: 4px solid var(--border);
+  padding-left: 1rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+@media print {
+  body {
+    max-width: none;
+    color: #000;
+    background: #fff;
+  }
+  .skip-link, nav {
+    display: none;
+  }
+}
+  </style>
 </head>
-
 <body>
 
-<nav>
-<a href="/">Hocbigg</a>
-<a href="/communication-studies/">Communication-Studies</a>
-<a href="/communication-studies/advanced_topics.html">Advanced Topics</a>
-<a href="/communication-studies/projects.html">Projects</a>
-<a href="/communication-studies/extras/courses.html">Extra Courses</a>
-<a href="/communication-studies/extras/readings.html">Extra Reading</a>
-<a href="https://github.com/hocbigg/communication-studies/" target="_blank">View on Github</a>
-</nav>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
 
-<main>
-<article>
+  <header class="site-header">
+    <nav aria-label="Main Navigation">
+    <ul>
+      <li><a href="https://hocbigg.github.io/" class="nav-brand">Hocbigg</a></li>
+      <li><a href="/communication-studies/">Communication Studies</a></li>
+      <li><a href="/communication-studies/advanced_topics.html">Advanced Topics</a></li>
+      <li><a href="/communication-studies/projects.html">Projects</a></li>
+      <li><a href="/communication-studies/extras/readings.html">Extra Readings</a></li>
+      <li><a href="/communication-studies/extras/courses.html">Extra Courses</a></li>
+      <li><a href="/communication-studies/resources.html">Resources</a></li>
+      <li><a href="/communication-studies/extras/other_curricula.html">Other Curricula</a></li>
+      <li><a href="https://github.com/hocbigg/" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in new tab)</span></a></li>
+    </ul>
+    </nav>
+  </header>
 
-<h1 id="other-curricula">Other curricula</h1>
-<p>This curriculum is one of a few efforts to inform learners how they can pursue Communication Studies independently. Below are a few other such efforts.</p>
+  <main id="main-content">
+    <article>
+
+<h1 id="other-curricula">Other Curricula</h1>
+<p>These independently authored roadmaps, disciplinary benchmarks, and open learning pathways provide alternative perspectives, pedagogical sequences, and comparative frameworks to help you structure or diversify your self-directed study in Communication Studies.</p>
 <ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://asccc-oeri.org/open-educational-resources-and-communication-studies/">Communication Studies Open Educational Resources (ASCCC OERI)</a></li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://oercommons.org/courses/survey-of-communication-study/view">Survey of Communication Study (OER Commons)</a></li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://guides.library.umass.edu/communication/OER">Open Educational Resources in Communication (University of Massachusetts Amherst)</a></li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://oer.galileo.usg.edu/communication-textbooks/">Communication Open Textbooks (GALILEO Open Learning Materials)</a></li>
+<li><a href="https://www.natcom.org" target="_blank" rel="noopener noreferrer">Learning Outcomes in Communication (LOC) Framework (National Communication Association)</a></li>
+<li><a href="https://media-ecology.org/Media-Ecology-101" target="_blank" rel="noopener noreferrer">Media Ecology 101: An Introductory Reading List &amp; Study Guide (Lance Strate / Media Ecology Association)</a></li>
+<li><a href="https://c-id.net/" target="_blank" rel="noopener noreferrer">California Transfer Model Curriculum (TMC) in Communication Studies 2.0 (C-ID / ASCCC)</a></li>
+<li><a href="https://www.afirstlook.com/" target="_blank" rel="noopener noreferrer">A First Look at Communication Theory: Theoretical Metamodel &amp; Guided Feature Map (Em Griffin, Andrew Ledbetter, &amp; Glenn Sparks)</a></li>
+<li><a href="https://opentextbc.ca/mediastudies101/" target="_blank" rel="noopener noreferrer">Media Studies 101: Open Learning Pathway (Media Texthack Group / BCcampus OpenEd)</a></li>
+<li><a href="https://www.saylor.org/" target="_blank" rel="noopener noreferrer">Public Relations &amp; Communication Studies Sequence (Saylor Academy)</a></li>
 </ul>
-</article>
-</main>
+    </article>
+  </main>
 
 </body>
 </html>

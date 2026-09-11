@@ -1,81 +1,335 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
 
-<title>Projects</title>
-<link rel="stylesheet" href="/communication-studies/style.css">
-<meta name="description" content="">
+  <title>Communication Studies Projects</title>
+  <meta name="description" content="A lightweight static page by hocbigg.">
+  <meta name="author" content="hocbigg">
 
-<link rel="canonical" href="https://hocbigg.github.io/communication-studies/">
+  <link rel="canonical" href="https://hocbigg.github.io/communication-studies/projects.html">
+  <meta property="og:title" content="Communication Studies Projects">
+  <meta property="og:description" content="A lightweight static page by hocbigg.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hocbigg.github.io/communication-studies/projects.html">
+  <link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
 
-<meta property="og:title" content="Projects">
-<meta property="og:description" content="">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://hocbigg.github.io/communication-studies/">
-<meta name="author" content="hocbigg">
-<link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
+  <style>
+:root {
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #595959;
+  --border: #e0e0e0;
+  --th-bg: #f6f8fa;
+  --code-bg: #f4f4f4;
+  --link: #0969da;
+  --focus-ring: #0969da;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117;
+    --fg: #e6edf3;
+    --muted: #8b949e;
+    --border: #30363d;
+    --th-bg: #161b22;
+    --code-bg: #161b22;
+    --link: #58a6ff;
+    --focus-ring: #58a6ff;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1.5rem auto;
+  max-width: min(60rem, 92vw);
+  padding: 0 0.75rem 3.5rem;
+  background-color: var(--bg);
+  color: var(--fg);
+  font: 1.15rem/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  word-wrap: break-word;
+}
+
+.site-header {
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1rem;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.5rem 1.25rem;
+  font-size: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+nav a:hover, 
+nav a:focus-visible {
+  color: var(--fg);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+nav .nav-brand {
+  color: var(--fg);
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.skip-link {
+  position: absolute;
+  top: -9999px;
+  left: 1rem;
+  background: var(--fg);
+  color: var(--bg);
+  padding: 0.5rem 1rem;
+  z-index: 100;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+}
+.skip-link:focus {
+  top: 1rem;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;
+  margin-top: 1.75em;
+  margin-bottom: 0.5em;
+  color: var(--fg);
+}
+h1 { font-size: 1.85rem; margin-top: 0.5em; }
+h2 { font-size: 1.45rem; }
+h3 { font-size: 1.2rem; }
+
+p, ul, ol, blockquote, table {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+li > ul,
+li > ol {
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.page-header img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.875em;
+  background-color: var(--code-bg);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+pre {
+  background-color: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+  tab-size: 2;
+}
+pre code {
+  background: transparent;
+  padding: 0;
+  border: none;
+  font-size: 0.9rem;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.6rem 0.75rem;
+  vertical-align: top;
+}
+th {
+  background-color: var(--th-bg);
+  font-weight: 600;
+}
+
+blockquote {
+  border-left: 4px solid var(--border);
+  padding-left: 1rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+@media print {
+  body {
+    max-width: none;
+    color: #000;
+    background: #fff;
+  }
+  .skip-link, nav {
+    display: none;
+  }
+}
+  </style>
 </head>
-
 <body>
 
-<nav>
-<a href="/">Hocbigg</a>
-<a href="/communication-studies/">Communication-Studies</a>
-<a href="/communication-studies/advanced_topics.html">Advanced Topics</a>
-<a href="/communication-studies/projects.html">Projects</a>
-<a href="/communication-studies/extras/courses.html">Extra Courses</a>
-<a href="/communication-studies/extras/readings.html">Extra Reading</a>
-<a href="https://github.com/hocbigg/communication-studies/" target="_blank">View on Github</a>
-</nav>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
 
-<main>
-<article>
+  <header class="site-header">
+    <nav aria-label="Main Navigation">
+    <ul>
+      <li><a href="https://hocbigg.github.io/" class="nav-brand">Hocbigg</a></li>
+      <li><a href="/communication-studies/">Communication Studies</a></li>
+      <li><a href="/communication-studies/advanced_topics.html">Advanced Topics</a></li>
+      <li><a href="/communication-studies/projects.html">Projects</a></li>
+      <li><a href="/communication-studies/extras/readings.html">Extra Readings</a></li>
+      <li><a href="/communication-studies/extras/courses.html">Extra Courses</a></li>
+      <li><a href="/communication-studies/resources.html">Resources</a></li>
+      <li><a href="/communication-studies/extras/other_curricula.html">Other Curricula</a></li>
+      <li><a href="https://github.com/hocbigg/" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in new tab)</span></a></li>
+    </ul>
+    </nav>
+  </header>
 
-<h1 id="projects">Projects</h1>
-<p>This page is a curated collection of well-written, step-by-step guides for learning Communication Studies through hands-on, project-based practice.</p>
+  <main id="main-content">
+    <article>
+
+<h1 id="communication-studies-projects">Communication Studies Projects</h1>
+<p>A curated collection of step-by-step walkthroughs, methodological guides, open templates, and analytical toolkits for learning Communication Studies by building real-world artifacts.</p>
 <blockquote>
-<p><em>What I cannot create, I do not understand — Richard Feynman.</em></p>
+<p><em>What I cannot create, I do not understand.</em> — Richard Feynman</p>
 </blockquote>
-<p>These projects are meant to support learning throughout the curriculum, not only at the end.<br />
-By building, writing, creating, or reconstructing real artifacts in the field, learners develop practical understanding alongside theoretical study.</p>
-<h2 id="tutorials">Tutorials</h2>
+<h2 id="write-a-rhetorical-or-textual-analysis">Write a Rhetorical or Textual Analysis</h2>
 <ul>
-<li><a href="#write-your-own-research-paper">Research Paper</a></li>
-<li><a href="#compose-your-own-literature-review">Literature Review</a></li>
-<li><a href="#construct-your-own-theoretical-framework">Theoretical Framework</a></li>
-<li><a href="#perform-your-own-rhetorical-analysis">Rhetorical Analysis</a></li>
-<li><a href="#conduct-your-own-content-analysis">Content Analysis</a></li>
+<li><a href="https://owl.purdue.edu/owl/general_writing/academic_writing/rhetorical_situation/index.html" target="_blank" rel="noopener noreferrer">Rhetorical Situations: Elements and Analysis (Purdue OWL)</a></li>
+<li><a href="https://owl.purdue.edu/owl/general_writing/visual_rhetoric/analyzing_visual_documents/organizing_your_analysis.html" target="_blank" rel="noopener noreferrer">Organizing a Rhetorical Analysis: Structure and Strategy (Purdue OWL)</a></li>
+<li><a href="https://owl.purdue.edu/owl/general_writing/visual_rhetoric/analyzing_visual_documents/index.html" target="_blank" rel="noopener noreferrer">Visual Rhetoric: Analyzing Visual Documents (Purdue OWL)</a></li>
+<li><a href="https://writingcenter.tamu.edu/writing-speaking-guides/rhetorical-analysis" target="_blank" rel="noopener noreferrer">Rhetorical Analysis: Evaluating Persuasive Strategies (Texas A&amp;M University Writing Center)</a></li>
+<li><a href="https://openstax.org/books/writing-guide/pages/9-4-annotated-student-sample-rhetorical-analysis-evicted-by-matthew-desmond-by-eliana-evans" target="_blank" rel="noopener noreferrer">Rhetorical Analysis Process and Student Sample (OpenStax)</a></li>
+<li><a href="https://books.google.com/books?isbn=9781478634898" target="_blank" rel="noopener noreferrer">Rhetorical Criticism: Exploration and Practice (Sonja K. Foss / Waveland Press)</a> [Paid Resource]</li>
 </ul>
-<h3 id="write-your-own-research-paper">Write your own research paper</h3>
+<h2 id="conduct-a-field-interview-or-focus-group-study">Conduct a Field Interview or Focus Group Study</h2>
 <ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.scribbr.com/category/research-paper">How to Write a Research Paper communication-studies A Beginner's Guide</a> (Step-by-step online guide)  </li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.grammarly.com/blog/academic-writing/how-to-write-a-research-paper">The Ultimate Guide to Writing a Research Paper</a> (Procedural walkthrough)</li>
+<li><a href="https://ctb.ku.edu/en/table-of-contents/assessment/assessing-community-needs-and-resources/conducting-interviews/main" target="_blank" rel="noopener noreferrer">Conducting Interviews: Step-by-Step Field Guide (Community Tool Box / University of Kansas)</a></li>
+<li><a href="https://ctb.ku.edu/en/table-of-contents/assessment/assessing-community-needs-and-resources/conducting-focus-groups/main" target="_blank" rel="noopener noreferrer">Conducting Focus Groups: Step-by-Step Community Research Guide (Community Tool Box / University of Kansas)</a></li>
+<li><a href="https://owl.purdue.edu/owl/research_and_citation/conducting_research/conducting_primary_research/interviewing.html" target="_blank" rel="noopener noreferrer">Conducting Primary Qualitative Research: Interviewing (Purdue OWL)</a></li>
+<li><a href="https://owl.purdue.edu/owl/research_and_citation/conducting_research/conducting_primary_research/interview_and_survey_questions.html" target="_blank" rel="noopener noreferrer">Creating Good Interview and Survey Questions (Purdue OWL)</a></li>
+<li><a href="https://www.thematicanalysis.net/doing-reflexive-ta/" target="_blank" rel="noopener noreferrer">Reflexive Thematic Analysis: Six-Phase Practical Walkthrough (Virginia Braun &amp; Victoria Clarke)</a></li>
+<li><a href="https://books.google.com/books?isbn=9781529731743" target="_blank" rel="noopener noreferrer">The Coding Manual for Qualitative Researchers (Johnny Saldaña / SAGE Publishing)</a> [Paid Resource]</li>
 </ul>
-<h3 id="compose-your-own-literature-review">Compose your own literature review</h3>
+<h2 id="build-a-quantitative-content-analysis-and-codebook">Build a Quantitative Content Analysis and Codebook</h2>
 <ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.sjsu.edu/writingcenter/docs/handouts/Literature%20Reviews.pdf">How to Write a Literature Review</a> (Step-by-step PDF guide)</li>
+<li><a href="http://academic.csuohio.edu/kneuendorf/content/" target="_blank" rel="noopener noreferrer">The Content Analysis Guidebook Online: Codebook Construction, Reliability Calculators, and Message Archives (Kimberly A. Neuendorf / Cleveland State University)</a></li>
+<li><a href="https://dfreelon.org/utils/recalfront/" target="_blank" rel="noopener noreferrer">ReCal: Intercoder Reliability Calculation for Nominal, Ordinal, Interval, and Ratio Data (Deen Freelon)</a></li>
+<li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6234169/" target="_blank" rel="noopener noreferrer">A Hands-on Guide to Doing Content Analysis (Christen Erlingsson &amp; Petra Brysiewicz / African Journal of Emergency Medicine)</a></li>
+<li><a href="https://paperpile.com/g/content-analysis" target="_blank" rel="noopener noreferrer">How to Conduct a Content Analysis: 7-Step Methodological Guide (Paperpile Academic Guides)</a></li>
+<li><a href="https://ctb.ku.edu/en/table-of-contents/assessment/assessing-community-needs-and-resources/conducting-surveys/main" target="_blank" rel="noopener noreferrer">Conducting Surveys: Design, Sampling, and Administration Guide (Community Tool Box / University of Kansas)</a></li>
 </ul>
-<h3 id="construct-your-own-theoretical-framework">Construct your own theoretical framework</h3>
+<h2 id="build-a-computational-discourse-or-social-network-model">Build a Computational Discourse or Social Network Model</h2>
 <ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.scribbr.com/dissertation/theoretical-framework">What Is a Theoretical Framework? communication-studies Guide to Organizing</a> (Step-by-step instructions)  </li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://libguides.usc.edu/writingguide/theoreticalframework">Organizing Your Social Sciences Research Paper: Theoretical Framework</a> (Detailed procedural guide)</li>
+<li><a href="https://programminghistorian.org/en/lessons/exploring-and-analyzing-network-data-with-python" target="_blank" rel="noopener noreferrer">Exploring and Analyzing Network Data with Python (The Programming Historian)</a></li>
+<li><a href="https://programminghistorian.org/en/lessons/creating-network-diagrams-from-historical-sources" target="_blank" rel="noopener noreferrer">From Hermeneutics to Data to Networks: Data Extraction and Network Visualization of Historical Sources (The Programming Historian)</a></li>
+<li><a href="https://programminghistorian.org/en/lessons/sentiment-analysis" target="_blank" rel="noopener noreferrer">Sentiment Analysis for Exploratory Data Analysis (The Programming Historian)</a></li>
+<li><a href="https://programminghistorian.org/en/lessons/analyzing-documents-with-tfidf" target="_blank" rel="noopener noreferrer">Analyzing Documents with TF-IDF for Text Mining (The Programming Historian)</a></li>
+<li><a href="https://cssbook.net/" target="_blank" rel="noopener noreferrer">Computational Analysis of Communication: Python Text and Network Pipelines (Wouter van Atteveldt, Damian Trilling, &amp; Carlos Arcila Calderón)</a></li>
+<li><a href="https://www.bitbybitbook.com/" target="_blank" rel="noopener noreferrer">Bit by Bit: Social Research in the Digital Age (Matthew J. Salganik / Princeton University Press)</a></li>
 </ul>
-<h3 id="perform-your-own-rhetorical-analysis">Perform your own rhetorical analysis</h3>
+<h2 id="conduct-a-critical-discourse-analysis-of-media-messages">Conduct a Critical Discourse Analysis of Media Messages</h2>
 <ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.scribbr.com/academic-essay/rhetorical-analysis">How to Write a Rhetorical Analysis communication-studies Key Concepts &amp; Examples</a> (Step-by-step tutorial)  </li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.indeed.com/career-advice/career-development/how-to-write-a-rhetorical-analysis">How To Write a Rhetorical Analysis in 8 Simple Steps</a> (Concise procedural steps)</li>
+<li><a href="https://iu.pressbooks.pub/educ500/chapter/multimodal-discourse-analysis/" target="_blank" rel="noopener noreferrer">Multimodal Discourse Analysis Research Guide (Indiana University Pressbooks)</a></li>
+<li><a href="https://books.google.com/books?isbn=9781405858229" target="_blank" rel="noopener noreferrer">Critical Discourse Analysis: The Critical Study of Language (Norman Fairclough / Routledge)</a> [Paid Resource]</li>
+<li><a href="https://books.google.com/books?isbn=9781003537991" target="_blank" rel="noopener noreferrer">How to Do Discourse Analysis: A Toolkit (James Paul Gee / Routledge)</a> [Paid Resource]</li>
+<li><a href="https://books.google.com/books?isbn=9780857028921" target="_blank" rel="noopener noreferrer">How to Do Critical Discourse Analysis: A Multimodal Introduction (David Machin &amp; Andrea Mayr / SAGE Publishing)</a> [Paid Resource]</li>
 </ul>
-<h3 id="conduct-your-own-content-analysis">Conduct your own content analysis</h3>
+<h2 id="design-a-strategic-communication-or-public-health-campaign">Design a Strategic Communication or Public Health Campaign</h2>
 <ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.scribbr.com/methodology/content-analysis">Content Analysis communication-studies Guide, Methods &amp; Examples</a> (Step-by-step methods guide)  </li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://paperpile.com/g/content-analysis">How to do a content analysis [7 steps]</a> (Practical 7-step walkthrough)  </li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6234169">A hands-on guide to doing content analysis</a> (Hands-on qualitative example)</li>
+<li><a href="https://ctb.ku.edu/en/table-of-contents/participation/promoting-involvement/communications-plan/main" target="_blank" rel="noopener noreferrer">Developing a Plan for Communication: Step-by-Step Strategic Framework (Community Tool Box / University of Kansas)</a></li>
+<li><a href="https://www.cdc.gov/healthcommunication/index.html" target="_blank" rel="noopener noreferrer">CDC Gateway to Health Communication &amp; Social Marketing Practice (Centers for Disease Control and Prevention)</a></li>
+<li><a href="https://www.cancer.gov/publications/health-communication/pink-book.pdf" target="_blank" rel="noopener noreferrer">Making Health Communication Programs Work: The Pink Book (National Cancer Institute / NIH)</a></li>
+<li><a href="https://books.google.com/books?isbn=9781032391168" target="_blank" rel="noopener noreferrer">Strategic Planning for Public Relations: 12-Step Campaign Model (Ronald D. Smith / Routledge)</a> [Paid Resource]</li>
 </ul>
-</article>
-</main>
+<h2 id="draft-an-organizational-crisis-communication-plan">Draft an Organizational Crisis Communication Plan</h2>
+<ul>
+<li><a href="https://www.cdc.gov/cerc/" target="_blank" rel="noopener noreferrer">Crisis and Emergency Risk Communication (CERC) Manual &amp; Templates (Centers for Disease Control and Prevention)</a></li>
+<li><a href="https://www.ready.gov/crisis-communications-plan" target="_blank" rel="noopener noreferrer">Crisis Communications Plan Development Guide (Ready.gov / Federal Emergency Management Agency)</a></li>
+<li><a href="https://books.google.com/books?isbn=9781071816622" target="_blank" rel="noopener noreferrer">Ongoing Crisis Communication: Planning, Managing, and Responding (W. Timothy Coombs / SAGE Publishing)</a> [Paid Resource]</li>
+</ul>
+<h2 id="author-a-literature-review-and-theoretical-synthesis">Author a Literature Review and Theoretical Synthesis</h2>
+<ul>
+<li><a href="https://libguides.usc.edu/writingguide/literaturereview" target="_blank" rel="noopener noreferrer">Organizing Your Social Sciences Research Paper: 5. The Literature Review (USC Libraries Research Guides)</a></li>
+<li><a href="https://libguides.usc.edu/writingguide/theoreticalframework" target="_blank" rel="noopener noreferrer">Organizing Your Social Sciences Research Paper: Theoretical Framework (USC Libraries Research Guides)</a></li>
+<li><a href="https://www.sjsu.edu/writingcenter/docs/handouts/Literature%20Reviews.pdf" target="_blank" rel="noopener noreferrer">Synthesizing Research Evidence: A Step-by-Step Guide to Academic Literature Reviews (San José State University Writing Center)</a></li>
+<li><a href="https://books.google.com/books?isbn=9780226239736" target="_blank" rel="noopener noreferrer">The Craft of Research: Planning, Drafting, and Revising Empirical Projects (Wayne C. Booth et al. / University of Chicago Press)</a> [Paid Resource]</li>
+</ul>
+    </article>
+  </main>
 
 </body>
 </html>
