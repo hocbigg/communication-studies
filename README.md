@@ -5,9 +5,30 @@ description: Path to a free self-taught education in Communication Studies!
 
 ## Introduction
 
-The Communication Studies curriculum is a complete education in Communication Studies using online materials. This curriculum aims to provides foundational knowledge in human communication theory, contexts, and practical ethical applications.
+Communication Studies is the systematic study of how humans construct, negotiate, and interpret meaning across personal, social, and mediated contexts. Rather than offering basic conversational advice or workplace soft-skills training, the discipline investigates the mechanisms of human messaging through social-scientific, rhetorical, and critical-cultural traditions. Studying communication reveals how language, nonverbal codes, institutional structures, and digital platforms shape identity, influence public opinion, and organize collective action.
 
-## Communities
+This curriculum is designed for independent learners building an undergraduate-level foundation from scratch. It requires no formal background in communication theory, sociology, or public address. All recommended materials are structured for self-directed study, prioritizing high-quality open-access textbooks, university OpenCourseWare, and canonical monographs over materials that assume institutional access or classroom instruction.
+
+### How to Navigate This Curriculum
+
+While this curriculum is structured to be tackled independently, subjects are deliberately arranged from theoretical and rhetorical baselines to specific communication contexts, concluding with normative ethics and research literacy:
+
+- **Start with Foundational Models and Rhetoric:** Begin with *Communication Theory & Foundational Models* to learn how the discipline models human interaction—from transmission and interactional frameworks to constitutive paradigms. Pair this with *Public Speaking & Classical Rhetoric* and *Rhetorical Criticism* to understand how arguments, appeals, and persuasive symbols function in public life.
+- **Explore Core Contexts Flexibly:** Once you have a working grasp of basic theory and rhetorical analysis, the contextual subjects can be pursued based on your personal interests. If your focus is relational and workplace dynamics, prioritize *Interpersonal Communication*, *Nonverbal Communication*, *Group & Organizational Communication*, and *Intercultural Communication*. If your focus is mediated information and culture, move through *Mass Communication & Media Effects*, *Critical Media Studies, Semiotics & Representation*, and *Digital Media & Networked Society*.
+- **Synthesize with Ethics and Research Literacy:** Finish the core with *Communication Ethics* and *Communication Inquiry & Research Literacy*. These final subjects provide the normative frameworks necessary to evaluate communication practices responsibly and the analytical literacy required to critically read and evaluate empirical communication research.
+
+### Scope
+
+This page contains only the essential core—the shared theoretical vocabulary, analytical methods, and primary contexts that every student of communication studies should master before specializing. 
+
+Once you have completed these foundational subjects, you can branch out into specialized domains:
+
+- Explore dedicated subfields such as crisis management, computational network analysis, health messaging, and political communication in [Advanced Topics](advanced_topics.md).
+- Translate theory into tangible deliverables—such as running content analyses, conducting field interview studies, or drafting campaign plans—using the step-by-step guides in [Projects](projects.md).
+- Find expanded bibliographies, seminal monographs, and specialized texts in [Readings](extra/readings.md).
+- Discover complete recorded lecture series, university course sites, and supplementary video collections in [Courses](extra/courses.md).
+
+### Communities
 
 - Subreddits:
     - [r/communication](https://www.reddit.com/r/communication/)
