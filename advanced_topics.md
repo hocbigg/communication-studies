@@ -2,11 +2,11 @@
 
 After completing the core foundational curriculum, select 1–2 specialization tracks that align with your research interests or professional goals. Each track provides advanced theoretical frameworks, empirical methodologies, and specialized literature.
 
-- [Rhetorical Theory, Politics & Public Deliberation](#rhetorical-theory-politics--public-deliberation): Investigates how language, symbols, and arguments construct public knowledge, mobilize political action, and sustain democratic deliberation.
-- [Digital Platforms, Networks & Computational Communication](#digital-platforms-networks--computational-communication): Explores platform architecture, algorithmic governance, digital surveillance, and computational methods for modeling online networks and discourse.
-- [Strategic, Organizational & Crisis Communication](#strategic-organizational--crisis-communication): Focuses on how discourse, identity, power, and structured messaging coordinate human organizing, stakeholder engagement, and crisis resilience.
-- [Health, Science & Environmental Communication](#health-science--environmental-communication): Examines how scientific knowledge, public health interventions, risk perception, and environmental advocacy are framed and disseminated to diverse publics.
-- [Critical Cultural Studies & Global Media Systems](#critical-cultural-studies--global-media-systems): Deconstructs media hegemony, transnational information flows, cultural political economy, and ideological representation across global societies.
+- [Rhetorical Theory, Politics & Public Deliberation](#rhetorical-theory-politics-public-deliberation): Investigates how language, symbols, and arguments construct public knowledge, mobilize political action, and sustain democratic deliberation.
+- [Digital Platforms, Networks & Computational Communication](#digital-platforms-networks-computational-communication): Explores platform architecture, algorithmic governance, digital surveillance, and computational methods for modeling online networks and discourse.
+- [Strategic, Organizational & Crisis Communication](#strategic-organizational-crisis-communication): Focuses on how discourse, identity, power, and structured messaging coordinate human organizing, stakeholder engagement, and crisis resilience.
+- [Health, Science & Environmental Communication](#health-science-environmental-communication): Examines how scientific knowledge, public health interventions, risk perception, and environmental advocacy are framed and disseminated to diverse publics.
+- [Critical Cultural Studies & Global Media Systems](#critical-cultural-studies-global-media-systems): Deconstructs media hegemony, transnational information flows, cultural political economy, and ideological representation across global societies.
 
 ## Rhetorical Theory, Politics & Public Deliberation
 

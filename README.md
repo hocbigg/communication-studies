@@ -25,8 +25,8 @@ Once you have completed these foundational subjects, you can branch out into spe
 
 - Explore dedicated subfields such as crisis management, computational network analysis, health messaging, and political communication in [Advanced Topics](advanced_topics.md).
 - Translate theory into tangible deliverables—such as running content analyses, conducting field interview studies, or drafting campaign plans—using the step-by-step guides in [Projects](projects.md).
-- Find expanded bibliographies, seminal monographs, and specialized texts in [Readings](extra/readings.md).
-- Discover complete recorded lecture series, university course sites, and supplementary video collections in [Courses](extra/courses.md).
+- Find expanded bibliographies, seminal monographs, and specialized texts in [Readings](extras/readings.md).
+- Discover complete recorded lecture series, university course sites, and supplementary video collections in [Courses](extras/courses.md).
 
 ### Communities
 
